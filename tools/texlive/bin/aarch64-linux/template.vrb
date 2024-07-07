@@ -3,7 +3,7 @@
 	\begin{example}[Theorem Slide Code]
 		\begin{verbatim}
 			\begin{frame}
-				\frametitle{Theorem}
+				\frametitle{theorem}
 				\begin{theorem}[Mass--energy equivalence]
 					$E = mc^2$
 				\end{theorem}
