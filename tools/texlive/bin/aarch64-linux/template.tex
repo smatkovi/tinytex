@@ -206,16 +206,16 @@
 	\begin{equation}
 		\frac{dx}{dy}=\frac{1}{\frac{dy}{dx}}
 	\end{equation}
-	\begin{exampleblock}{Ein einfaches Beispiel, das häufig bei Differentialgleichungen auftritt, bei denen die Ableitung dieser Funktion integriert wird, ist die Ableitung von $\ln(x)$ nach x.}
+	\begin{exampleblock}{Ein einfaches Beispiel, das häufig bei Differentialgleichungen auftritt, bei denen das Ergebnis dieser Rechnung integriert wird, ist die Ableitung von $\ln(x)$ nach x.}
 	\begin{equation}
 		\frac{d\ln(y)}{dy}=\frac{1}{\frac{de^x}{dx}}=\frac{1}{e^x}=\frac{1}{y}
 	\end{equation}
 	\end{exampleblock}
-	\begin{block}{Damit ist das häufig bei Differentialgleichungen auftretende Integral über $\frac{1}{x}$:}
+	\begin{alertblock}{Damit ist das häufig bei Differentialgleichungen auftretende Integral über $\frac{1}{x}$:}
 	\begin{equation}
 		\int{\frac{1}{x}}{dx}=\ln(\left|x\right|)+c
 	\end{equation}
-	\end{block}
+	\end{alertblock}
 \end{frame}
 %\subsection{Paragraphs and Lists}
 \begin{frame}
@@ -256,8 +256,33 @@
 			\int \sin(x)\cdot \cos(x)dx = \frac{(\sin(x))^2}{2}+c'
 		\end{equation}
 	\end{exampleblock}
+	\"Ahnlich funktionieren auch die Integrale \"uber $(\sin(x))^2$ oder $(\cos(x))^2$, nur, dass nach der ersten partiellen Integration ein Additionstheorem anzuwenden ist.
 	
 	
+\end{frame}
+\begin{frame}
+	\frametitle{Differenzialgleichungen}
+	
+	\begin{definition}
+		Eine \alert{Differenzialgleichung} ist eine Gleichung, deren L\"osung keine Zahl, sondern eine Funktion ist. 
+	\end{definition}
+	\begin{definition}
+		Bei einer \alert{gew\"ohnlichen Differenzialgleichung} ist die gesuchte Funktion von nur einer Variablen abh\"angig und es treten nur Ableitungen nach einer Variablen auf.
+	\end{definition}
+	\begin{exampleblock}{Beispiel}
+		$	\frac{d^2y}{dx^2} + 2\frac{dy}{dx} + y = e^x$
+	\end{exampleblock}
+\end{frame}
+\begin{frame}
+	\begin{definition}
+		Bei einer \alert{partiellen Differenzialgleichung} ist die gesuchte Funktion von mehreren Variablen abh\"angig und es treten partielle Ableitungen nach verschiedenen Variablen auf.
+	\end{definition}
+	\begin{exampleblock}{Beispiel}
+		$\frac{\partial^2u}{\partial x^2} + 2\frac{\partial u}{\partial y} + u = e^x$
+	\end{exampleblock}
+	\begin{definition}
+		Eine Dgl. heißt von \alert{n-ter Ordnung}, wenn die höchste in ihr auftretende Ableitung von n-ter Ordnung ist.
+	\end{definition}
 \end{frame}
 
 %------------------------------------------------
