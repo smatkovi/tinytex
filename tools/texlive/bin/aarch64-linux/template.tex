@@ -206,10 +206,11 @@
 	\begin{equation}
 		\frac{dx}{dy}=\frac{1}{\frac{dy}{dx}}
 	\end{equation}
-	Ein einfaches Beispiel, das häufig bei Differentialgleichungen auftritt, bei denen die Ableitung dieser Funktion integriert wird, ist $\ln(x)$.
+	\begin{exampleblock}{Ein einfaches Beispiel, das häufig bei Differentialgleichungen auftritt, bei denen die Ableitung dieser Funktion integriert wird, ist die Ableitung von $\ln(x)$ nach x.}
 	\begin{equation}
 		\frac{d\ln(y)}{dy}=\frac{1}{\frac{de^x}{dx}}=\frac{1}{e^x}=\frac{1}{y}
 	\end{equation}
+	\end{exampleblock}
 	\begin{block}{Damit ist das häufig bei Differentialgleichungen auftretende Integral über $\frac{1}{x}$:}
 	\begin{equation}
 		\int{\frac{1}{x}}{dx}=\ln(\left|x\right|)+c
@@ -235,6 +236,28 @@
 	\begin{equation}
 		 \int (u'\cdot v)dx = u\cdot v + c - \int (u\cdot v)dx
 	\end{equation}
+	\begin{exampleblock}{Mit folgendem Trick l\"asst sich ln(x) so integrieren:}
+		\begin{equation}
+			\int 1\cdot \ln(x)dx = x\cdot \ln(x) + c -\int \frac{x}{x}dx = x\cdot \ln(x) + x + c = x(\ln(x) + 1) + c
+		\end{equation}
+	\end{exampleblock}
+\end{frame}
+\begin{frame}
+	
+	
+	\begin{exampleblock}{So l\"asst sich auch das Integral \"uber $\sin(x)\cdot \cos(x)$ durchf\"uhren.}
+		\begin{equation}
+			\int \sin(x)\cdot \cos(x)dx = (\sin(x))^2+c-\int \cos(x)\cdot \sin(x)dx\bigg| +\int \cos(x)\cdot \sin(x)dx
+		\end{equation}
+		\begin{equation}
+			2\cdot \int \sin(x)\cdot \cos(x)dx = (\sin(x))^2+c\bigg| :2
+		\end{equation}
+		\begin{equation}
+			\int \sin(x)\cdot \cos(x)dx = \frac{(\sin(x))^2}{2}+c'
+		\end{equation}
+	\end{exampleblock}
+	
+	
 \end{frame}
 
 %------------------------------------------------
