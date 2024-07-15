@@ -252,16 +252,16 @@
 	
 	\begin{exampleblock}{So l\"asst sich auch das Integral \"uber $\sin(x)\cdot \cos(x)$ durchf\"uhren.}
 		\begin{equation}
-			\int \underbrace{\sin(x)}_{u}\cdot \underbrace{\cos(x)}_{v'}dx = (\sin(x))^2+c-\int \underbrace{\cos(x)}_{u'}\cdot \underbrace{\sin(x)}_{v}dx\bigg| +\int \cos(x)\cdot \sin(x)dx
+			\int \underbrace{\sin(x)}_{u}\cdot \underbrace{\cos(x)}_{v'}dx = [\sin(x)]^2+c-\int \underbrace{\cos(x)}_{u'}\cdot \underbrace{\sin(x)}_{v}dx\bigg| +\int \cos(x)\cdot \sin(x)dx
 		\end{equation}
 		\begin{equation}
-			2\cdot \int \sin(x)\cdot \cos(x)dx = (\sin(x))^2+c\bigg| :2
+			2\cdot \int \sin(x)\cdot \cos(x)dx = [\sin(x)]^2+c\bigg| :2
 		\end{equation}
 		\begin{equation}
-			\int \sin(x)\cdot \cos(x)dx = \frac{(\sin(x))^2}{2}+c'
+			\int \sin(x)\cdot \cos(x)dx = \frac{[\sin(x)]^2}{2}+c'
 		\end{equation}
 	\end{exampleblock}
-	\"Ahnlich funktionieren auch die Integrale \"uber $(\sin(x))^2$ oder $(\cos(x))^2$, nur, dass nach der ersten partiellen Integration ein Additionstheorem anzuwenden ist.
+	\"Ahnlich funktionieren auch die Integrale \"uber $[\sin(x)]^2$ oder $(\cos(x))^2$, nur, dass nach der ersten partiellen Integration ein Additionstheorem anzuwenden ist.
 	
 	
 \end{frame}
@@ -354,6 +354,38 @@ Ziel ist es Ausdr\"ucke mit derselben Variable auf einer Seite zu sammeln.
 	\end{exampleblock}
 \end{frame}
 
+\begin{frame}
+	\frametitle{Inhomogenit\"aten, Variation der Konstanten}
+	Bei einer inhomogenen Dgl. wird zuerst die Inhomegenit\"at = 0 gesetzt und wir sagen wir l\"osen die homogene Dgl. Danach kann bei linearen Dgln. 1. Ordnung von der Integrationskonstante c angenommen werden, dass sie von der Variable abh\"angt, von der auch die gesuchte Funktion abh\"angt, \"ublicherweise c(x) oder c(t) und die L\"osung der homogenen Gleichung in die inhomogene Dgl. eingesetzt. Damit kann nach der Funktion c aufgel\"ost werden.
+\end{frame}
+\begin{frame}
+	\begin{exampleblock}{Demonstration der Variation der Konstanten anhand eines Beispiels}
+		Zu bestimmen ist die allgemeine Lösung der linearen Dgl. ersterOrdnung
+		\begin{equation}
+			xy' + y - xe^{-2x} = 0.
+		\end{equation}
+		In Normalform:
+		\begin{equation}
+			y' + \frac{y}{x} = e^{-2x}
+		\end{equation}
+		Die homogene Dgl.:
+		\begin{equation}
+			y' + \frac{y}{x} = 0
+		\end{equation}
+		\begin{equation}
+			\frac{1}{y}\cdot\frac{dy}{dx} = -\frac{1}{x}\big| \int dx
+		\end{equation}
+		\begin{equation}
+			\ln(\left|y\right|) = -\ln(\left|x\right|)+\ln(c) [=\ln(\frac{c}{\left|x\right|})]
+		\end{equation}
+		\begin{equation}
+			\left|y\right| = \frac{c}{\left|x\right|}
+		\end{equation}
+
+
+	\end{exampleblock}
+
+\end{frame}
 %------------------------------------------------
 
 \begin{frame}
