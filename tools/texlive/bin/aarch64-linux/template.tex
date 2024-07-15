@@ -68,7 +68,7 @@
 
 % Beamer comes with a number of color themes that can be applied to any layout theme to change its colors. Uncomment each of these in turn to see how they change the colors of your selected layout theme.
 
-%\usecolortheme{albatross}
+\usecolortheme{albatross}
 %\usecolortheme{beaver}
 %\usecolortheme{beetle}
 %\usecolortheme{crane}
@@ -356,11 +356,20 @@ Ziel ist es Ausdr\"ucke mit derselben Variable auf einer Seite zu sammeln.
 
 \begin{frame}
 	\frametitle{Inhomogenit\"aten, Variation der Konstanten}
-	Bei einer inhomogenen Dgl. wird zuerst die Inhomegenit\"at = 0 gesetzt und wir sagen wir l\"osen die homogene Dgl. Danach kann bei linearen Dgln. 1. Ordnung von der Integrationskonstante c angenommen werden, dass sie von der Variable abh\"angt, von der auch die gesuchte Funktion abh\"angt, \"ublicherweise c(x) oder c(t) und die L\"osung der homogenen Gleichung in die inhomogene Dgl. eingesetzt. Damit kann nach der Funktion c aufgel\"ost werden.
+	Bei einer inhomogenen Dgl. wird zuerst die Inhomegenit\"at = 0 gesetzt und wir sagen wir l\"osen die homogene Dgl. Danach kann bei linearen Dgln. 1. Ordnung von der Integrationskonstante c angenommen werden, dass sie von der Variable abh\"angt, von der auch die gesuchte Funktion abh\"angt, \"ublicherweise c(x) oder c(t) und die L\"osung der homogenen Gleichung in die inhomogene Dgl. eingesetzt. Damit kann nach der Funktion c aufgel\"ost werden. Die L\"osung der homogenen Dgl. nennen wir \alert{homogene L\"osung} und eine L\"osung der inhomogenen Dgl. nennen wir \alert{partikul\"are L\"osung}. Die allgemeine L\"osung ergibt sich aus der Summe der homogenen und der partikul\"aren L\"osung.
+\end{frame}
+\begin{frame}
+	\begin{theorem}[Superpositionsprinzip]
+		Sind $y_1$ und $y_2$ L\"osungen einer Dgl., so ist auch eine Superposition L\"osung der Dgl. 
+	\end{theorem}
+	\begin{proof}[Beweis]
+		Sei $y'=A(x)\cdot y$ und $y=\alpha\cdot y_1+\beta\cdot y_2$.\\
+		Dann ist $y'=(\alpha\cdot y_1+\beta\cdot y_2)'=$ $\alpha\cdot y_1'+\beta\cdot y_2'=$ $\alpha\cdot A\cdot y_1 +\beta\cdot A\cdot y_2 =$ $A(\alpha\cdot y_1+\beta\cdot y_2)$
+	\end{proof}
 \end{frame}
 \begin{frame}
 	\begin{exampleblock}{Demonstration der Variation der Konstanten anhand eines Beispiels}
-		Zu bestimmen ist die allgemeine Lösung der linearen Dgl. ersterOrdnung
+		Zu bestimmen ist die allgemeine Lösung der linearen Dgl. erster Ordnung
 		\begin{equation}
 			xy' + y - xe^{-2x} = 0.
 		\end{equation}
