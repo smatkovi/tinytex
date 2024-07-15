@@ -206,12 +206,12 @@
 	\begin{equation}
 		\frac{dx}{dy}=\frac{1}{\frac{dy}{dx}}
 	\end{equation}
-	\begin{exampleblock}{Ein einfaches Beispiel, das häufig bei Differentialgleichungen auftritt, bei denen das Ergebnis dieser Rechnung integriert wird, ist die Ableitung von $\ln(x)$ nach x.}
+	\begin{exampleblock}{Ein einfaches Beispiel, das häufig bei Differenzialgleichungen auftritt, bei denen das Ergebnis dieser Rechnung integriert wird, ist die Ableitung von $\ln(x)$ nach x.}
 	\begin{equation}
 		\frac{d\ln(y)}{dy}=\frac{1}{\frac{de^x}{dx}}=\frac{1}{e^x}=\frac{1}{y}
 	\end{equation}
 	\end{exampleblock}
-	\begin{alertblock}{Damit ist das häufig bei Differentialgleichungen auftretende Integral über $\frac{1}{x}$:}
+	\begin{alertblock}{Damit ist das häufig bei Differenzialgleichungen auftretende Integral über $\frac{1}{x}$:}
 	\begin{equation}
 		\int{\frac{1}{x}}{dx}=\ln(\left|x\right|)+c
 	\end{equation}
@@ -300,6 +300,46 @@
 	\begin{definition}
 		Eine Dgl. vom Grad 1 nennen wir \alert{linear}, vom Grad $>$ 1, \alert{nichtlinear}.
 	\end{definition}
+\end{frame}
+\begin{frame}
+	\frametitle{Einschub: Logarithmenregeln}
+	\begin{equation}
+		y=e^x
+	\end{equation}
+	\begin{equation}
+		x=e^y
+	\end{equation}
+	\begin{equation}
+	\alert{\ln(y_1\cdot y_2)}=\ln(e^{x_1}\cdot e^{x_2})=\ln(e^{x_1+x_2})=x_1+x_2=\alert{\ln(y_1)+\ln(y_2)}
+	\end{equation}
+	\begin{equation}
+		\alert{\ln(y^n)}=\underbrace{\ln(y)\cdot \ln(y) \cdot ...\cdot \ln(y)}_{n-Mal}=\alert{n\cdot \ln(y)}
+	\end{equation}
+\end{frame}
+\begin{frame}
+	\frametitle{L\"osungsmethoden}
+	\framesubtitle{Methode der Trennung der Variablen (Ver\"anderlichen)}
+	\begin{exampleblock}{Enf\"uhrung anhand eines Beispiels}
+		\begin{equation}
+			y'=y
+		\end{equation}
+Ziel ist es Ausdr\"ucke mit derselben Variable auf einer Seite zu sammeln.
+		\begin{equation}
+			\frac{dy}{dx}=y\big|:y
+		\end{equation}
+		\begin{equation}
+			\frac{1}{y}\cdot\frac{dy}{dx}=1\bigg|\int dx
+		\end{equation}
+		\begin{equation}
+			\int\frac{1}{y}\cdot\frac{dy}{dx}dx=\int 1dx
+		\end{equation}
+		\begin{equation}
+			\int\frac{1}{y}dy=\int 1dx
+		\end{equation}
+		\begin{equation}
+			\ln(\left|y\right|)=x
+		\end{equation}
+	\end{exampleblock}
 \end{frame}
 
 %------------------------------------------------
