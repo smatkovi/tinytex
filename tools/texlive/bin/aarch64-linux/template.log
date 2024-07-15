@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  14 JUL 2024 19:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  15 JUL 2024 00:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -785,52 +785,56 @@ Overfull \hbox (4.89322pt too wide) detected at line 262
 [8
 
 ]
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 319.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 319.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 319.
-
 
 [9
 
 ]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 327.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 327.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 327.
+
 
 [10
 
 ]
 
-LaTeX Font Warning: Font shape `OT1/opensans-TLF/b/n' undefined
-(Font)              using `OT1/opensans-TLF/m/n' instead on input line 366.
-
-
-
 [11
 
 ]
 
+LaTeX Font Warning: Font shape `OT1/opensans-TLF/b/n' undefined
+(Font)              using `OT1/opensans-TLF/m/n' instead on input line 374.
+
+
+
 [12
 
 ]
-<creodocs_logo.pdf, id=590, 833.50496pt x 170.09146pt>
-File: creodocs_logo.pdf Graphic file (type pdf)
-<use creodocs_logo.pdf>
-Package pdftex.def Info: creodocs_logo.pdf  used on input line 403.
-(pdftex.def)             Requested size: 273.83728pt x 55.8812pt.
-
 
 [13
 
+]
+<creodocs_logo.pdf, id=638, 833.50496pt x 170.09146pt>
+File: creodocs_logo.pdf Graphic file (type pdf)
+<use creodocs_logo.pdf>
+Package pdftex.def Info: creodocs_logo.pdf  used on input line 411.
+(pdftex.def)             Requested size: 273.83728pt x 55.8812pt.
+
+
+[14
+
  <./creodocs_logo.pdf>]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 429.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 437.
  (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 ! Font OT1/pcr/m/n/10.95=pcrr7t at 10.95pt not loadable: Metric (TFM) file not found.
 <to be read again> 
                    relax 
-l.429 \end{frame}
+l.437 \end{frame}
                  
 ? 
 Missing character: There is no t in font nullfont!
@@ -861,15 +865,15 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no y in font nullfont!
 
 
-[14
-
-]
-
 [15
 
 ]
 
 [16
+
+]
+
+[17
 
 ]
 \openout4 = `template.vrb'.
@@ -982,29 +986,25 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no } in font nullfont!
 )
 
-[17
-
-]
-
 [18
 
 ]
-LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 493.
+
+[19
+
+]
+LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 501.
  (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/psnfss/omspcr.fd
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 493.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 501.
 
 Missing character: There is no c in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 
-
-[19
-
-]
 
 [20
 
@@ -1015,6 +1015,10 @@ Missing character: There is no e in font nullfont!
 ]
 
 [22
+
+]
+
+[23
 
 ]
 \tf@nav=\write6
@@ -1035,40 +1039,22 @@ L3 programming layer <2024-05-27>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `template.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `template.out':
-(rerunfilecheck)             Before: 950B6214712F748C184C488735274B57;704
-(rerunfilecheck)             After:  C86DF30E6389004D2B7E0007E36DF68B;705.
+Package rerunfilecheck Info: File `template.out' has not changed.
+(rerunfilecheck)             Checksum: 996DA435C2744C57B6043B97B4787FD9;705.
  ) 
 Here is how much of TeX's memory you used:
- 22182 strings out of 475560
- 426755 string characters out of 5776021
- 1943905 words of memory out of 5000000
- 44285 multiletter control sequences out of 15000+600000
+ 22184 strings out of 475560
+ 426748 string characters out of 5776021
+ 1944905 words of memory out of 5000000
+ 44289 multiletter control sequences out of 15000+600000
  586809 words of font info for 101 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  101i,15n,107p,450b,910s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Outline0.1.2.12} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.1.1.11} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.0.2.10} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.0.1.9} has been referenced but does not exist, replaced by a fixed one
-
 </home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on template.pdf (22 pages, 250436 bytes).
+Output written on template.pdf (23 pages, 254639 bytes).
 PDF statistics:
- 1026 PDF objects out of 1200 (max. 8388607)
- 801 compressed objects within 9 object streams
- 58 named destinations out of 1000 (max. 500000)
- 884 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1067 PDF objects out of 1200 (max. 8388607)
+ 830 compressed objects within 9 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 944 words of extra memory for PDF output out of 10000 (max. 10000000)
 
