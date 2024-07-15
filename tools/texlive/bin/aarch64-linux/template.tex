@@ -236,9 +236,14 @@
 	\begin{equation}
 		 \int (u'\cdot v)dx = u\cdot v + c - \int (u\cdot v)dx
 	\end{equation}
+\end{frame}
+\begin{frame}
 	\begin{exampleblock}{Mit folgendem Trick l\"asst sich ln(x) so integrieren:}
 		\begin{equation}
-			\int 1\cdot \ln(x)dx = x\cdot \ln(x) + c -\int \frac{x}{x}dx = x\cdot \ln(x) + x + c = x(\ln(x) + 1) + c
+			\int \underbrace{1}_{u'}\cdot \underbrace{\ln(x)}_{v}dx = \underbrace{x}_{u}\cdot \underbrace{\ln(x) + c}_{v} -\int \underbrace{x}_{u}\cdot\frac{1}{\underbrace{x}_{v'}}dx = x\cdot \ln(x) + x + c =
+		\end{equation}
+		\begin{equation}
+			x(\ln(x) + 1) + c
 		\end{equation}
 	\end{exampleblock}
 \end{frame}
@@ -247,7 +252,7 @@
 	
 	\begin{exampleblock}{So l\"asst sich auch das Integral \"uber $\sin(x)\cdot \cos(x)$ durchf\"uhren.}
 		\begin{equation}
-			\int \sin(x)\cdot \cos(x)dx = (\sin(x))^2+c-\int \cos(x)\cdot \sin(x)dx\bigg| +\int \cos(x)\cdot \sin(x)dx
+			\int \underbrace{\sin(x)}_{u}\cdot \underbrace{\cos(x)}_{v'}dx = (\sin(x))^2+c-\int \underbrace{\cos(x)}_{u'}\cdot \underbrace{\sin(x)}_{v}dx\bigg| +\int \cos(x)\cdot \sin(x)dx
 		\end{equation}
 		\begin{equation}
 			2\cdot \int \sin(x)\cdot \cos(x)dx = (\sin(x))^2+c\bigg| :2
