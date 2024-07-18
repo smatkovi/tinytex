@@ -445,7 +445,7 @@ Ziel ist es Ausdr\"ucke mit derselben Variable auf einer Seite zu sammeln.
 	\begin{equation}
 		\alert{a_n(x)\cdot \lambda^{n} + a_{n-1}(x)\cdot \lambda^{n-1} + \dots + a_1(x)\cdot \lambda + a_0(x) = 0} \label{chargl}
 	\end{equation}
-
+Bei der L\"osung unterscheiden wir 4 F\"alle.
 
 \end{frame}
 \begin{frame}
@@ -465,14 +465,27 @@ Ziel ist es Ausdr\"ucke mit derselben Variable auf einer Seite zu sammeln.
 			$$y = (C_1 + C_2 x + C_3 x^2 + \dots + C_{k+1} x^{k+1}) e^{\lambda_1 x} + C_{k+2} e^{\lambda_{k+2} x} + \dots + C_n e^{\lambda_n x}$$
 
 	wobei $\lambda_1$ die $k$-fache Nullstelle der charakteristischen Gleichung ~\eqref{chargl} ist.
+	\end{enumerate}
+	\end{frame}
+	\begin{frame}
+	\begin{enumerate}
+			 \setcounter{enumi}{2}
 
 \item Fall 3: Alle Lösungen von ~\eqref{chargl} sind einfach, je zwei zueinander konjugiert komplex
-
+$$
+			\lambda_{1,2}=a_1 \pm b_1 j ; \quad \lambda_{3,4}=a_3 \pm b_3 j ; \ldots ;
+			$$
+			$\lambda_{n-1, n}=a_{n-1} \pm b_{n-1} j ; \quad n$ gerade
 	Die allgemeine Lösung von ~\eqref{normalform} lautet:
 
-	$$y = e^{a_1 x} (C_1 cos b_1 x + C_2 sin b_1 x) + e^{a_2 x} (C_3 cos b_2 x + C_4 sin b_2 x) + \dots + e^{a_n x} (C_{2n-1} cos b_n x + C_{2n} sin b_n x)$$
-
+$$
+			\begin{aligned}
+				y= & e^{a_1 x}\left(C_1 \cos b_1 x+C_2 \sin b_1 x\right)+e^{a_3 x}\left(C_3 \cos b_3 x\right. \\
+				& \left.+C_4 \sin b_3 x\right)+\ldots+e^{a_{n-1} x}\left(C_{n-1} \cos b_{n-1} x+C_n \sin b_{n-1} x\right)
+			\end{aligned}
+			$$
 	wobei $a_1, a_2, \dots, a_n$ die reellen Teile der komplexen Wurzeln der charakteristischen Gleichung ~\eqref{chargl} und $b_1, b_2, \dots, b_n$ die imaginären Teile der komplexen Wurzeln der charakteristischen Gleichung ~\eqref{chargl} sind.
+\item Fall 4: Die Kombination der 3 F\"alle.
 	\end{enumerate}
 \end{frame}
 

@@ -1,7 +1,7 @@
-\beamer@subsectionintoc {0}{1}{Blocks}{22}{0}{0}
-\beamer@subsectionintoc {0}{2}{Columns}{23}{0}{0}
-\beamer@sectionintoc {1}{Table and Figure Examples}{24}{0}{1}
-\beamer@subsectionintoc {1}{1}{Table}{24}{0}{1}
-\beamer@subsectionintoc {1}{2}{Figure}{25}{0}{1}
-\beamer@sectionintoc {2}{Mathematics}{26}{0}{2}
-\beamer@sectionintoc {3}{Referencing}{31}{0}{3}
+\beamer@subsectionintoc {0}{1}{Blocks}{23}{0}{0}
+\beamer@subsectionintoc {0}{2}{Columns}{24}{0}{0}
+\beamer@sectionintoc {1}{Table and Figure Examples}{25}{0}{1}
+\beamer@subsectionintoc {1}{1}{Table}{25}{0}{1}
+\beamer@subsectionintoc {1}{2}{Figure}{26}{0}{1}
+\beamer@sectionintoc {2}{Mathematics}{27}{0}{2}
+\beamer@sectionintoc {3}{Referencing}{32}{0}{3}
