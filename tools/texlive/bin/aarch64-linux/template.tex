@@ -68,7 +68,7 @@
 
 % Beamer comes with a number of color themes that can be applied to any layout theme to change its colors. Uncomment each of these in turn to see how they change the colors of your selected layout theme.
 
-\usecolortheme{albatross}
+%\usecolortheme{albatross}
 %\usecolortheme{beaver}
 %\usecolortheme{beetle}
 %\usecolortheme{crane}
@@ -186,7 +186,7 @@
 %%------------------------------------------------
 %\begin{frame}
 %	\frametitle{Differenzialrechnung}
-%	Die Ableitung einer Umkehrfunktion $f^{-1}(y)=x(y)$ erhalten wir ganz leicht \"uber die Leibnitzschreibweise folgenderma\ss en:
+%	Die Ableitung einer Umkehrfunktion $f^{-1}(y)=x(y)$ erhalten wir ganz leicht \"uber die Leibnizschreibweise folgenderma\ss en:
 %	\begin{equation}
 %		\frac{dx}{dy}=\frac{1}{\frac{dy}{dx}}
 %	\end{equation}
@@ -202,7 +202,7 @@
 %\end{frame}
 \begin{frame}
 	\frametitle{Differenzialrechnung}
-	Die Ableitung einer Umkehrfunktion $f^{-1}(y)=x(y)$ erhalten wir ganz leicht über die Leibnitzschreibweise folgendermaßen:
+	Die Ableitung einer Umkehrfunktion $f^{-1}(y)=x(y)$ erhalten wir ganz leicht über die Leibnizschreibweise folgendermaßen:
 	\begin{equation}
 		\frac{dx}{dy}=\frac{1}{\frac{dy}{dx}}
 	\end{equation}
@@ -236,6 +236,7 @@
 	\begin{equation}
 		 \int (u'\cdot v)dx = u\cdot v + c - \int (u\cdot v)dx
 	\end{equation}
+	Ziel ist es die Integration durch Ableitung eines Terms so zu vereinfachen, dass ein schon bekanntes Integral entsteht, oder das urspr\"ungliche Integral, das dann wie eine Gleichung gel\"ost werden kann.
 \end{frame}
 \begin{frame}
 	\begin{exampleblock}{Mit folgendem Trick l\"asst sich ln(x) so integrieren:}
@@ -355,7 +356,7 @@ Ziel ist es Ausdr\"ucke mit derselben Variable auf einer Seite zu sammeln.
 \end{frame}
 
 \begin{frame}
-	\frametitle{Inhomogenit\"aten, Variation der Konstanten}
+	\frametitle{Inhomogenit\"aten, Variation der Konstanten (nach Lagrange)}
 	Bei einer inhomogenen Dgl. wird zuerst die Inhomegenit\"at = 0 gesetzt und wir sagen wir l\"osen die homogene Dgl. Danach kann bei linearen Dgln. 1. Ordnung von der Integrationskonstante c angenommen werden, dass sie von der Variable abh\"angt, von der auch die gesuchte Funktion abh\"angt, \"ublicherweise c(x) oder c(t) und die L\"osung der homogenen Gleichung in die inhomogene Dgl. eingesetzt. Damit kann nach der Funktion c aufgel\"ost werden. Die L\"osung der homogenen Dgl. nennen wir \alert{homogene L\"osung} und eine L\"osung der inhomogenen Dgl. nennen wir \alert{partikul\"are L\"osung}. Die allgemeine L\"osung ergibt sich aus der Summe der homogenen und der partikul\"aren L\"osung.
 \end{frame}
 \begin{frame}
@@ -415,6 +416,18 @@ Ziel ist es Ausdr\"ucke mit derselben Variable auf einer Seite zu sammeln.
 		\end{equation}
 	\end{exampleblock}
 
+\end{frame}
+\begin{frame}
+	\frametitle{Dgln. h\"oherer Ordnung}
+	Eine lineare Dgl. n-ter Ordnung läßt sich auf folgende Normalform bringen:
+	\begin{equation}
+		a_n(x)\cdot y^{(n)} + a_{n-1}(x)\cdot y^{(n-1)} + ... + a_1(x)\cdot y' + a_0(x)\cdot y = g(x)
+	\end{equation}
+	mit $a_n(x) \neq  0$. Ist g(x) = 0, so heißt die Dgl. homogen, sonst heißt sie inhomogen. Für die L\"osung linearer Dgln. h\"oherer Ordnung haben die folgenden zwei S\"atze große Bedeutung: 
+	\begin{enumerate}
+		\item Satz 1: Die homogene Dgl. n-ter Ordnung besitzt genau n voneinander linear unabh\"angige Lösungen $y_1$, ... , $y_n$, deren Linearkombination die allgemeine L\"sung der Dgl. darstellt. 
+			\item Satz 2: Die allgemeine L\"osung der inhomogenen Dgl. n-ter Ordnung ist gleich der Summe aus der allgemeinen L\"osung der zugeh\"origen homogenen und einer speziellen L\"osung der inhomogenen Dgl.
+	\end{enumerate}
 \end{frame}
 %------------------------------------------------
 
