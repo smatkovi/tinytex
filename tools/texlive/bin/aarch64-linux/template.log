@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  18 JUL 2024 19:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  18 JUL 2024 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -562,7 +562,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count345
 \@lastruleclass=\count346
 \@thisrulewidth=\dimen307
-) (./beamerthemeMadrid.sty (./beamercolorthemewhale.sty) (./beamercolorthemeorchid.sty) (./beamerinnerthemerounded.sty) (./beamerouterthemeinfolines.sty)) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/psnfss/palatino.sty
+) (./beamerthemeMadrid.sty (./beamercolorthemewhale.sty) (./beamercolorthemeorchid.sty) (./beamerinnerthemerounded.sty) (./beamerouterthemeinfolines.sty)) (./beamercolorthemealbatross.sty) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/psnfss/palatino.sty
 Package: palatino 2020/03/25 PSNFSS-v9.3 (SPQR) 
 ) (./opensans.sty
 Package: opensans 2019/06/20 Style file for Open Sans.
@@ -866,7 +866,7 @@ LaTeX Font Warning: Font shape `OT1/opensans-TLF/b/n' undefined
 [25
 
 ]
-<creodocs_logo.pdf, id=1059, 833.50496pt x 170.09146pt>
+<creodocs_logo.pdf, id=1055, 833.50496pt x 170.09146pt>
 File: creodocs_logo.pdf Graphic file (type pdf)
 <use creodocs_logo.pdf>
 Package pdftex.def Info: creodocs_logo.pdf  used on input line 596.
@@ -1092,18 +1092,18 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: 4EF5D07A64477404447E0E09758EF39E;705.
  ) 
 Here is how much of TeX's memory you used:
- 22257 strings out of 475560
- 428208 string characters out of 5776021
+ 22276 strings out of 475560
+ 428870 string characters out of 5776021
  1945905 words of memory out of 5000000
- 44339 multiletter control sequences out of 15000+600000
+ 44355 multiletter control sequences out of 15000+600000
  586809 words of font info for 101 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 101i,15n,107p,712b,908s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,107p,712b,910s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on template.pdf (35 pages, 317823 bytes).
+Output written on template.pdf (35 pages, 318450 bytes).
 PDF statistics:
- 1500 PDF objects out of 1728 (max. 8388607)
- 1194 compressed objects within 12 object streams
+ 1496 PDF objects out of 1728 (max. 8388607)
+ 1192 compressed objects within 12 object streams
  82 named destinations out of 1000 (max. 500000)
- 1172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1160 words of extra memory for PDF output out of 10000 (max. 10000000)
 
