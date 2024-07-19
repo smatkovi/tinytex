@@ -313,7 +313,7 @@
 		y=e^x
 	\end{equation}
 	\begin{equation}
-		x=e^y
+		x=\ln(y)
 	\end{equation}
 	\begin{equation}
 	\alert{\ln(y_1\cdot y_2)}=\ln(e^{x_1}\cdot e^{x_2})=\ln(e^{x_1+x_2})=x_1+x_2=\alert{\ln(y_1)+\ln(y_2)}
@@ -559,7 +559,7 @@ $$
 \end{frame}
 \begin{frame}
 	\begin{exampleblock}{}
-		Die Kraft ist nach dem 1. Newton'schen Axiom $m\cdot a = m\cdot\frac{d^2m}{dt^2}=m\cdot \ddot{x}$, wobei a die Beschleunigung ist. So lautet dann die Dgl.
+		Die Kraft ist nach dem 1. Newton'schen Axiom $m\cdot a = m\cdot\frac{d^2x}{dt^2}=m\cdot \ddot{x}$, wobei a die Beschleunigung ist. So lautet dann die Dgl.
 		\begin{equation}
 			m\cdot \ddot{x} = -k\cdot x
 		\end{equation}
@@ -569,9 +569,26 @@ $$
 		\end{equation}
 		Damit haben wir Fall 3 und Die L\"osung ist:
 		\begin{equation}
-			x(t) = C_1\cdot \cos\left(\frac{k}{m}\cdot t\right) + C_2\cdot \sin\left(\frac{k}{m}\cdot t\right)
+			x(t) = C_1\cdot \cos\left(\sqrt{\frac{k}{m}}\cdot t\right) + C_2\cdot \sin\left(\sqrt{\frac{k}{m}}\cdot t\right)
 		\end{equation}
+		\"Ublicherweise ben\"otigt es dann noch Randbedingungen, beziehungsweise Anfangsbedingungen, um die Konstanten zu bestimmen.
 	\end{exampleblock}
+\end{frame}
+\begin{frame}
+\frametitle{L\"osung inhomogener Dgln.}
+Inhomogene Dgln. werden in 2 Schritten gel\"ost. Zuerst wird die homogene Dgl. gel\"ost und dann die inhomogene Dgl. Je nach Inhomogenit\"at g(x) wird dann ein Ansatz gew\"ahlt:\\
+\begin{tabular}{c|c} 
+Inhomogenität $g$ & Ansatz für $y_p$ \\
+\hline$b e^{\alpha x}$ & $a e^{\alpha x}x^r$ \\
+\hline$b_0+b_1 x+\ldots+b_m x^m$ & $a_0+a_1 x+\ldots+a_m x^m$ \\
+	\hline$p_1(x) \sin (\beta x)+p_2(x) \cos (\beta x)$ & $[q_1(x)\sin (\beta x)+ q_2(x)\cos (\beta x)] x^r$ \\
+	\hline$e^{\alpha x}\left[p_1(x) s(\beta x)+p_2(x) c(\beta x)\right]$ & $e^{\alpha x}\left[ q_1(x)s(\beta x)+ q_2(x)c(\beta x)\right]x^r$ \\
+\hline$e^{\alpha x} p(x)$ & $e^{\alpha x} q(x) x^r$ \\
+	Polynom $p_i$ mit Grad $p_i=m_i$ & Polynom $q_i$ mit Grad $q_i=max[m_1;m_2]$
+\end{tabular}
+
+Tabelle 5.1: Übersicht über mögliche Ansätze zur Berechnung einer partikulären Lösung.
+Sind $\alpha$, $\pm i\cdot\beta$ oder $\alpha\pm i\beta$ Nullstelleen des charakteristischen Polynoms ist r gleich der Vielfachheit der Nullstellen zu setzen, sonst ist r=0 zu setzen. Wenn in der Inhomogenit\"at $\alpha$ und$ \beta$ Vorkommen, muss $\alpha\pm i\beta$ eine Nullstelle des charakteristischdn Polynoms sein, um $r\neq 0$ zu setzen. 
 \end{frame}
 \begin{frame}
 	\frametitle{Lists}
@@ -761,11 +778,11 @@ $$
 \begin{frame}
 	\frametitle{Citing References}
 	
-	An example of the \texttt{\textbackslash cite} command to cite within the presentation:
+%	An example of the \texttt{\textbackslash cite} command to cite within the presentation:
 	
 	\bigskip % Vertical whitespace
 	
-	This statement requires citation \cite{p1,p2}.
+	%This statement requires citation \cite{p1,p2}.
 \end{frame}
 
 %------------------------------------------------

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  19 JUL 2024 13:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  19 JUL 2024 20:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -907,80 +907,55 @@ Overfull \vbox (15.43694pt too high) detected at line 468
 [24
 
 ]
+Overfull \vbox (1.75282pt too high) detected at line 576
+ []
+
+
 
 [25
 
 ]
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 596.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 596.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 596.
+Overfull \hbox (19.15689pt too wide) in paragraph at lines 592--592
+[][]  
+ []
+
 
 
 [26
 
 ]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 613.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 613.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 613.
+
 
 [27
 
 ]
 
-LaTeX Font Warning: Font shape `OT1/opensans-TLF/b/n' undefined
-(Font)              using `OT1/opensans-TLF/m/n' instead on input line 643.
-
-
-
 [28
 
 ]
+
+LaTeX Font Warning: Font shape `OT1/opensans-TLF/b/n' undefined
+(Font)              using `OT1/opensans-TLF/m/n' instead on input line 660.
+
+
 
 [29
 
 ]
 
-! LaTeX Error: Unicode character ^^[ (U+001B)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.759 ^^[
-         OA
-? 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 770.
-(/home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-! Font OT1/pcr/m/n/10.95=pcrr7t at 10.95pt not loadable: Metric (TFM) file not found.
-<to be read again> 
-                   relax 
-l.770 \end{frame}
-                 
-? 
-LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 770.
-(/home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/psnfss/omspcr.fd
-File: omspcr.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 770.
-
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
 [30
 
 ]
 
-[31]
+[31
+
+]
 
 [32
 
@@ -1012,21 +987,21 @@ L3 programming layer <2024-05-27>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 64F8B545647F452BEAF68C6293B326ED;519.
+(rerunfilecheck)             Checksum: B332835967E501437A441CC625FF8DD4;519.
  ) 
 Here is how much of TeX's memory you used:
- 25420 strings out of 475560
- 501780 string characters out of 5776021
+ 25365 strings out of 475560
+ 500777 string characters out of 5776021
  1945905 words of memory out of 5000000
- 47468 multiletter control sequences out of 15000+600000
+ 47420 multiletter control sequences out of 15000+600000
  586809 words of font info for 101 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  101i,15n,107p,712b,931s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on template.pdf (34 pages, 309010 bytes).
+Output written on template.pdf (34 pages, 311679 bytes).
 PDF statistics:
- 1405 PDF objects out of 1440 (max. 8388607)
- 1130 compressed objects within 12 object streams
+ 1404 PDF objects out of 1440 (max. 8388607)
+ 1128 compressed objects within 12 object streams
  78 named destinations out of 1000 (max. 500000)
  1007 words of extra memory for PDF output out of 10000 (max. 10000000)
 
