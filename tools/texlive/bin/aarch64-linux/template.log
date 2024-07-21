@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  21 JUL 2024 22:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  22 JUL 2024 00:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -987,13 +987,6 @@ Overfull \hbox (13.11552pt too wide) in paragraph at lines 594--594
 [30
 
 ]
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 724.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 724.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 724.
-
 
 [31
 
@@ -1002,15 +995,22 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
 [32
 
 ]
-
-LaTeX Font Warning: Font shape `OT1/opensans-TLF/b/n' undefined
-(Font)              using `OT1/opensans-TLF/m/n' instead on input line 771.
+Overfull \hbox (9.8121pt too wide) detected at line 745
+\OT1/cmss/m/n/10.95 + [] \OT1/phv/m/sl/10.95 a[] [] \OT1/cmss/m/n/10.95 + [] \OT1/phv/m/sl/10.95 b[] []
+ []
 
 
 
 [33
 
 ]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 766.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 766.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 766.
+
 
 [34
 
@@ -1019,6 +1019,11 @@ LaTeX Font Warning: Font shape `OT1/opensans-TLF/b/n' undefined
 [35
 
 ]
+
+LaTeX Font Warning: Font shape `OT1/opensans-TLF/b/n' undefined
+(Font)              using `OT1/opensans-TLF/m/n' instead on input line 813.
+
+
 
 [36
 
@@ -1029,6 +1034,18 @@ LaTeX Font Warning: Font shape `OT1/opensans-TLF/b/n' undefined
 ]
 
 [38
+
+]
+
+[39
+
+]
+
+[40
+
+]
+
+[41
 
 ]
 \tf@nav=\write6
@@ -1050,21 +1067,21 @@ L3 programming layer <2024-05-27>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 21366B7C5550B7AF423CE3D142816CDA;519.
+(rerunfilecheck)             Checksum: A21967D89E5F245FF7E7075860FA0A42;519.
  ) 
 Here is how much of TeX's memory you used:
- 35893 strings out of 475560
- 849425 string characters out of 5776021
- 1952905 words of memory out of 5000000
- 57813 multiletter control sequences out of 15000+600000
+ 35363 strings out of 475560
+ 834869 string characters out of 5776021
+ 1945905 words of memory out of 5000000
+ 57277 multiletter control sequences out of 15000+600000
  586809 words of font info for 101 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 101i,18n,107p,729b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,107p,729b,943s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on template.pdf (38 pages, 333814 bytes).
+Output written on template.pdf (41 pages, 337070 bytes).
 PDF statistics:
- 1554 PDF objects out of 1728 (max. 8388607)
- 1251 compressed objects within 13 object streams
- 86 named destinations out of 1000 (max. 500000)
+ 1637 PDF objects out of 1728 (max. 8388607)
+ 1327 compressed objects within 14 object streams
+ 92 named destinations out of 1000 (max. 500000)
  1115 words of extra memory for PDF output out of 10000 (max. 10000000)
 
