@@ -576,7 +576,7 @@ $$
 \end{frame}
 \begin{frame}
 \frametitle{L\"osung inhomogener Dgln.}
-Inhomogene Dgln. werden in 2 Schritten gel\"ost. Zuerst wird die homogene Dgl. gel\"ost und dann die inhomogene Dgl. Je nach Inhomogenit\"at g(x) wird dann ein Ansatz gew\"ahlt:\\
+	Inhomogene Dgln. werden in 2 Schritten gel\"ost. Zuerst wird die homogene Dgl. gel\"ost und dann die inhomogene Dgl. Je nach Inhomogenit\"at g(x) wird dann ein Ansatz gew\"ahlti(s=sin, c=cos):\\
 \begin{tabular}{c|c} 
 Inhomogenität $g$ & Ansatz für $y_p$ \\
 \hline$b e^{\alpha x}$ & $a e^{\alpha x}x^r$ \\
@@ -584,11 +584,70 @@ Inhomogenität $g$ & Ansatz für $y_p$ \\
 	\hline$p_1(x) \sin (\beta x)+p_2(x) \cos (\beta x)$ & $[q_1(x)\sin (\beta x)+ q_2(x)\cos (\beta x)] x^r$ \\
 	\hline$e^{\alpha x}\left[p_1(x) s(\beta x)+p_2(x) c(\beta x)\right]$ & $e^{\alpha x}\left[ q_1(x)s(\beta x)+ q_2(x)c(\beta x)\right]x^r$ \\
 \hline$e^{\alpha x} p(x)$ & $e^{\alpha x} q(x) x^r$ \\
-	Polynom $p_i$ mit Grad $p_i=m_i$ & Polynom $q_i$ mit Grad $q_i=max[m_1;m_2]$
+	Polynom $p_i$ mit Grad $m_i, i\in[1; 2]$ & Polynom $q_i$ mit Grad $max[m_1;m_2]$
 \end{tabular}
 
 Tabelle 5.1: Übersicht über mögliche Ansätze zur Berechnung einer partikulären Lösung.
-Sind $\alpha$, $\pm i\cdot\beta$ oder $\alpha\pm i\beta$ Nullstelleen des charakteristischen Polynoms ist r gleich der Vielfachheit der Nullstellen zu setzen, sonst ist r=0 zu setzen. Wenn in der Inhomogenit\"at $\alpha$ und$ \beta$ Vorkommen, muss $\alpha\pm i\beta$ eine Nullstelle des charakteristischdn Polynoms sein, um $r\neq 0$ zu setzen. 
+Sind $\alpha$, $\pm i\cdot\beta$ oder $\alpha\pm i\cdot\beta$ Nullstelleen des charakteristischen Polynoms ist r gleich der Vielfachheit der Nullstellen zu setzen, sonst ist r=0 zu setzen. Wenn in der Inhomogenit\"at $\alpha$ und$ \beta$ Vorkommen, muss $\alpha\pm i\cdot\beta$ eine Nullstelle des charakteristischdn Polynoms sein, um $r\neq 0$ zu setzen. 
+\end{frame}
+\begin{frame}
+	\begin{exampleblock}{Getriebener harmonischer Oszillator}
+		Wir betrachten wieder den harmonischen Oszillator und ber\"ucksichtigen diesmal die Schwerkraft, also f\"ugen die Inhomogenit\"at $m\cdot g$ hinzu. Damit lautet die Dgl.:
+		\begin{equation}
+			m\cdot\ddot x + k\cdot x = m\cdot g
+		\end{equation}
+		Wir machen den Ansatz $y_p=c$. Da die homogene L\"osung eingesetzt verschwindet, bleibt:
+		\begin{equation}
+			k\cdot c = m\cdot g \Rightarrow c = \frac{m\cdot g}{k}
+		\end{equation}
+
+		Die vollst\"andige L\"osung aus homogener und Partikul\"arl\"osung lautet damit:
+		\begin{equation}
+			x(t) = C_1\cdot \cos\left(\sqrt{\frac{k}{m}}\cdot t\right) + C_2\cdot \sin\left(\sqrt{\frac{k}{m}}\cdot t\right) + \frac{m\cdot g}{k}
+		\end{equation}
+	\end{exampleblock}
+\end{frame}
+\begin{frame}
+	\begin{exampleblock}{Noch ein etwas schwereres Beispiel}
+		\begin{equation}
+			y''-4\cdot y'+3y=x^2-x+1
+		\end{equation}
+		Die Nullstellen des charakteristischen Polynoms sind 1 und 3. Damit lautet die homogene L\"osung: $y_h(x)=c_1\cdot e^x+c_2\cdot e^{3\cdot x}$. Die Inhomogenit\"at ist ein Polynom 2. Grades, deshalb w\"ahlen wir den Ansatz: $y_p(x)=a\cdot x^2+b\cdot x+c$.
+		\begin{equation}
+			y_p'(x)=2\cdot x+b
+		\end{equation}
+		\begin{equation}
+			y_p''(x)=2
+		\end{equation}
+		Eingesetzt ergibt das:
+		\begin{equation}
+			2-8\cdot x-4\cdot b+3a\cdot x^2+3b\cdot x+3c=x^2-x+6
+		\end{equation}
+	\end{exampleblock}
+\end{frame}
+\begin{frame}
+	\begin{exampleblock}{}
+		\begin{equation}
+			3a\cdot x^2+(3b-8)x+(2-4b)=x^2-5\cdot x-2
+		\end{equation}
+		Koeffizientenvergleich ergibt f\"ur $x^2$:
+		\begin{equation}
+			3a=1
+		\end{equation}
+		\begin{equation}
+			x: 3b-8=-5
+		\end{equation}
+		\begin{equation}
+			x^0: 2-4b+3c=4
+		\end{equation}
+		\begin{equation}
+			\Rightarrow a=\frac{1}{3}; b=1; c=2
+		\end{equation}
+		Damit lautet die vollst\"andige L\"osung:
+		\begin{equation}
+		y=c_1\cdot e^x+c_2\cdot e^{3\cdot x}+\frac{1}{3}\cdot x^2+x+2
+		\end{equation}
+	\end{exampleblock}
 \end{frame}
 \begin{frame}
 	\frametitle{Lists}
