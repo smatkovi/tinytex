@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  21 JUL 2024 19:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  21 JUL 2024 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -613,12 +613,56 @@ File: pgfmodulematrix.code.tex 2014-07-01 v0.0 (0.0)
 \tikz@expandcount=\count355
  (./tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2014-07-01 v0.0 (0.0)
+))) (./pgfplots.sty (./pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+ (./pgfplots.code.tex (./pgfplotscore.code.tex
+\t@pgfplots@toka=\toks48
+\t@pgfplots@tokb=\toks49
+\t@pgfplots@tokc=\toks50
+\pgfplots@tmpa=\dimen321
+\c@pgfplots@coordindex=\count356
+\c@pgfplots@scanlineindex=\count357
+ (./pgfplotssysgeneric.code.tex)) (./pgfplotslibrary.code.tex) (./pgfplotsoldpgfsupp_loader.code.tex (./pgflibraryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks51
+\t@pgf@tokb=\toks52
+\t@pgf@tokc=\toks53
+(./pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (./pgfplotsutil.code.tex (./pgfplotsliststructure.code.tex) (./pgfplotsliststructureext.code.tex) (./pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count358
+) (./pgfplotsmatrix.code.tex) (./pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count359
+\t@pgfplotstable@a=\toks54
+) (./pgfplotsdeque.code.tex) (./pgfplotsbinary.code.tex (./pgfplotsbinary.data.code.tex)) (./pgfplotsutil.verb.code.tex) (./pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count360
+ (./pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (./pgfplotscolormap.code.tex (./pgfplotscolor.code.tex)) (./pgfplotsstackedplots.code.tex) (./pgfplotsplothandlers.code.tex (./pgfplotsmeshplothandler.code.tex (./pgfplotsmeshplotimage.code.tex))) (./pgfplots.scaling.code.tex) (./pgfplotscoordprocessing.code.tex) (./pgfplots.errorbars.code.tex) (./pgfplots.markers.code.tex) (./pgfplotsticks.code.tex) (./pgfplots.paths.code.tex) (./tikzlibrarydecorations.code.tex (./pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen322
+\pgfdecoratedremainingdistance=\dimen323
+\pgfdecoratedinputsegmentcompleteddistance=\dimen324
+\pgfdecoratedinputsegmentremainingdistance=\dimen325
+\pgf@decorate@distancetomove=\dimen326
+\pgf@decorate@repeatstate=\count361
+\pgfdecorationsegmentamplitude=\dimen327
+\pgfdecorationsegmentlength=\dimen328
+)
+\tikz@lib@dec@box=\box82
+) (./tikzlibrarydecorations.pathmorphing.code.tex (./pgflibrarydecorations.pathmorphing.code.tex)) (./tikzlibrarydecorations.pathreplacing.code.tex (./pgflibrarydecorations.pathreplacing.code.tex)) (./tikzlibrarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count362
+\pgfplots@xmin@reg=\dimen329
+\pgfplots@xmax@reg=\dimen330
+\pgfplots@ymin@reg=\dimen331
+\pgfplots@ymax@reg=\dimen332
+\pgfplots@zmin@reg=\dimen333
+\pgfplots@zmax@reg=\dimen334
+) (./tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2014-07-01 v0.0 (0.0)
+ (./pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2014-07-01 v0.0 (0.0)
 ))) (./wrapfig.sty
-\wrapoverhang=\dimen321
-\WF@size=\dimen322
-\c@WF@wrappedlines=\count356
-\WF@box=\box82
-\WF@everypar=\toks48
+\wrapoverhang=\dimen335
+\WF@size=\dimen336
+\c@WF@wrappedlines=\count363
+\WF@box=\box83
+\WF@everypar=\toks55
 Package: wrapfig 2003/01/31  v 3.6
 ) (./beamerthemeMadrid.sty (./beamercolorthemewhale.sty) (./beamercolorthemeorchid.sty) (./beamerinnerthemerounded.sty) (./beamerouterthemeinfolines.sty)) (./beamercolorthemealbatross.sty) (/home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/psnfss/palatino.sty
 Package: palatino 2020/03/25 PSNFSS-v9.3 (SPQR) 
@@ -643,44 +687,44 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 ) (/home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (/home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks49
-\XKV@tempa@toks=\toks50
+\XKV@toks=\toks56
+\XKV@tempa@toks=\toks57
 )
-\XKV@depth=\count357
+\XKV@depth=\count364
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))) (./beamerinnerthemecircles.sty)
-LaTeX Font Info:    Trying to load font information for OT1+opensans-TLF on input line 157.
-LaTeX Font Info:    No file OT1opensans-TLF.fd. on input line 157.
+LaTeX Font Info:    Trying to load font information for OT1+opensans-TLF on input line 159.
+LaTeX Font Info:    No file OT1opensans-TLF.fd. on input line 159.
 
 
 LaTeX Font Warning: Font shape `OT1/opensans-TLF/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 157.
+(Font)              using `OT1/cmr/m/n' instead on input line 159.
 
 (/home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count358
-\l__pdf_internal_box=\box83
+\l__color_backend_stack_int=\count365
+\l__pdf_internal_box=\box84
 ) (./template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -722,59 +766,62 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 157.
+Package hyperref Info: Link coloring OFF on input line 159.
  (./template.out) (./template.out)
 \@outlinefile=\write5
 \openout5 = `template.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 157.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 159.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 157.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 159.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/ppl/m/n on input line 157.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 157.
+(Font)                  OT1/cmss/m/n --> OT1/ppl/m/n on input line 159.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/phv/b/n on input line 157.
+(Font)                  OT1/cmr/bx/n --> OT1/phv/b/n on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/phv/b/n on input line 157.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 157.
+(Font)                  OT1/cmr/bx/n --> OT1/phv/b/n on input line 159.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 157.
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 157.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 157.
+(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 159.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/phv/m/it on input line 157.
+(Font)                  OT1/cmr/m/it --> OT1/phv/m/it on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/phv/m/it on input line 157.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 157.
+(Font)                  OT1/cmr/bx/it --> OT1/phv/m/it on input line 159.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 157.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 157.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 159.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/b/n on input line 157.
+(Font)                  OT1/phv/m/n --> OT1/phv/b/n on input line 159.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/phv/m/it --> OT1/phv/b/it on input line 157.
+(Font)                  OT1/phv/m/it --> OT1/phv/b/it on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/ppl/b/n on input line 157.
+(Font)                  OT1/cmss/b/n --> OT1/ppl/b/n on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/phv/b/n --> OT1/phv/b/n on input line 157.
+(Font)                  OT1/phv/b/n --> OT1/phv/b/n on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/b/n on input line 157.
+(Font)                  OT1/phv/m/n --> OT1/phv/b/n on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/phv/m/it --> OT1/phv/b/it on input line 157.
+(Font)                  OT1/phv/m/it --> OT1/phv/b/it on input line 159.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/pcr/m/n --> OT1/pcr/b/n on input line 157.
-\c@mv@tabular=\count359
-\c@mv@boldtabular=\count360
- (./template.nav)
+(Font)                  OT1/pcr/m/n --> OT1/pcr/b/n on input line 159.
+
+Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
+\c@mv@tabular=\count366
+\c@mv@boldtabular=\count367
+(./template.nav)
 
 LaTeX Font Warning: Font shape `OT1/opensans-TLF/m/it' undefined
-(Font)              using `OT1/opensans-TLF/m/n' instead on input line 165.
+(Font)              using `OT1/opensans-TLF/m/n' instead on input line 167.
 
 
 
@@ -785,28 +832,28 @@ LaTeX Font Warning: Font shape `OT1/opensans-TLF/m/it' undefined
 [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 219.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 221.
  (/home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 219.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 221.
  (/home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 219.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 221.
  (/home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 219.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 221.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 219.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 221.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 219.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 221.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 219.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 221.
 
-Overfull \vbox (4.13757pt too high) detected at line 219
+Overfull \vbox (4.13757pt too high) detected at line 221
  []
 
 
@@ -822,7 +869,7 @@ Overfull \vbox (4.13757pt too high) detected at line 219
 [5
 
 ]
-Overfull \hbox (13.65298pt too wide) detected at line 268
+Overfull \hbox (13.65298pt too wide) detected at line 270
 [][] [] \OMS/cmsy/m/n/10.95 ^^A [] \OT1/phv/m/sl/10.95 dx \OT1/cmss/m/n/10.95 = [[](\OT1/phv/m/sl/10.95 x\OT1/cmss/m/n/10.95 )][] + \OT1/phv/m/sl/10.95 c \OMS/cmsy/m/n/10.95 ^^@ [] [] ^^A [] \OT1/phv/m/sl/10.95 dx[] \OT1/cmss/m/n/10.95 + [] [](\OT1/phv/m/sl/10.95 x\OT1/cmss/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^A []\OT1/cmss/m/n/10.95 (\OT1/phv/m/sl/10.95 x\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 dx
  []
 
@@ -883,7 +930,7 @@ Overfull \hbox (13.65298pt too wide) detected at line 268
 [19
 
 ]
-Overfull \vbox (15.43694pt too high) detected at line 468
+Overfull \vbox (15.43694pt too high) detected at line 470
  []
 
 
@@ -907,7 +954,7 @@ Overfull \vbox (15.43694pt too high) detected at line 468
 [24
 
 ]
-Overfull \vbox (1.75282pt too high) detected at line 576
+Overfull \vbox (1.75282pt too high) detected at line 578
  []
 
 
@@ -915,7 +962,7 @@ Overfull \vbox (1.75282pt too high) detected at line 576
 [25
 
 ]
-Overfull \hbox (13.11552pt too wide) in paragraph at lines 592--592
+Overfull \hbox (13.11552pt too wide) in paragraph at lines 594--594
 [][]  
  []
 
@@ -936,30 +983,30 @@ Overfull \hbox (13.11552pt too wide) in paragraph at lines 592--592
 [29
 
 ]
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 672.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 672.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 672.
-
 
 [30
 
 ]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <7> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 724.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <5> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 724.
+
 
 [31
 
 ]
 
-LaTeX Font Warning: Font shape `OT1/opensans-TLF/b/n' undefined
-(Font)              using `OT1/opensans-TLF/m/n' instead on input line 719.
-
-
-
 [32
 
 ]
+
+LaTeX Font Warning: Font shape `OT1/opensans-TLF/b/n' undefined
+(Font)              using `OT1/opensans-TLF/m/n' instead on input line 771.
+
+
 
 [33
 
@@ -980,6 +1027,10 @@ LaTeX Font Warning: Font shape `OT1/opensans-TLF/b/n' undefined
 [37
 
 ]
+
+[38
+
+]
 \tf@nav=\write6
 \openout6 = `template.nav'.
 
@@ -998,31 +1049,22 @@ L3 programming layer <2024-05-27>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `template.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `template.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  C65492F397322AC8F2C02CC35EB1CD7D;519.
+Package rerunfilecheck Info: File `template.out' has not changed.
+(rerunfilecheck)             Checksum: 21366B7C5550B7AF423CE3D142816CDA;519.
  ) 
 Here is how much of TeX's memory you used:
- 25387 strings out of 475560
- 501593 string characters out of 5776021
- 1945905 words of memory out of 5000000
- 47436 multiletter control sequences out of 15000+600000
+ 35893 strings out of 475560
+ 849425 string characters out of 5776021
+ 1952905 words of memory out of 5000000
+ 57813 multiletter control sequences out of 15000+600000
  586809 words of font info for 101 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 101i,15n,107p,712b,931s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,18n,107p,729b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on template.pdf (37 pages, 325616 bytes).
+Output written on template.pdf (38 pages, 333814 bytes).
 PDF statistics:
- 1510 PDF objects out of 1728 (max. 8388607)
- 1209 compressed objects within 13 object streams
- 84 named destinations out of 1000 (max. 500000)
- 1075 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1554 PDF objects out of 1728 (max. 8388607)
+ 1251 compressed objects within 13 object streams
+ 86 named destinations out of 1000 (max. 500000)
+ 1115 words of extra memory for PDF output out of 10000 (max. 10000000)
 
