@@ -1,0 +1,3 @@
+\beamer@sectionintoc {1}{Wiederholung Differenzial-/ Integralrechnung}{3}{0}{1}
+\beamer@sectionintoc {2}{Differenzialgleichungen}{7}{0}{2}
+\beamer@sectionintoc {3}{Fourierreihenentwicklung}{30}{0}{3}

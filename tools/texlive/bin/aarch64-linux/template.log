@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  22 JUL 2024 11:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  22 JUL 2024 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -832,28 +832,28 @@ LaTeX Font Warning: Font shape `OT1/opensans-TLF/m/it' undefined
 [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 222.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 223.
  (/home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 222.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 223.
  (/home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 222.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 223.
  (/home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 222.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 223.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 222.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 223.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 222.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 223.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 222.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 223.
 
-Overfull \vbox (4.13757pt too high) detected at line 222
+Overfull \vbox (4.13757pt too high) detected at line 223
  []
 
 
@@ -869,7 +869,7 @@ Overfull \vbox (4.13757pt too high) detected at line 222
 [5
 
 ]
-Overfull \hbox (13.65298pt too wide) detected at line 271
+Overfull \hbox (13.65298pt too wide) detected at line 272
 [][] [] \OMS/cmsy/m/n/10.95 ^^A [] \OT1/phv/m/sl/10.95 dx \OT1/cmss/m/n/10.95 = [[](\OT1/phv/m/sl/10.95 x\OT1/cmss/m/n/10.95 )][] + \OT1/phv/m/sl/10.95 c \OMS/cmsy/m/n/10.95 ^^@ [] [] ^^A [] \OT1/phv/m/sl/10.95 dx[] \OT1/cmss/m/n/10.95 + [] [](\OT1/phv/m/sl/10.95 x\OT1/cmss/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^A []\OT1/cmss/m/n/10.95 (\OT1/phv/m/sl/10.95 x\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 dx
  []
 
@@ -927,10 +927,18 @@ Overfull \hbox (13.65298pt too wide) detected at line 271
 
 ]
 
+LaTeX Font Warning: Font shape `OT1/opensans-TLF/b/n' undefined
+(Font)              using `OT1/opensans-TLF/m/n' instead on input line 455.
+
+
+LaTeX Warning: Reference `normalform' on page 19 undefined on input line 455.
+
+
+
 [19
 
 ]
-Overfull \vbox (15.43694pt too high) detected at line 471
+Overfull \vbox (15.43694pt too high) detected at line 473
  []
 
 
@@ -943,9 +951,41 @@ Overfull \vbox (15.43694pt too high) detected at line 471
 
 ]
 
+LaTeX Warning: Reference `chargl' on page 22 undefined on input line 501.
+
+
+LaTeX Warning: Reference `normalform' on page 22 undefined on input line 501.
+
+
+LaTeX Warning: Reference `chargl' on page 22 undefined on input line 501.
+
+
+LaTeX Warning: Reference `chargl' on page 22 undefined on input line 501.
+
+
+LaTeX Warning: Reference `normalform' on page 22 undefined on input line 501.
+
+
+LaTeX Warning: Reference `chargl' on page 22 undefined on input line 501.
+
+
+
 [22
 
 ]
+
+LaTeX Warning: Reference `chargl' on page 23 undefined on input line 523.
+
+
+LaTeX Warning: Reference `normalform' on page 23 undefined on input line 523.
+
+
+LaTeX Warning: Reference `chargl' on page 23 undefined on input line 523.
+
+
+LaTeX Warning: Reference `chargl' on page 23 undefined on input line 523.
+
+
 
 [23
 
@@ -954,7 +994,7 @@ Overfull \vbox (15.43694pt too high) detected at line 471
 [24
 
 ]
-Overfull \vbox (1.75282pt too high) detected at line 579
+Overfull \vbox (1.75282pt too high) detected at line 581
  []
 
 
@@ -962,7 +1002,7 @@ Overfull \vbox (1.75282pt too high) detected at line 579
 [25
 
 ]
-Overfull \hbox (13.11552pt too wide) in paragraph at lines 595--595
+Overfull \hbox (13.11552pt too wide) in paragraph at lines 597--597
 [][]  
  []
 
@@ -1003,7 +1043,7 @@ Overfull \hbox (13.11552pt too wide) in paragraph at lines 595--595
 [34
 
 ]
-Overfull \hbox (9.8121pt too wide) detected at line 765
+Overfull \hbox (9.8121pt too wide) detected at line 768
 \OT1/cmss/m/n/10.95 + [] \OT1/phv/m/sl/10.95 a[] [] \OT1/cmss/m/n/10.95 + [] \OT1/phv/m/sl/10.95 b[] []
  []
 
@@ -1020,12 +1060,12 @@ Overfull \hbox (9.8121pt too wide) detected at line 765
 [37
 
 ]
-Overfull \hbox (5.24414pt too wide) detected at line 804
+Overfull \hbox (5.24414pt too wide) detected at line 807
 \OT1/phv/m/sl/10.95 b[] \OT1/cmss/m/n/10.95 = [] [][] [](\OT1/phv/m/sl/10.95 nx\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 g\OT1/cmss/m/n/10.95 (\OT1/phv/m/sl/10.95 x\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 dx \OT1/cmss/m/n/10.95 = [] [][] [](\OT1/phv/m/sl/10.95 nx\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 xdx \OT1/cmss/m/n/10.95 = \OMS/cmsy/m/n/10.95 ^^@[]\OT1/cmss/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/phv/m/n/10.95 1\OT1/cmss/m/n/10.95 )[] = [](\OMS/cmsy/m/n/10.95 ^^@\OT1/phv/m/n/10.95 1\OT1/cmss/m/n/10.95 )[]\OML/cmm/m/it/10.95 :
  []
 
 
-Overfull \vbox (5.36932pt too high) detected at line 804
+Overfull \vbox (5.36932pt too high) detected at line 807
  []
 
 
@@ -1033,13 +1073,13 @@ Overfull \vbox (5.36932pt too high) detected at line 804
 [38
 
 ]
-<ct.jpg, id=1404, 1174.3875pt x 1208.515pt>
+<ct.jpg, id=1410, 1174.3875pt x 1208.515pt>
 File: ct.jpg Graphic file (type jpg)
 <use ct.jpg>
-Package pdftex.def Info: ct.jpg  used on input line 810.
+Package pdftex.def Info: ct.jpg  used on input line 813.
 (pdftex.def)             Requested size: 199.64323pt x 205.44482pt.
 
-Overfull \vbox (2.50334pt too high) detected at line 810
+Overfull \vbox (2.50334pt too high) detected at line 813
  []
 
 
@@ -1047,10 +1087,10 @@ Overfull \vbox (2.50334pt too high) detected at line 810
 [39
 
  <./ct.jpg>]
-<ms.jpg, id=1431, 612.2875pt x 612.2875pt>
+<ms.jpg, id=1437, 612.2875pt x 612.2875pt>
 File: ms.jpg Graphic file (type jpg)
 <use ms.jpg>
-Package pdftex.def Info: ms.jpg  used on input line 818.
+Package pdftex.def Info: ms.jpg  used on input line 821.
 (pdftex.def)             Requested size: 214.30383pt x 214.30383pt.
 
 
@@ -1075,22 +1115,34 @@ L3 programming layer <2024-05-27>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `template.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `template.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  CA3B9E8D0105A04AFBCC41E20BB8EAA9;590.
  ) 
 Here is how much of TeX's memory you used:
- 35801 strings out of 475560
- 846106 string characters out of 5776021
- 1953905 words of memory out of 5000000
- 57727 multiletter control sequences out of 15000+600000
+ 35832 strings out of 475560
+ 846814 string characters out of 5776021
+ 1952905 words of memory out of 5000000
+ 57755 multiletter control sequences out of 15000+600000
  579782 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  101i,18n,107p,729b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on template.pdf (40 pages, 488546 bytes).
+Output written on template.pdf (40 pages, 491973 bytes).
 PDF statistics:
- 1547 PDF objects out of 1728 (max. 8388607)
- 1256 compressed objects within 13 object streams
- 83 named destinations out of 1000 (max. 500000)
+ 1554 PDF objects out of 1728 (max. 8388607)
+ 1263 compressed objects within 13 object streams
+ 86 named destinations out of 1000 (max. 500000)
  989 words of extra memory for PDF output out of 10000 (max. 10000000)
 
