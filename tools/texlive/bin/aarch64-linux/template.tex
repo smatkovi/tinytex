@@ -36,6 +36,7 @@
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.18}
 \usepackage{wrapfig}
+\usepackage{graphicx}
 %\usetheme{default}
 %\usetheme{AnnArbor}
 %\usetheme{Antibes}
@@ -653,53 +654,53 @@ Sind $\alpha$, $\pm i\cdot\beta$ oder $\alpha\pm i\cdot\beta$ Nullstelleen des c
 \end{frame}
 \begin{frame}
 	\frametitle{Fourierreihenentwicklung}
-%	\begin{tikzpicture}[scale=0.9, transform canvas={shift={(2.1cm,-1.8cm)}}] % Skalierung und Verschiebung
-%        \begin{axis}[
-%            width=10cm, height=7cm,
-%            xlabel={$x$},
-%            ylabel={$f(x)$},
-%            xmin=-pi, xmax=pi,
-%            ymin=-1.5, ymax=1.5,
-%            xtick={-pi, -pi/2, 0, pi/2, pi},
-%            xticklabels={$-\pi$, $-\frac{\pi}{2}$, $0$, $\frac{\pi}{2}$, $\pi$},
-%            ytick={-1, 0, 1},
-%            axis lines=middle,
-%            samples=1000,
-%            domain=-pi:pi,
-%	   legend style={
-%                at={(0.5,-0.15)},
-%                anchor=north,
-%                legend columns=-1,
-%                /tikz/every even column/.append style={column sep=0.5cm},
-%                fill=none,
-%                draw=none
-%            }, 
-%            cycle list name=color list
-%%scale only axis,
-%            %axis on top,
-%            %every axis plot/.append style={line width=1pt}
-%        ]
-%
-%        \addplot[thick, color=cyan, samples=100] {x < -pi/2 + pi/2 ? -1 : (x > pi/2 + pi/2 ? -1 : 1)};
-%        \addlegendentry{Funktion}
-%
-%        \addplot[domain=-pi:pi, samples=100, thick, color=red] {4/pi * sin(deg(x))};
-%        \addlegendentry{$n=1$}
-%
-%        \addplot[domain=-pi:pi, samples=100, thick, color=blue] {4/pi * (sin(deg(x)) + (1/3)*sin(deg(3*x)))};
-%        \addlegendentry{$n=3$}
-%
-%        \addplot[domain=-pi:pi, samples=100, thick, color=green] {4/pi * (sin(deg(x)) + (1/3)*sin(deg(3*x)) + (1/5)*sin(deg(5*x)))};
-%        \addlegendentry{$n=5$}
-%
-%        \addplot[domain=-pi:pi, samples=100, thick, color=orange] {4/pi * (sin(deg(x)) + (1/3)*sin(deg(3*x)) + (1/5)*sin(deg(5*x)) + (1/7)*sin(deg(7*x)))};
-%        \addlegendentry{$n=7$}
-%
-%        \addplot[domain=-pi:pi, samples=100, thick, color=purple] {4/pi * (sin(deg(x)) + (1/3)*sin(deg(3*x)) + (1/5)*sin(deg(5*x)) + (1/7)*sin(deg(7*x)) + (1/9)*sin(deg(9*x)))};
-%        \addlegendentry{$n=9$}
-%
-%        \end{axis}
-%    \end{tikzpicture}
+	\begin{tikzpicture}[scale=0.9, transform canvas={shift={(2.1cm,-1.8cm)}}] % Skalierung und Verschiebung
+        \begin{axis}[
+            width=10cm, height=7cm,
+            xlabel={$x$},
+            ylabel={$f(x)$},
+            xmin=-pi, xmax=pi,
+            ymin=-1.5, ymax=1.5,
+            xtick={-pi, -pi/2, 0, pi/2, pi},
+            xticklabels={$-\pi$, $-\frac{\pi}{2}$, $0$, $\frac{\pi}{2}$, $\pi$},
+            ytick={-1, 0, 1},
+            axis lines=middle,
+            samples=1000,
+            domain=-pi:pi,
+	   legend style={
+                at={(0.5,-0.15)},
+                anchor=north,
+                legend columns=-1,
+                /tikz/every even column/.append style={column sep=0.5cm},
+                fill=none,
+                draw=none
+            }, 
+            cycle list name=color list
+%scale only axis,
+            %axis on top,
+            %every axis plot/.append style={line width=1pt}
+        ]
+
+        \addplot[thick, color=cyan, samples=100] {x < -pi/2 + pi/2 ? -1 : (x > pi/2 + pi/2 ? -1 : 1)};
+        \addlegendentry{Funktion}
+
+        \addplot[domain=-pi:pi, samples=100, thick, color=red] {4/pi * sin(deg(x))};
+        \addlegendentry{$n=1$}
+
+        \addplot[domain=-pi:pi, samples=100, thick, color=blue] {4/pi * (sin(deg(x)) + (1/3)*sin(deg(3*x)))};
+        \addlegendentry{$n=3$}
+
+        \addplot[domain=-pi:pi, samples=100, thick, color=green] {4/pi * (sin(deg(x)) + (1/3)*sin(deg(3*x)) + (1/5)*sin(deg(5*x)))};
+        \addlegendentry{$n=5$}
+
+        \addplot[domain=-pi:pi, samples=100, thick, color=orange] {4/pi * (sin(deg(x)) + (1/3)*sin(deg(3*x)) + (1/5)*sin(deg(5*x)) + (1/7)*sin(deg(7*x)))};
+        \addlegendentry{$n=7$}
+
+        \addplot[domain=-pi:pi, samples=100, thick, color=purple] {4/pi * (sin(deg(x)) + (1/3)*sin(deg(3*x)) + (1/5)*sin(deg(5*x)) + (1/7)*sin(deg(7*x)) + (1/9)*sin(deg(9*x)))};
+        \addlegendentry{$n=9$}
+
+        \end{axis}
+    \end{tikzpicture}
 \end{frame}
 \begin{frame}
 	\frametitle{Einschub gerade Funktionen, ungerade Funktionen}
@@ -800,6 +801,17 @@ $$
 		\Rightarrow\widetilde{g}(x)=\sum_{n=1}^{\infty} \frac{2(-1)^{n+1}}{n} \sin (n x)
 		$$
 	\end{exampleblock}
+\end{frame}
+\begin{frame}
+	\frametitle{Eine etwas unkonventionellere Anwendung der Fourieranalyse}
+	\includegraphics[scale=0.18]{ct}
+\end{frame}
+\begin{frame}
+	\frametitle{Eine etwas unkonventionellere Anwendung der Fourieranalyse}
+	%\begin{wrapfigure}{l}{4cm}
+	\includegraphics[scale=0.3]{ms}
+	%\begin{wrapfigure}
+		{\LARGE Fragen? Kommentare?}
 \end{frame}
 %\begin{frame}
 %	\frametitle{Lists}
@@ -1051,15 +1063,15 @@ $$
 %	CLOSING SLIDE
 %----------------------------------------------------------------------------------------
 
-\begin{frame}[plain] % The optional argument 'plain' hides the headline and footline
-	\begin{center}
-		{\Huge The End}
-		
-		\bigskip\bigskip % Vertical whitespace
-		
-		{\LARGE Questions? Comments?}
-	\end{center}
-\end{frame}
+%\begin{frame}[plain] % The optional argument 'plain' hides the headline and footline
+%	\begin{center}
+%		{\Huge The End}
+%		
+%		\bigskip\bigskip % Vertical whitespace
+%		
+%		{\LARGE Questions? Comments?}
+%	\end{center}
+%\end{frame}
 
 %----------------------------------------------------------------------------------------
 
