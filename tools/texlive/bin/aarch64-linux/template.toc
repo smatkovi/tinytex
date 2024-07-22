@@ -1,5 +1,0 @@
-\beamer@subsectionintoc {0}{1}{Blocks}{35}{0}{0}
-\beamer@subsectionintoc {0}{2}{Columns}{36}{0}{0}
-\beamer@sectionintoc {1}{Table and Figure Examples}{37}{0}{1}
-\beamer@subsectionintoc {1}{1}{Table}{37}{0}{1}
-\beamer@sectionintoc {2}{Referencing}{38}{0}{2}
