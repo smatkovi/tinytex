@@ -1,3 +1,11 @@
 \beamer@sectionintoc {1}{Wiederholung Differenzial-/ Integralrechnung}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Differenzialrechnung}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Integralrechnung}{4}{0}{1}
 \beamer@sectionintoc {2}{Differenzialgleichungen}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Gew\"ohnliche homogene Differenzialgleichungen 1. Ordnung}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Logarithmenregeln}{11}{0}{2}
+\beamer@subsectionintoc {2}{3}{Gew\"hnliche inhomogene Differenzialgleichungen 1. Ordnung}{14}{0}{2}
+\beamer@subsectionintoc {2}{4}{Gew\"hnliche homogene Differenzialgleichungen 2. Ordnung}{18}{0}{2}
+\beamer@subsectionintoc {2}{5}{Eulerdarstellung}{20}{0}{2}
+\beamer@subsectionintoc {2}{6}{Gew\"ohnliche inhomogene Differenzialgleichungen 2. Ordnung}{26}{0}{2}
 \beamer@sectionintoc {3}{Fourierreihenentwicklung}{30}{0}{3}
