@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  22 JUL 2024 18:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  23 JUL 2024 09:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1075,28 +1075,19 @@ L3 programming layer <2024-05-27>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `template.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `template.out':
-(rerunfilecheck)             Before: B02BD6C592735CED51736C37238C4841;2568
-(rerunfilecheck)             After:  55A873E2349EF6EA8DDB0F2119C36811;2578.
+Package rerunfilecheck Info: File `template.out' has not changed.
+(rerunfilecheck)             Checksum: 55A873E2349EF6EA8DDB0F2119C36811;2578.
  ) 
 Here is how much of TeX's memory you used:
- 35878 strings out of 475560
- 847558 string characters out of 5776021
+ 35877 strings out of 475560
+ 847550 string characters out of 5776021
  1953905 words of memory out of 5000000
- 57793 multiletter control sequences out of 15000+600000
+ 57792 multiletter control sequences out of 15000+600000
  579782 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  101i,18n,107p,729b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></home/defaultuser/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on template.pdf (40 pages, 493919 bytes).
+Output written on template.pdf (40 pages, 493856 bytes).
 PDF statistics:
  1606 PDF objects out of 1728 (max. 8388607)
  1314 compressed objects within 14 object streams

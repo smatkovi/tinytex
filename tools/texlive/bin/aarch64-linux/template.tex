@@ -228,7 +228,7 @@
 
 	\frametitle{Partielle Integration}
 	
-	Aus der Produktregel f\"ur zwei Funktionen u(x) und v(x) k\"onnen wir eine Regel F\"ur Partielle Integration herleiten. 
+	Aus der Produktregel f\"ur zwei Funktionen u(x) und v(x) k\"onnen wir eine Regel f\"ur Partielle Integration herleiten. 
 	\begin{equation}
 		(u\cdot v)' = u'\cdot v + u\cdot v'
 	\end{equation}	
@@ -237,10 +237,10 @@
 		\int(u\cdot v)'dx = \int (u'\cdot v)dx + \int (u\cdot v')dx\bigg|-\int u\cdot vdx
 	\end{equation}
 	\begin{equation}
-		u\cdot v + c - \int (u\cdot v)dx = \int (u'\cdot v)dx
+		u\cdot v + c - \int (u\cdot v')dx = \int (u'\cdot v)dx
 	\end{equation}
 	\begin{equation}
-		 \int (u'\cdot v)dx = u\cdot v + c - \int (u\cdot v)dx
+		 \int (u'\cdot v)dx = u\cdot v + c - \int (u\cdot v')dx
 	\end{equation}
 	Ziel ist es die Integration durch Ableitung eines Terms so zu vereinfachen, dass ein schon bekanntes Integral entsteht, oder das urspr\"ungliche Integral, das dann wie eine Gleichung gel\"ost werden kann.
 \end{frame}
@@ -250,7 +250,7 @@
 			\int \underbrace{1}_{u'}\cdot \underbrace{\ln(x)}_{v}dx = \underbrace{x}_{u}\cdot \underbrace{\ln(x) + c}_{v} -\int \underbrace{x}_{u}\cdot\frac{1}{\underbrace{x}_{v'}}dx = x\cdot \ln(x) + x + c =
 		\end{equation}
 		\begin{equation}
-			x(\ln(x) + 1) + c
+			x[\ln(x) + 1] + c
 		\end{equation}
 	\end{exampleblock}
 \end{frame}
