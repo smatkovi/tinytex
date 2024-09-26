@@ -71,7 +71,7 @@
 
 % Beamer comes with a number of color themes that can be applied to any layout theme to change its colors. Uncomment each of these in turn to see how they change the colors of your selected layout theme.
 
-%\usecolortheme{albatross}
+\usecolortheme{albatross}
 %\usecolortheme{beaver}
 %\usecolortheme{beetle}
 %\usecolortheme{crane}
@@ -230,8 +230,8 @@
 	\begin{aligned}
 		&f(x)  =u(x) \cdot v(x) \\
 		&	\alert{f^{\prime}(x)}  =\lim _{h \rightarrow 0} \frac{u(x+h) \cdot v(x+h)-u(x) \cdot v(x)}{h}= \\
-		 &\lim _{h \rightarrow 0} \frac{u(x+h) \cdot v(x+h)-u(x) \cdot v(x)+\overbrace{u(x+h) \cdot v(x)-u(x+h) \cdot v(x)}^{=0}}{h} \\
-		 & =\lim _{h \rightarrow 0} \frac{u(x+h) \cdot[v(x+h)-v(x)]+v(x) \cdot[u(x+h)-u(x)]}{h} \\
+     &\lim _{h \rightarrow 0} \frac{\alert{u(x+h) \cdot v(x+h)}-u(x) \cdot v(x)+\overbrace{u(x+h) \cdot v(x)\alert{-u(x+h) \cdot v(x)}}^{=0}}{h} \\
+     & =\lim _{h \rightarrow 0} \frac{\alert{u(x+h) \cdot[v(x+h)-v(x)]}+v(x) \cdot[u(x+h)-u(x)]}{h} \\
 		 & =\lim _{h \rightarrow 0} \frac{u(x+h) \cdot[v(x+h)-v(x)]}{h}+\lim _{h \rightarrow 0} \frac{v(x) \cdot[u(x+h)-u(x)]}{h} \\
 		 & =\lim _{h \rightarrow 0} u(x+h) \cdot \lim _{h \rightarrow 0} \frac{v(x+h)-v(x)}{h}+v(x) \cdot \lim _{h \rightarrow 0} \frac{u(x+h)-u(x)}{h} \\
 		& =\alert{u(x) \cdot v^{\prime}(x)+u^{\prime}(x) \cdot v(x)}
@@ -249,7 +249,7 @@
 	\end{equation}	
 	Integrieren wir auf beiden Seiten, erhalten wir
 	\begin{equation}
-		\int(u\cdot v)'dx = \int (u'\cdot v)dx + \int (u\cdot v')dx\bigg|-\int u\cdot vdx
+		\int(u\cdot v)'dx = \int (u'\cdot v)dx + \int (u\cdot v')dx\bigg|-\int u\cdot v'dx
 	\end{equation}
 	\begin{equation}
 		u\cdot v + c - \int (u\cdot v')dx = \int (u'\cdot v)dx
@@ -495,10 +495,10 @@ Ziel ist es Ausdr\"ucke mit derselben Variable auf einer Seite zu sammeln.
 \end{frame}
 	\begin{frame}
 	\begin{equation}
-		e^{i\cdot\phi}-e^{-i\cdot\phi}=2\cdot\cos(\phi) \Rightarrow \cos(\phi)=\frac{e^{i\cdot\phi}-e^{-i\cdot\phi}}{2}
+		e^{i\cdot\phi}+e^{-i\cdot\phi}=2\cdot\cos(\phi) \Rightarrow \cos(\phi)=\frac{e^{i\cdot\phi}+e^{-i\cdot\phi}}{2}
 	\end{equation}
 	\begin{equation}
-		e^{i\cdot\phi}+e^{-i\cdot\phi}=2i\cdot\sin(\phi) \Rightarrow \sin(\phi)=\frac{e^{i\cdot\phi}+e^{-i\cdot\phi}}{2i}
+		e^{i\cdot\phi}-e^{-i\cdot\phi}=2i\cdot\sin(\phi) \Rightarrow \sin(\phi)=\frac{e^{i\cdot\phi}-e^{-i\cdot\phi}}{2i}
 	\end{equation}
 	\end{frame}
 \begin{frame}
