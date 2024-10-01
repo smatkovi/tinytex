@@ -207,6 +207,18 @@
 \subsection{Differenzialrechnung}
 \begin{frame}
 	\frametitle{Differenzialrechnung}
+	Die Ableitung der Exponentialfunktion l\"asst sich so herleiten:
+	\begin{equation}
+		e = \lim_{n \rightarrow \infty} \left(1 + \frac{1}{n}\right)^n = \lim_{h \rightarrow 0} \left(1 + h\right)^{\frac{1}{h}}
+	\end{equation}
+	\begin{equation}
+		\frac{de^x}{dx}=\lim_{h \rightarrow 0} \frac{e^{x+h}-e^x}{h} = e^x\cdot\lim_{h \rightarrow 0} \frac{e^h-1}{h} = e^x\cdot\lim_{h \rightarrow 0} \frac{{\left(1 + h\right)^{\frac{1}{h}}}^h-1}{h}=e^x
+	\end{equation}
+
+\end{frame}
+\subsection{Differenzialrechnung}
+\begin{frame}
+	\frametitle{Differenzialrechnung}
 	Die Ableitung einer Umkehrfunktion $f^{-1}(y)=x(y)$ erhalten wir ganz leicht über die Leibnizschreibweise folgendermaßen:
 	\begin{equation}
 		\frac{dx}{dy}=\frac{1}{\frac{dy}{dx}}
