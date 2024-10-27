@@ -1,0 +1,755 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 2.0 (March 8, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	11pt, % Set the default font size, options include: 8pt, 9pt, 10pt, 11pt, 12pt, 14pt, 17pt, 20pt
+	%t, % Uncomment to vertically align all slide content to the top of the slide, rather than the default centered
+	%aspectratio=169, % Uncomment to set the aspect ratio to a 16:9 ratio which matches the aspect ratio of 1080p and 4K screens and projectors
+]{beamer}
+
+\graphicspath{{Images/}{./}} % Specifies where to look for included images (trailing slash required)
+
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule for better rules in tables
+
+%----------------------------------------------------------------------------------------
+%	SELECT LAYOUT THEME
+%----------------------------------------------------------------------------------------
+
+% Beamer comes with a number of default layout themes which change the colors and layouts of slides. Below is a list of all themes available, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+%----------------------------------------------------------------------------------------
+%	SELECT COLOR THEME
+%----------------------------------------------------------------------------------------
+
+% Beamer comes with a number of color themes that can be applied to any layout theme to change its colors. Uncomment each of these in turn to see how they change the colors of your selected layout theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{monarca}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{spruce}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%----------------------------------------------------------------------------------------
+%	SELECT FONT THEME & FONTS
+%----------------------------------------------------------------------------------------
+
+% Beamer comes with several font themes to easily change the fonts used in various parts of the presentation. Review the comments beside each one to decide if you would like to use it. Note that additional options can be specified for several of these font themes, consult the beamer documentation for more information.
+
+\usefonttheme{default} % Typeset using the default sans serif font
+%\usefonttheme{serif} % Typeset using the default serif font (make sure a sans font isn't being set as the default font if you use this option!)
+%\usefonttheme{structurebold} % Typeset important structure text (titles, headlines, footlines, sidebar, etc) in bold
+%\usefonttheme{structureitalicserif} % Typeset important structure text (titles, headlines, footlines, sidebar, etc) in italic serif
+%\usefonttheme{structuresmallcapsserif} % Typeset important structure text (titles, headlines, footlines, sidebar, etc) in small caps serif
+
+%------------------------------------------------
+
+%\usepackage{mathptmx} % Use the Times font for serif text
+\usepackage{palatino} % Use the Palatino font for serif text
+
+%\usepackage{helvet} % Use the Helvetica font for sans serif text
+\usepackage[default]{opensans} % Use the Open Sans font for sans serif text
+%\usepackage[default]{FiraSans} % Use the Fira Sans font for sans serif text
+%\usepackage[default]{lato} % Use the Lato font for sans serif text
+
+%----------------------------------------------------------------------------------------
+%	SELECT INNER THEME
+%----------------------------------------------------------------------------------------
+
+% Inner themes change the styling of internal slide elements, for example: bullet points, blocks, bibliography entries, title pages, theorems, etc. Uncomment each theme in turn to see what changes it makes to your presentation.
+
+%\useinnertheme{default}
+\useinnertheme{circles}
+%\useinnertheme{rectangles}
+%\useinnertheme{rounded}
+%\useinnertheme{inmargin}
+
+%----------------------------------------------------------------------------------------
+%	SELECT OUTER THEME
+%----------------------------------------------------------------------------------------
+
+% Outer themes change the overall layout of slides, such as: header and footer lines, sidebars and slide titles. Uncomment each theme in turn to see what changes it makes to your presentation.
+
+%\useoutertheme{default}
+%\useoutertheme{infolines}
+%\useoutertheme{miniframes}
+%\useoutertheme{smoothbars}
+%\useoutertheme{sidebar}
+%\useoutertheme{split}
+%\useoutertheme{shadow}
+%\useoutertheme{tree}
+%\useoutertheme{smoothtree}
+
+%\setbeamertemplate{footline} % Uncomment this line to remove the footer line in all slides
+%\setbeamertemplate{footline}[page number] % Uncomment this line to replace the footer line in all slides with a simple slide count
+
+%\setbeamertemplate{navigation symbols}{} % Uncomment this line to remove the navigation symbols from the bottom of all slides
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title[Short Title]{Anwendung Höherer Mathematik} % The short title in the optional parameter appears at the bottom of every slide, the full title in the main parameter is only on the title page
+
+%\subtitle{Optional Subtitle} % Presentation subtitle, remove this command if a subtitle isn't required
+
+\author[]{Sebastian Matkovich} % Presenter name(s), the optional parameter can contain a shortened version to appear on the bottom of every slide, while the main parameter will appear on the title slide
+
+\institute[UC]{FH Campus Wien \\ \smallskip \textit{sebastianmatkovich@gmail.com}} % Your institution, the optional parameter can be used for the institution shorthand and will appear on the bottom of every slide after author names, while the required parameter is used on the title slide and can include your email address or additional information on separate lines
+
+\date[\today]{ \today} % Presentation date or conference/meeting name, the optional parameter can contain a shortened version to appear on the bottom of every slide, while the required parameter value is output to the title slide
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SLIDE
+%----------------------------------------------------------------------------------------
+
+\begin{frame}
+	\titlepage % Output the title slide, automatically created using the text entered in the PRESENTATION INFORMATION block above
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS SLIDE
+%----------------------------------------------------------------------------------------
+
+% The table of contents outputs the sections and subsections that appear in your presentation, specified with the standard \section and \subsection commands. You may either display all sections and subsections on one slide with \tableofcontents, or display each section at a time on subsequent slides with \tableofcontents[pausesections]. The latter is useful if you want to step through each section and mention what you will discuss.
+
+\begin{frame}
+	\frametitle{Presentation Overview} % Slide title, remove this command for no title
+	
+	\tableofcontents % Output the table of contents (all sections on one slide)
+	%\tableofcontents[pausesections] % Output the table of contents (break sections up across separate slides)
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION BODY SLIDES
+%----------------------------------------------------------------------------------------
+
+%\section{Wiederholung Differenzialrechnung Integralrechnung} % Sections are added in order to organize your presentation into discrete blocks, all sections and subsections are automatically output to the table of contents as an overview of the talk but NOT output in the presentation as separate slides
+%
+%%------------------------------------------------
+%\begin{frame}
+%	\frametitle{Differenzialrechnung}
+%	Die Ableitung einer Umkehrfunktion $f^{-1}(y)=x(y)$ erhalten wir ganz leicht \"uber die Leibnizschreibweise folgenderma\ss en:
+%	\begin{equation}
+%		\frac{dx}{dy}=\frac{1}{\frac{dy}{dx}}
+%	\end{equation}
+%	Ein einfaches Beispiel, das h\"aufig bei Differenzialgleichungen auftritt, bei denen die Ableitung dieser Funktion integriert wird ist ln(x).
+%	\begin{equation}
+%		\frac{d\ln(y)}{dy}=\frac{1}{\frac{de^x}{dx}}=\frac{1}{e^x}=\frac{1}{y}
+%\end{equation}
+%	\frametitle{Differenzialrechnung}
+%	Damit ist das h\"aufig bei Differenzialgleichungen auftretende Integral\"uber \frac{1}{x}:
+%	\begin{equation}
+%		\int{\frac{1}{x}}{dx}=\log{x} 
+%	\end{equation}
+%\end{frame}
+\begin{frame}
+	\frametitle{Differenzialrechnung}
+	Die Ableitung einer Umkehrfunktion $f^{-1}(y)=x(y)$ erhalten wir ganz leicht über die Leibnizschreibweise folgendermaßen:
+	\begin{equation}
+		\frac{dx}{dy}=\frac{1}{\frac{dy}{dx}}
+	\end{equation}
+	\begin{exampleblock}{Ein einfaches Beispiel, das häufig bei Differenzialgleichungen auftritt, bei denen das Ergebnis dieser Rechnung integriert wird, ist die Ableitung von $\ln(x)$ nach x.}
+	\begin{equation}
+		\frac{d\ln(y)}{dy}=\frac{1}{\frac{de^x}{dx}}=\frac{1}{e^x}=\frac{1}{y}
+	\end{equation}
+	\end{exampleblock}
+	\begin{alertblock}{Damit ist das häufig bei Differenzialgleichungen auftretende Integral über $\frac{1}{x}$:}
+	\begin{equation}
+		\int{\frac{1}{x}}{dx}=\ln(\left|x\right|)+c
+	\end{equation}
+	\end{alertblock}
+\end{frame}
+%\subsection{Paragraphs and Lists}
+\begin{frame}
+
+	\frametitle{Partielle Integration}
+	
+	Aus der Produktregel f\"ur zwei Funktionen u(x) und v(x) k\"onnen wir eine Regel F\"ur Partielle Integration herleiten. 
+	\begin{equation}
+		(u\cdot v)' = u'\cdot v + u\cdot v'
+	\end{equation}	
+	Integrieren wir auf beiden Seiten, erhalten wir
+	\begin{equation}
+		\int(u\cdot v)'dx = \int (u'\cdot v)dx + \int (u\cdot v')dx\bigg|-\int u\cdot vdx
+	\end{equation}
+	\begin{equation}
+		u\cdot v + c - \int (u\cdot v)dx = \int (u'\cdot v)dx
+	\end{equation}
+	\begin{equation}
+		 \int (u'\cdot v)dx = u\cdot v + c - \int (u\cdot v)dx
+	\end{equation}
+	Ziel ist es die Integration durch Ableitung eines Terms so zu vereinfachen, dass ein schon bekanntes Integral entsteht, oder das urspr\"ungliche Integral, das dann wie eine Gleichung gel\"ost werden kann.
+\end{frame}
+\begin{frame}
+	\begin{exampleblock}{Mit folgendem Trick l\"asst sich ln(x) so integrieren:}
+		\begin{equation}
+			\int \underbrace{1}_{u'}\cdot \underbrace{\ln(x)}_{v}dx = \underbrace{x}_{u}\cdot \underbrace{\ln(x) + c}_{v} -\int \underbrace{x}_{u}\cdot\frac{1}{\underbrace{x}_{v'}}dx = x\cdot \ln(x) + x + c =
+		\end{equation}
+		\begin{equation}
+			x(\ln(x) + 1) + c
+		\end{equation}
+	\end{exampleblock}
+\end{frame}
+\begin{frame}
+	
+	
+	\begin{exampleblock}{So l\"asst sich auch das Integral \"uber $\sin(x)\cdot \cos(x)$ durchf\"uhren.}
+		\begin{equation}
+			\int \underbrace{\sin(x)}_{u}\cdot \underbrace{\cos(x)}_{v'}dx = [\sin(x)]^2+c-\int \underbrace{\cos(x)}_{u'}\cdot \underbrace{\sin(x)}_{v}dx\bigg| +\int \cos(x)\cdot \sin(x)dx
+		\end{equation}
+		\begin{equation}
+			2\cdot \int \sin(x)\cdot \cos(x)dx = [\sin(x)]^2+c\bigg| :2
+		\end{equation}
+		\begin{equation}
+			\int \sin(x)\cdot \cos(x)dx = \frac{[\sin(x)]^2}{2}+c'
+		\end{equation}
+	\end{exampleblock}
+	\"Ahnlich funktionieren auch die Integrale \"uber $[\sin(x)]^2$ oder $(\cos(x))^2$, nur, dass nach der ersten partiellen Integration ein Additionstheorem anzuwenden ist.
+	
+	
+\end{frame}
+\begin{frame}
+	\frametitle{Differenzialgleichungen}
+	
+	\begin{definition}
+		Eine \alert{Differenzialgleichung} ist eine Gleichung, deren L\"osung keine Zahl, sondern eine Funktion ist. 
+	\end{definition}
+	\begin{definition}
+		Bei einer \alert{gew\"ohnlichen Differenzialgleichung} ist die gesuchte Funktion von nur einer Variablen abh\"angig und es treten nur Ableitungen nach einer Variablen auf.
+	\end{definition}
+	\begin{exampleblock}{Beispiel}
+		$	\frac{d^2y}{dx^2} + 2\frac{dy}{dx} + y = e^x$
+	\end{exampleblock}
+\end{frame}
+\begin{frame}
+	\begin{definition}
+		Bei einer \alert{partiellen Differenzialgleichung} ist die gesuchte Funktion von mehreren Variablen abh\"angig und es treten partielle Ableitungen nach verschiedenen Variablen auf.
+	\end{definition}
+	\begin{exampleblock}{Beispiel}
+		$\frac{\partial^2u}{\partial x^2} + 2\frac{\partial u}{\partial y} + u = e^x$
+	\end{exampleblock}
+	\begin{definition}
+		Eine Dgl. heißt von \alert{n-ter Ordnung}, wenn die höchste in ihr auftretende Ableitung von n-ter Ordnung ist.
+	\end{definition}
+\end{frame}
+\begin{frame}
+	\begin{definition}
+		Es gibt noch die Unterscheidung zwischen \alert{homogenen} und \alert{inhomogenen} Dgln. Bei inhomogenen Dgln. tritt noch ein Ausdruck auf, der von der Variablen abh\"angt, von der die gesuchte Funktion abh\"angt, beziehungsweise einer Konstanten.
+	\end{definition}
+	\begin{exampleblock}{Beispiel}
+		Die vorher gezeigten Beispiele sind inhomogene Dgln. In homogener Form w\"urden sie so aussehen:
+		$	\frac{d^2y}{dx^2} + 2\frac{dy}{dx} + y = 0$
+	\end{exampleblock}
+\end{frame}
+\begin{frame}
+	\begin{definition}
+		Eine Dgl. deren h\"ochste Potenz der Variablen, von der die gesuchte Funktion abh\"angt, n ist, nennen wir \alert{n-ten Grades}.
+	\end{definition}
+	\begin{definition}
+		Eine Dgl. vom Grad 1 nennen wir \alert{linear}, vom Grad $>$ 1, \alert{nichtlinear}.
+	\end{definition}
+\end{frame}
+\begin{frame}
+	\frametitle{Einschub: Logarithmenregeln}
+	\begin{equation}
+		y=e^x
+	\end{equation}
+	\begin{equation}
+		x=e^y
+	\end{equation}
+	\begin{equation}
+	\alert{\ln(y_1\cdot y_2)}=\ln(e^{x_1}\cdot e^{x_2})=\ln(e^{x_1+x_2})=x_1+x_2=\alert{\ln(y_1)+\ln(y_2)}
+	\end{equation}
+	\begin{equation}
+		\alert{\ln(y^n)}=\underbrace{\ln(y)\cdot \ln(y) \cdot \dots\cdot \ln(y)}_{n-Mal}=\alert{n\cdot \ln(y)}
+	\end{equation}
+\end{frame}
+\begin{frame}
+	\frametitle{L\"osungsmethoden}
+	\framesubtitle{Methode der Trennung der Variablen (Ver\"anderlichen)}
+	\begin{exampleblock}{Enf\"uhrung anhand eines Beispiels}
+		\begin{equation}
+			y'=y
+		\end{equation}
+Ziel ist es Ausdr\"ucke mit derselben Variable auf einer Seite zu sammeln.
+		\begin{equation}
+			\frac{dy}{dx}=y\big|:y
+		\end{equation}
+		\begin{equation}
+			\frac{1}{y}\cdot\frac{dy}{dx}=1\bigg|\int dx
+		\end{equation}
+		\begin{equation}
+			\int\frac{1}{y}\cdot\frac{dy}{dx}dx=\int 1dx
+		\end{equation}
+	\end{exampleblock}
+\end{frame}
+\begin{frame}
+	\begin{exampleblock}{Fortsetzung des Beispiels}
+		\begin{equation}
+			\int\frac{1}{y}dy=\int 1dx
+		\end{equation}
+		\begin{equation}
+			\ln(\left|y\right|)=x+\ln(c)\big| e^{()}
+		\end{equation}
+		\begin{equation}
+			\left|y\right|=c\cdot e^x
+		\end{equation}
+	\end{exampleblock}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Inhomogenit\"aten, Variation der Konstanten (nach Lagrange)}
+	Bei einer inhomogenen Dgl. wird zuerst die Inhomegenit\"at = 0 gesetzt und wir sagen wir l\"osen die homogene Dgl. Danach kann bei linearen Dgln. 1. Ordnung von der Integrationskonstante c angenommen werden, dass sie von der Variable abh\"angt, von der auch die gesuchte Funktion abh\"angt, \"ublicherweise c(x) oder c(t) und die L\"osung der homogenen Gleichung in die inhomogene Dgl. eingesetzt. Damit kann nach der Funktion c aufgel\"ost werden. Die L\"osung der homogenen Dgl. nennen wir \alert{homogene L\"osung} und eine L\"osung der inhomogenen Dgl. nennen wir \alert{partikul\"are L\"osung}. Die allgemeine L\"osung ergibt sich aus der Summe der homogenen und der partikul\"aren L\"osung.
+\end{frame}
+\begin{frame}
+	\begin{theorem}[Superpositionsprinzip]
+		Sind $y_1$ und $y_2$ L\"osungen einer Dgl., so ist auch eine Superposition L\"osung der Dgl. 
+	\end{theorem}
+	\begin{proof}[Beweis]
+		Sei $y'=A(x)\cdot y$ und $y=\alpha\cdot y_1+\beta\cdot y_2$.\\
+		Dann ist $y'=(\alpha\cdot y_1+\beta\cdot y_2)'=$ $\alpha\cdot y_1'+\beta\cdot y_2'=$ $\alpha\cdot A\cdot y_1 +\beta\cdot A\cdot y_2 =$ $A(\alpha\cdot y_1+\beta\cdot y_2)$
+	\end{proof}
+\end{frame}
+\begin{frame}
+	\begin{exampleblock}{Demonstration der Variation der Konstanten anhand eines Beispiels}
+		Zu bestimmen ist die allgemeine Lösung der linearen Dgl. erster Ordnung
+		\begin{equation}
+			xy' + y - xe^{-2x} = 0.
+		\end{equation}
+		In Normalform:
+		\begin{equation}
+			y' + \frac{y}{x} = e^{-2x}
+		\end{equation}
+		Die homogene Dgl.:
+		\begin{equation}
+			y' + \frac{y}{x} = 0
+		\end{equation}
+		\begin{equation}
+			\frac{1}{y}\cdot\frac{dy}{dx} = -\frac{1}{x}\big| \int dx
+		\end{equation}
+		\begin{equation}
+			\ln(\left|y\right|) = -\ln(\left|x\right|)+\ln(c) [=\ln(\frac{c}{\left|x\right|})]
+		\end{equation}
+		\begin{equation}
+			\left|y\right| = \frac{c}{\left|x\right|}
+		\end{equation}
+
+
+	\end{exampleblock}
+
+\end{frame}
+\begin{frame}
+	\begin{exampleblock}{Demonstration der Variation der Konstanten anhand eines Beispiels - Fortsetzung}
+		\begin{equation}
+			y = \frac{c(x)}{x}
+		\end{equation}
+		\begin{equation}
+			y' = \frac{c'(x)\cdot x - c(x)}{x^2}
+		\end{equation}
+		\begin{equation}
+			\frac{c'(x)\cdot x - c(x)}{x^2}+\frac{c(x)}{x^2}=\frac{c'(x)}{x}=e^{-2x}
+		\end{equation}
+		\begin{equation}
+			c'(x)=x\cdot e^{2x}
+		\end{equation}
+			$c(x)=\int \underbrace{x}_{u}\cdot \underbrace{e^{2x}}_{v'}dx=\underbrace{x}_{u}\cdot\underbrace{\frac{e^{2x}}{2}+k}_{v}-\int\underbrace{1}_{u'}\cdot\underbrace{\frac{e^{2x}}{2}}_{v}=\frac{x\cdot e^{2x}}{2}+k-\frac{e^{2x}}{4}=\frac{e^{2x}}{2}(x-\frac{1}{2})+k$
+		\begin{equation}
+			y=\frac{e^{2x}}{2}(1-\frac{1}{2x})+\frac{k}{x}
+		\end{equation}
+	\end{exampleblock}
+
+\end{frame}
+\begin{frame}
+	\frametitle{Dgln. h\"oherer Ordnung}
+	Eine lineare Dgl. n-ter Ordnung läßt sich auf folgende Normalform bringen:
+	\begin{equation}
+		a_n(x)\cdot y^{(n)} + a_{n-1}(x)\cdot y^{(n-1)} + \dots + a_1(x)\cdot y' + a_0(x)\cdot y = g(x) \label{normalform}
+	\end{equation}
+	mit $a_n(x) \neq  0$. Ist g(x) = 0, so heißt die Dgl. homogen, sonst heißt sie inhomogen. Für die L\"osung linearer Dgln. h\"oherer Ordnung haben die folgenden zwei S\"atze große Bedeutung: 
+	\begin{enumerate}
+		\item Satz 1: Die homogene Dgl. n-ter Ordnung besitzt genau n voneinander linear unabh\"angige Lösungen $y_1$, \dots , $y_n$, deren Linearkombination die allgemeine L\"sung der Dgl. darstellt. 
+			\item Satz 2: Die allgemeine L\"osung der inhomogenen Dgl. n-ter Ordnung ist gleich der Summe aus der allgemeinen L\"osung der zugeh\"origen homogenen und einer speziellen L\"osung der inhomogenen Dgl.
+	\end{enumerate}
+\end{frame}
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{L\"osungsweg:}
+	Nachdem die gegebene homogene lineare Dgl. auf die Normalform gebracht worden ist [g(x)=0], wird die zugehörige charakteristische Gleichung gebildet. Dazu wird der Ansatz
+	\begin{equation}
+		\alert{y(x)=e^{\lambda\cdot x}}
+	\end{equation}
+	in die homogene Dgl. ~\eqref{normalform} eingesetzt. Dabei entsteht:
+	\begin{equation}
+		e^{\lambda\cdot x}\cdot [a_n(x)\cdot \lambda^{n} + a_{n-1}(x)\cdot \lambda^{n-1} + \dots + a_1(x)\cdot \lambda + a_0(x)] = 0
+	\end{equation}
+	Durch Division durch $e^{\lambda\cdot x}$ (da $e^{\lambda\cdot x} \neq 0$ f\"ur alle $\lambda$ und alle $x$) erhalten wir die sogenannte charakteristische Gleichung:
+	\begin{equation}
+		\alert{a_n(x)\cdot \lambda^{n} + a_{n-1}(x)\cdot \lambda^{n-1} + \dots + a_1(x)\cdot \lambda + a_0(x) = 0} \label{chargl}
+	\end{equation}
+Bei der L\"osung unterscheiden wir 4 F\"alle.
+
+\end{frame}
+\begin{frame}
+	\begin{enumerate}
+		\item Fall 1: Alle Lösungen von ~\eqref{chargl} sind reell und voneinander verschieden
+
+	Die allgemeine Lösung von ~\eqref{normalform} lautet dann:
+
+	$$y = C_1e^{\lambda_1 x} + C_2e^{\lambda_2 x} + \dots + C_ne^{\lambda_n x}$$
+
+	wobei $\lambda_1, \lambda_2, \dots, \lambda_n$ die reellen Nullstellen der charakteristischen Gleichung ~\eqref{chargl} sind.
+
+\item Fall 2: In ~\eqref{chargl} treten mehrfache reelle Lösungen auf (im vorliegenden Fall eine $k$-fache Lösung)
+
+	Dann lautet die allgemeine Lösung von ~\eqref{normalform}
+
+			$$y = (C_1 + C_2 x + C_3 x^2 + \dots + C_{k+1} x^{k+1}) e^{\lambda_1 x} + C_{k+2} e^{\lambda_{k+2} x} + \dots + C_n e^{\lambda_n x}$$
+
+	wobei $\lambda_1$ die $k$-fache Nullstelle der charakteristischen Gleichung ~\eqref{chargl} ist.
+	\end{enumerate}
+	\end{frame}
+	\begin{frame}
+	\begin{enumerate}
+			 \setcounter{enumi}{2}
+
+\item Fall 3: Alle Lösungen von ~\eqref{chargl} sind einfach, je zwei zueinander konjugiert komplex
+$$
+			\lambda_{1,2}=a_1 \pm b_1 j ; \quad \lambda_{3,4}=a_3 \pm b_3 j ; \ldots ;
+			$$
+			$\lambda_{n-1, n}=a_{n-1} \pm b_{n-1} j ; \quad n$ gerade
+	Die allgemeine Lösung von ~\eqref{normalform} lautet:
+
+$$
+			\begin{aligned}
+				y= & e^{a_1 x}\left(C_1 \cos b_1 x+C_2 \sin b_1 x\right)+e^{a_3 x}\left(C_3 \cos b_3 x\right. \\
+				& \left.+C_4 \sin b_3 x\right)+\ldots+e^{a_{n-1} x}\left(C_{n-1} \cos b_{n-1} x+C_n \sin b_{n-1} x\right)
+			\end{aligned}
+			$$
+	wobei $a_1, a_2, \dots, a_n$ die reellen Teile der komplexen Wurzeln der charakteristischen Gleichung ~\eqref{chargl} und $b_1, b_2, \dots, b_n$ die imaginären Teile der komplexen Wurzeln der charakteristischen Gleichung ~\eqref{chargl} sind.
+\item Fall 4: Die Kombination der 3 F\"alle.
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Lists}
+	\framesubtitle{Bullet Points and Numbered Lists} % Optional subtitle
+	
+	\begin{itemize}
+		\item Lorem ipsum dolor sit amet, consectetur adipiscing elit
+		\item Aliquam blandit faucibus nisi, sit amet dapibus enim tempus
+		\begin{itemize}
+			\item Lorem ipsum dolor sit amet, consectetur adipiscing elit
+			\item Nam cursus est eget velit posuere pellentesque
+		\end{itemize}
+		\item Nulla commodo, erat quis gravida posuere, elit lacus lobortis est, quis porttitor odio mauris at libero
+	\end{itemize}
+	
+	\bigskip % Vertical whitespace
+	
+	\begin{enumerate}
+		\item Nam cursus est eget velit posuere pellentesque
+		\item Vestibulum faucibus velit a augue condimentum quis convallis nulla gravida 
+	\end{enumerate}
+\end{frame}
+
+%------------------------------------------------
+
+\subsection{Blocks}
+
+\begin{frame}
+	\frametitle{Blocks of Highlighted Text}
+	
+	\begin{block}{Block Title}
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue.
+	\end{block}
+	
+	\begin{exampleblock}{Example Block Title}
+		Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan.
+	\end{exampleblock}
+	
+	\begin{alertblock}{Alert Block Title}
+		Pellentesque sed tellus purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+	\end{alertblock}
+	
+	\begin{block}{} % Block without title
+		Suspendisse tincidunt sagittis gravida. Curabitur condimentum, enim sed venenatis rutrum, ipsum neque consectetur orci.
+	\end{block}
+\end{frame}
+
+%------------------------------------------------
+
+\subsection{Columns}
+
+\begin{frame}
+	\frametitle{Multiple Columns}
+	\framesubtitle{Subtitle} % Optional subtitle
+	
+	\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+		\begin{column}{0.45\textwidth} % Left column width
+			\textbf{Heading}
+			\begin{enumerate}
+				\item Statement
+				\item Explanation
+				\item Example
+			\end{enumerate}
+		\end{column}
+		\begin{column}{0.5\textwidth} % Right column width
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\section{Table and Figure Examples}
+
+\subsection{Table}
+
+\begin{frame}
+	\frametitle{Table}
+	\framesubtitle{Subtitle} % Optional subtitle
+	
+	\begin{table}
+		\begin{tabular}{l l l}
+			\toprule
+			\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
+			\midrule
+			Treatment 1 & 0.0003262 & 0.562 \\
+			Treatment 2 & 0.0015681 & 0.910 \\
+			Treatment 3 & 0.0009271 & 0.296 \\
+			\bottomrule
+		\end{tabular}
+		\caption{Table caption}
+	\end{table}
+\end{frame}
+
+%------------------------------------------------
+
+\subsection{Figure}
+
+\begin{frame}
+	\frametitle{Figure}
+	
+	\begin{figure}
+		\includegraphics[width=0.8\linewidth]{creodocs_logo.pdf}
+		\caption{Creodocs logo.}
+	\end{figure}
+\end{frame}
+
+%------------------------------------------------
+
+\section{Mathematics}
+
+\begin{frame}
+	\frametitle{Definitions \& Examples}
+	
+	\begin{definition}
+		A \alert{prime number} is a number that has exactly two divisors.
+	\end{definition}
+	
+	\smallskip % Vertical whitespace
+	
+	\begin{example}
+		\begin{itemize}
+			\item 2 is prime (two divisors: 1 and 2).
+			\item 3 is prime (two divisors: 1 and 3).
+			\item 4 is not prime (\alert{three} divisors: 1, 2, and 4).
+		\end{itemize}
+	\end{example}
+	
+	\smallskip % Vertical whitespace
+	
+	You can also use the \texttt{theorem}, \texttt{lemma}, \texttt{proof} and \texttt{corollary} environments.
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Theorem, Corollary \& Proof}
+	
+	\begin{theorem}[Mass--energy equivalence]
+		$E = mc^2$
+	\end{theorem}
+	
+	\begin{corollary}
+		$x + y = y + x$
+	\end{corollary}
+	
+	\begin{proof}
+		$\omega + \phi = \epsilon$
+	\end{proof}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	\frametitle{Equation}
+
+	\begin{equation}
+		\cos^3 \theta =\frac{1}{4}\cos\theta+\frac{3}{4}\cos 3\theta
+	\end{equation}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
+	\frametitle{Verbatim}
+	
+	\begin{example}[Theorem Slide Code]
+		\begin{verbatim}
+			\begin{frame}
+				\frametitle{theorem}
+				\begin{theorem}[Mass--energy equivalence]
+					$E = mc^2$
+				\end{theorem}
+		\end{frame}\end{verbatim} % Must be on the same line
+	\end{example}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+	Slide without title.
+\end{frame}
+
+%------------------------------------------------
+
+\section{Referencing}
+
+\begin{frame}
+	\frametitle{Citing References}
+	
+	An example of the \texttt{\textbackslash cite} command to cite within the presentation:
+	
+	\bigskip % Vertical whitespace
+	
+	This statement requires citation \cite{p1,p2}.
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame} % Use [allowframebreaks] to allow automatic splitting across slides if the content is too long
+	\frametitle{References}
+	
+	\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below, you may need to use multiple columns and/or reduce the font size further if you have many references
+		\footnotesize % Reduce the font size in the bibliography
+		\setbeamertemplate{bibliography item}[text]
+		\bibitem[Smith, 2022]{p1}
+			John Smith (2022)
+			\newblock Publication title
+			\newblock \emph{Journal Name} 12(3), 45 -- 678.
+			
+		\bibitem[Kennedy, 2023]{p2}
+			Annabelle Kennedy (2023)
+			\newblock Publication title
+			\newblock \emph{Journal Name} 12(3), 45 -- 678.
+	\end{thebibliography}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGMENTS SLIDE
+%----------------------------------------------------------------------------------------
+
+\begin{frame}
+	\frametitle{Acknowledgements}
+	
+	\begin{columns}[t] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+		\begin{column}{0.45\textwidth} % Left column width
+			\textbf{Smith Lab}
+			\begin{itemize}
+				\item Alice Smith
+				\item Devon Brown
+			\end{itemize}
+			\textbf{Cook Lab}
+			\begin{itemize}
+				\item Margaret
+				\item Jennifer
+				\item Yuan
+			\end{itemize}
+		\end{column}		
+		\begin{column}{0.5\textwidth} % Right column width
+			\textbf{Funding}
+			\begin{itemize}
+				\item British Royal Navy
+				\item Norwegian Government
+			\end{itemize}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	CLOSING SLIDE
+%----------------------------------------------------------------------------------------
+
+\begin{frame}[plain] % The optional argument 'plain' hides the headline and footline
+	\begin{center}
+		{\Huge The End}
+		
+		\bigskip\bigskip % Vertical whitespace
+		
+		{\LARGE Questions? Comments?}
+	\end{center}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 

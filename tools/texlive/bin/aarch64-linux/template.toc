@@ -1,9 +1,13 @@
-\beamer@sectionintoc {1}{Text Examples}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Paragraphs and Lists}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Blocks}{5}{0}{1}
-\beamer@subsectionintoc {1}{3}{Columns}{6}{0}{1}
-\beamer@sectionintoc {2}{Table and Figure Examples}{7}{0}{2}
-\beamer@subsectionintoc {2}{1}{Table}{7}{0}{2}
-\beamer@subsectionintoc {2}{2}{Figure}{8}{0}{2}
-\beamer@sectionintoc {3}{Mathematics}{9}{0}{3}
-\beamer@sectionintoc {4}{Referencing}{14}{0}{4}
+\beamer@sectionintoc {1}{Wiederholung Differenzial-/ Integralrechnung}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Differenzialrechnung}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Differenzialrechnung}{4}{0}{1}
+\beamer@subsectionintoc {1}{3}{Produktregel f\"ur Differenziation eines Produktes zweier Funktionen}{5}{0}{1}
+\beamer@subsectionintoc {1}{4}{Integralrechnung}{6}{0}{1}
+\beamer@sectionintoc {2}{Differenzialgleichungen}{9}{0}{2}
+\beamer@subsectionintoc {2}{1}{Gew\"ohnliche homogene Differenzialgleichungen 1. Ordnung}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{Logarithmenregeln}{13}{0}{2}
+\beamer@subsectionintoc {2}{3}{Gew\"ohnliche inhomogene Differenzialgleichungen 1. Ordnung}{16}{0}{2}
+\beamer@subsectionintoc {2}{4}{Gew\"ohnliche homogene Differenzialgleichungen 2. Ordnung}{20}{0}{2}
+\beamer@subsectionintoc {2}{5}{Eulerdarstellung}{22}{0}{2}
+\beamer@subsectionintoc {2}{6}{Gew\"ohnliche inhomogene Differenzialgleichungen 2. Ordnung}{28}{0}{2}
+\beamer@sectionintoc {3}{Fourierreihenentwicklung}{33}{0}{3}
