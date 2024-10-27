@@ -616,7 +616,7 @@ $$
 \subsection{Gew\"ohnliche inhomogene Differenzialgleichungen 2. Ordnung}
 \begin{frame}
 \frametitle{L\"osung inhomogener Dgln.}
-	Inhomogene Dgln. werden in 2 Schritten gel\"ost. Zuerst wird die homogene Dgl. gel\"ost und dann die inhomogene Dgl. Je nach Inhomogenit\"at g(x) wird dann ein Ansatz gew\"ahlti(s=sin, c=cos):\\
+	Inhomogene Dgln. werden in 2 Schritten gel\"ost. Zuerst wird die homogene Dgl. gel\"ost und dann die inhomogene Dgl. Je nach Inhomogenit\"at g(x) wird dann ein Ansatz gew\"ahlt(s=sin, c=cos):\\
 \begin{tabular}{c|c} 
 Inhomogenität $g$ & Ansatz für $y_p$ \\
 \hline$b e^{\alpha x}$ & $a e^{\alpha x}x^r$ \\
@@ -650,38 +650,38 @@ Sind $\alpha$, $\pm i\cdot\beta$ oder $\alpha\pm i\cdot\beta$ Nullstelleen des c
 \begin{frame}
 	\begin{exampleblock}{Noch ein etwas schwereres Beispiel}
 		\begin{equation}
-			y''-4\cdot y'+3y=x^2-x+1
+			y''-4\cdot y'+3y=3\cdot x^2-x+4
 		\end{equation}
 		Die Nullstellen des charakteristischen Polynoms sind 1 und 3. Damit lautet die homogene L\"osung: $y_h(x)=c_1\cdot e^x+c_2\cdot e^{3\cdot x}$. Die Inhomogenit\"at ist ein Polynom 2. Grades, deshalb w\"ahlen wir den Ansatz: $y_p(x)=a\cdot x^2+b\cdot x+c$.
 		\begin{equation}
-			y_p'(x)=2\cdot x+b
+			y_p'(x)=2\cdot a\cdot x+b
 		\end{equation}
 		\begin{equation}
-			y_p''(x)=2
+			y_p''(x)=2\cdot a
 		\end{equation}
 		Eingesetzt ergibt das:
 		\begin{equation}
-			2-8\cdot x-4\cdot b+3a\cdot x^2+3b\cdot x+3c=x^2-x+6
+			2\cdot a - 8\cdot a\cdot x-4\cdot b+3a\cdot x^2+3b\cdot x+3c = 3\cdot x^2-5\cdot x+4
 		\end{equation}
 	\end{exampleblock}
 \end{frame}
 \begin{frame}
 	\begin{exampleblock}{}
 		\begin{equation}
-			3a\cdot x^2+(3b-8)x+(2-4b)=x^2-5\cdot x-2
+			3a\cdot x^2+(3b-8)x+(2-4b)=x^2-5\cdot x+4
 		\end{equation}
 		Koeffizientenvergleich ergibt f\"ur $x^2$:
 		\begin{equation}
-			3a=1
+			3a=3
 		\end{equation}
 		\begin{equation}
 			x: 3b-8=-5
 		\end{equation}
 		\begin{equation}
-			x^0: 2-4b+3c=4
+			x^0: 2a-4b+3c=4
 		\end{equation}
 		\begin{equation}
-			\Rightarrow a=\frac{1}{3}; b=1; c=2
+			\Rightarrow a=1; b=1; c=2
 		\end{equation}
 		Damit lautet die vollst\"andige L\"osung:
 		\begin{equation}
@@ -695,6 +695,7 @@ Sind $\alpha$, $\pm i\cdot\beta$ oder $\alpha\pm i\cdot\beta$ Nullstelleen des c
 		\begin{equation}
 			u(x,y,z) = f(x)\cdot g(y)\cdot h(z)
 		\end{equation}
+		Eingesetzt in die Dgl., kann dann durch u dividiert werden und es entstehen lauter Br\"uche, die jeweils nur von einer Variable abh\"angen. Dann Geben wir den x-abh\"angigen Term nach links und alle anderen nach rechts. Wenn jetzt beide Seiten f\"ur alle x, y und z gleich sein sollen, dann muss die so entstandene Gleichung konstant sein, also k\"onnen wir beide Seiten gleich einer Konstanten K setzen. So entsteht eine gew\"ohnliche Dgl. in x, die wir mit bekannten Methoden l\"osen k\"onnen. Mit der anderen Seite, die von y und Z abh\"angt k\"onnen wir gleich verfahren, indem wir den y-abh\"angigen Term auf die Seite von K geben und wieder beide Seiten gleich einer Konstanten L setzen und die zwei \"ubriggebliebenen gew\"ohnlichen Dgln. mit bereits bekannten Methoden l\"osen. Dieses Verfahren l\"asst sich auf eine beliebige Anzahl Variablen anwenden, solange keine gemischten Ableitungen nach diesen Variablen in der partiellen Dgl. auftreten.
 \end{frame}
 \section{Fourierreihenentwicklung}
 \begin{frame}
