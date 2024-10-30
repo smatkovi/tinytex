@@ -11,4 +11,4 @@
 \beamer@subsectionintoc {2}{5}{Eulerdarstellung}{22}{0}{2}
 \beamer@subsectionintoc {2}{6}{Gew\"ohnliche inhomogene Differenzialgleichungen 2. Ordnung}{28}{0}{2}
 \beamer@subsectionintoc {2}{7}{Partielle Differenzialgleichungen}{32}{0}{2}
-\beamer@sectionintoc {3}{Fourierreihenentwicklung}{35}{0}{3}
+\beamer@sectionintoc {3}{Fourierreihenentwicklung}{36}{0}{3}

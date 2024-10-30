@@ -724,10 +724,29 @@ Sind $\alpha$, $\pm i\cdot\beta$ oder $\alpha\pm i\cdot\beta$ Nullstelleen des c
 	\end{enumerate}	
 \end{frame}
 \begin{frame}
-	\begin{exampleblock}{inkompressible Str\"omung}
+	\begin{exampleblock}{inkompressible Station\"are Str\"omung}
 		Die Navier-Stokes - Gleichungen f\"ur kompressible Str\"omung lauten:	
 			\begin{equation}
 				\rho\cdot \frac{Dv_i}{Dt} = -\frac{\partial p}{\partial x_i} + \frac{\partial}{\partial x_i}\left(\bar{\mu} \nabla \cdot v_i \right) + \frac{\partial}{\partial x_j}\left(2\mu D_{ij}\right)+\rho g_i
+			\end{equation}
+			Wobei $\bar{\mu}$ die Volumenviskosit\"at (zweite Z\"ahigkeit) $\bar{\mu}(p,T)$, $\mu$ die dynamische Viskosit\"at (Scherviskosit\"at) $\mu(p,T)$ und D die massenfeste Zeitableitung ist (das Koordinatensystem sitzt in Massepartikel), im Gegensatz zur ortsfesten Zeitableitung (Koorinatensystem ist ortsfest bzw. raumfest):
+			\begin{equation}
+				\frac{D\cdot}{Dt}=\frac{\partial\cdot}{\partial t} + \left(v \cdot \nabla\right)\cdot = \frac{\partial\cdot}{\partial t} + v_k \frac{\partial}{\partial x_k}\cdot
+			\end{equation}
+	\end{exampleblock}
+			\end{frame}
+			\begin{frame}
+				\begin{exampleblock}{}
+			$D_{ij}$ ist der symmetrische Teil des Geschwindigkeitsgradienten:
+			\begin{equation}
+				\frac{\partial v_j}{\partial x_i}=D_{ij}+\Omega_{ij}
+			\end{equation}
+			\begin{equation}
+				D_{ij}=D_{ji}=\frac{1}{2}\cdot \left(\frac{\partial v_i}{\partial x_j}+\frac{\partial v_j}{\partial x_i}\right), \Omega_{ij}=-\Omega_{ji}=\frac{1}{2}\cdot \left(\frac{\partial v_j}{\partial x_i}-\frac{\partial v_i}{\partial x_j}\right)
+			\end{equation}
+					F\"ur inkompressible Str\"omungen gilt $\nabla \cdot v=0$ und $\mu=\mu(T)$. Bei station\"arer Str\"omung kann der "Kraftterm" $\rho \frac{DU}{Dt}=0$ gesetzt werden. Der Druckgradient wird konstant und wir setzen ihn -K. Dann erhalten wir diese Gleichung:
+			\begin{equation}
+				\Delta U = -\frac{K}{\mu}
 			\end{equation}
 	\end{exampleblock}
 \end{frame}
