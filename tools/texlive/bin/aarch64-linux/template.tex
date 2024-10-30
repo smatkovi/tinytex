@@ -729,7 +729,7 @@ Sind $\alpha$, $\pm i\cdot\beta$ oder $\alpha\pm i\cdot\beta$ Nullstelleen des c
 			\begin{equation}
 				\rho\cdot \frac{Dv_i}{Dt} = -\frac{\partial p}{\partial x_i} + \frac{\partial}{\partial x_i}\left(\bar{\mu} \nabla \cdot v_i \right) + \frac{\partial}{\partial x_j}\left(2\mu D_{ij}\right)+\rho g_i
 			\end{equation}
-			Wobei $\bar{\mu}$ die Volumenviskosit\"at (zweite Z\"ahigkeit) $\bar{\mu}(p,T)$, $\mu$ die dynamische Viskosit\"at (Scherviskosit\"at) $\mu(p,T)$ und D die massenfeste Zeitableitung ist (das Koordinatensystem sitzt in Massepartikel), im Gegensatz zur ortsfesten Zeitableitung (Koorinatensystem ist ortsfest bzw. raumfest):
+			Wobei $\bar{\mu}$ die Volumenviskosit\"at (zweite Z\"ahigkeit) $\bar{\mu}(p,T)$, $\mu$ die dynamische Viskosit\"at (Scherviskosit\"at) $\mu(p,T)$, $g_i$ je nach Konvention die Erdbeschleunigung in y- oder in z-Richtung und D die massenfeste Zeitableitung ist (das Koordinatensystem sitzt in Massepartikel), im Gegensatz zur ortsfesten Zeitableitung (Koorinatensystem ist ortsfest bzw. raumfest):
 			\begin{equation}
 				\frac{D\cdot}{Dt}=\frac{\partial\cdot}{\partial t} + \left(v \cdot \nabla\right)\cdot = \frac{\partial\cdot}{\partial t} + v_k \frac{\partial}{\partial x_k}\cdot
 			\end{equation}
@@ -744,10 +744,48 @@ Sind $\alpha$, $\pm i\cdot\beta$ oder $\alpha\pm i\cdot\beta$ Nullstelleen des c
 			\begin{equation}
 				D_{ij}=D_{ji}=\frac{1}{2}\cdot \left(\frac{\partial v_i}{\partial x_j}+\frac{\partial v_j}{\partial x_i}\right), \Omega_{ij}=-\Omega_{ji}=\frac{1}{2}\cdot \left(\frac{\partial v_j}{\partial x_i}-\frac{\partial v_i}{\partial x_j}\right)
 			\end{equation}
-					F\"ur inkompressible Str\"omungen gilt $\nabla \cdot v=0$ und $\mu=\mu(T)$. Bei station\"arer Str\"omung kann der "Kraftterm" $\rho \frac{DU}{Dt}=0$ gesetzt werden. Der Druckgradient wird konstant und wir setzen ihn -K. Dann erhalten wir diese Gleichung:
+					F\"ur inkompressible Str\"omungen gilt $\nabla \cdot v=0$ und $\mu=\mu(T)$. Bei station\"arer und auch bei horizontaler Str\"omung  kann der "Kraftterm" $\rho \frac{Dv}{Dt}=0$ gesetzt werden, sowie auch g, da es normal auf die Str\"omungsrichtung steht. Der Druckgradient wird konstant und wir setzen ihn -K. Wenn wir die Str\"omungsrichtung in Z-Richtung annehmen, ist v nicht mehr von z abh\"angig. Dann erhalten wir diese Gleichung:
 			\begin{equation}
-				\Delta U = -\frac{K}{\mu}
+				\left(\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}\right)v = -\frac{K}{\mu}
 			\end{equation}
+	\end{exampleblock}
+\end{frame}
+\begin{frame}
+	\begin{exampleblock}{}
+		Diese Gleichung l\"osen wir jetzt mit dem Separaionsansatz. Gemischte Ableitungen treten nicht auf, also k\"onnen wir den Produktansatz w\"ahlen:
+		\begin{equation}
+			v(x, y)=X(x)\cdot Y(y)
+		\end{equation}
+		eingesetzt in die homogene PDGl. erhalten wir:
+		\begin{equation}
+			X"\cdot Y+X\cdot Y"= 0\bigg|:\left(X\cdot Y\right)
+		\end{equation}
+		\begin{equation}
+			\frac{X"}{X}\equiv -\frac{Y"}{Y}=C
+		\end{equation}
+		wir bekommen zwei gew\"ohnliche Dgln
+		\begin{equation}
+			\frac{X"}{X}=C^2, \frac{Y"}{Y}=-C^2
+		\end{equation}
+		\begin{equation}
+			X=A_1\cdot \sinh\left(C\cdot x\right)+A_2\cdot \cosh\left(C\cdot x\right), Y=B_1\cdot \sin\left(C\cdot x\right)+B_2\cdot \cos\left(C\cdot x\right)
+		\end{equation}
+	\end{exampleblock}
+\end{frame}
+\begin{frame}
+	\begin{exampleblock}{}
+		Jetzt l\"osen wir noch die inhomogene Gleichung. Die zweite Ableitung von v ergibt eine Konstante. Ein Polynom 2. Grades erf\"ullt genau diese Eigenschaft: 
+		\begin{equation}
+			v = D\cdot x^2 + E\cdot y^2
+		\end{equation}
+		eingesetzt erhalten wir:
+		\begin{equation}
+			2\cdot D+2\cdot E=-\frac{K}{\mu}
+		\end{equation}
+		\begin{equation}
+			E=-D-\frac{K}{2\cdot\mu}
+		\end{equation}
+		Hier ben\"otigen wir noch Randbedingungen um die zweite Konstante zu bestimmen.
 	\end{exampleblock}
 \end{frame}
 \section{Fourierreihenentwicklung}
