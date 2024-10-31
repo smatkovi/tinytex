@@ -788,6 +788,59 @@ Sind $\alpha$, $\pm i\cdot\beta$ oder $\alpha\pm i\cdot\beta$ Nullstelleen des c
 		Hier ben\"otigen wir noch Randbedingungen um die zweite Konstante zu bestimmen.
 	\end{exampleblock}
 \end{frame}
+\begin{frame}
+	\begin{exampleblock}{Die W\"armeleitungsgleichung}
+		Wir leiten sie zun\"achst her. Die W\"armemenge Q bekommen wir aus der Temperatur folgenderma{\ss}en:
+		\begin{equation}
+			Q =  c\cdot m\cdot \Delta T
+		\end{equation}
+		c ist die spezifische W\"armekapazit\"at, m die Masse und $\delta$ ist hier ein Delta und nicht der Laplaceoperator. In einem d\"unnen Stab mit Querschnittsfl\"ache A k\"onnen wir die Masse m so asdr\"ucken
+		\begin{equation}
+			m = \int \rho\cdot A  dx
+		\end{equation}
+		So k\"onnen wir dann f\"ur den W\"armestrom schreiben:
+		\begin{equation}
+			\dot{Q} = c\cdot\int \rho\cdot A  dx\cdot  \frac{dT}{dt} \big| \frac{d}{dx}
+		\end{equation}
+		\begin{equation}
+			\frac{\dot{Q}}{dx} = c\cdot\rho\cdot A  \cdot \frac{dT}{dt}
+		\end{equation}
+	\end{exampleblock}
+\end{frame}
+\begin{frame}
+	\begin{exampleblock}{}
+		Das Fourier'sche W\"armeleitgesetz besagt, dass der W\"armestrom proportional zum Temperaturunterschied und zur Fl\"ache ist und indirekt proportional zur Entfernung ist.
+		\begin{equation}
+			\dot{Q} = -\lambda\cdot A\cdot\frac{dT}{dx}
+		\end{equation}
+		$\lambda$ ist hier die W\"armeleitf\"ahigkeit oder W\"armeleitkoeffizient.
+	Eingesetzt in die vorige Gleichung erhalten wir, wenn wir noch mit einem negativen Vorzeichen ber\"ucksichtigen, dass es sich eigentlich um einen W\"armeverlust handelt:
+	\begin{equation}
+	\lambda\cdot A\cdot\frac{\partial^2T}{\partial x^2}=c\cdot\rho\cdot A  \cdot \frac{\partial T}{\partial t}
+	\end{equation}
+	Nach einer Umstellung und k\"urzen von A erhalten wir:	
+		\begin{equation}
+			\frac{\partial T}{\partial t}=\frac{\lambda}{c\cdot \rho}\frac{\partial ^2T}{\partial x^2}
+		\end{equation}
+	\end{exampleblock}
+\end{frame}
+\begin{frame}
+	\begin{exampleblock}{}
+		Um die W\"armeleitungsgleichung f\"ur alle Raumdimensionen zu erhalten betrachten wir die Bilanz in jeder Raumrichtung und summieren. So erhalten wir:
+		\begin{equation}
+			\dot{T}=\frac{\lambda}{c\cdot \rho}\Delta T
+		\end{equation}
+		Wenn wir den Vorfaktor als Konstante a schreiben und statt der Temperatur die Stoffkonzentration u einsetzen erhalten wir die Diffusionsgleichung.
+		\begin{equation}
+			\dot{u}=a\cdot\Delta u
+		\end{equation}
+	\end{exampleblock}
+\end{frame}
+\begin{frame}
+	\begin{exampleblock}{}
+
+	\end{exampleblock}
+\end{frame}
 \section{Fourierreihenentwicklung}
 \begin{frame}
 	\frametitle{Fourierreihenentwicklung}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  30 OCT 2024 23:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  31 OCT 2024 11:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1029,6 +1029,10 @@ Overfull \vbox (7.49611pt too high) detected at line 700
 [37
 
 ]
+Overfull \vbox (2.1072pt too high) detected at line 809
+ []
+
+
 
 [38
 
@@ -1041,6 +1045,10 @@ Overfull \vbox (7.49611pt too high) detected at line 700
 [40
 
 ]
+Overfull \vbox (3.50562pt too high) detected at line 843
+ []
+
+
 
 [41
 
@@ -1049,11 +1057,6 @@ Overfull \vbox (7.49611pt too high) detected at line 700
 [42
 
 ]
-Overfull \hbox (9.8121pt too wide) detected at line 902
-\OT1/cmss/m/n/10.95 + [] \OT1/phv/m/sl/10.95 a[] [] \OT1/cmss/m/n/10.95 + [] \OT1/phv/m/sl/10.95 b[] []
- []
-
-
 
 [43
 
@@ -1066,41 +1069,62 @@ Overfull \hbox (9.8121pt too wide) detected at line 902
 [45
 
 ]
-Overfull \hbox (5.24414pt too wide) detected at line 941
-\OT1/phv/m/sl/10.95 b[] \OT1/cmss/m/n/10.95 = [] [][] [](\OT1/phv/m/sl/10.95 nx\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 g\OT1/cmss/m/n/10.95 (\OT1/phv/m/sl/10.95 x\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 dx \OT1/cmss/m/n/10.95 = [] [][] [](\OT1/phv/m/sl/10.95 nx\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 xdx \OT1/cmss/m/n/10.95 = \OMS/cmsy/m/n/10.95 ^^@[]\OT1/cmss/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/phv/m/n/10.95 1\OT1/cmss/m/n/10.95 )[] = [](\OMS/cmsy/m/n/10.95 ^^@\OT1/phv/m/n/10.95 1\OT1/cmss/m/n/10.95 )[]\OML/cmm/m/it/10.95 :
- []
-
-
-Overfull \vbox (5.36932pt too high) detected at line 941
- []
-
-
 
 [46
 
 ]
-<ct.jpg, id=1744, 1174.3875pt x 1208.515pt>
-File: ct.jpg Graphic file (type jpg)
-<use ct.jpg>
-Package pdftex.def Info: ct.jpg  used on input line 947.
-(pdftex.def)             Requested size: 199.64323pt x 205.44482pt.
-
-Overfull \vbox (2.50334pt too high) detected at line 947
+Overfull \hbox (9.8121pt too wide) detected at line 955
+\OT1/cmss/m/n/10.95 + [] \OT1/phv/m/sl/10.95 a[] [] \OT1/cmss/m/n/10.95 + [] \OT1/phv/m/sl/10.95 b[] []
  []
 
 
 
 [47
 
+]
+
+[48
+
+]
+
+[49
+
+]
+Overfull \hbox (5.24414pt too wide) detected at line 994
+\OT1/phv/m/sl/10.95 b[] \OT1/cmss/m/n/10.95 = [] [][] [](\OT1/phv/m/sl/10.95 nx\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 g\OT1/cmss/m/n/10.95 (\OT1/phv/m/sl/10.95 x\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 dx \OT1/cmss/m/n/10.95 = [] [][] [](\OT1/phv/m/sl/10.95 nx\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 xdx \OT1/cmss/m/n/10.95 = \OMS/cmsy/m/n/10.95 ^^@[]\OT1/cmss/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/phv/m/n/10.95 1\OT1/cmss/m/n/10.95 )[] = [](\OMS/cmsy/m/n/10.95 ^^@\OT1/phv/m/n/10.95 1\OT1/cmss/m/n/10.95 )[]\OML/cmm/m/it/10.95 :
+ []
+
+
+Overfull \vbox (5.36932pt too high) detected at line 994
+ []
+
+
+
+[50
+
+]
+<ct.jpg, id=1902, 1174.3875pt x 1208.515pt>
+File: ct.jpg Graphic file (type jpg)
+<use ct.jpg>
+Package pdftex.def Info: ct.jpg  used on input line 1000.
+(pdftex.def)             Requested size: 199.64323pt x 205.44482pt.
+
+Overfull \vbox (2.50334pt too high) detected at line 1000
+ []
+
+
+
+[51
+
  <./ct.jpg>]
-<ms.jpg, id=1771, 612.2875pt x 612.2875pt>
+<ms.jpg, id=1929, 612.2875pt x 612.2875pt>
 File: ms.jpg Graphic file (type jpg)
 <use ms.jpg>
-Package pdftex.def Info: ms.jpg  used on input line 955.
+Package pdftex.def Info: ms.jpg  used on input line 1008.
 (pdftex.def)             Requested size: 214.30383pt x 214.30383pt.
 
 
-[48
+[52
 
  <./ms.jpg>]
 \tf@nav=\write6
@@ -1125,18 +1149,18 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: 5D50CDF09E1D3EB9CC395295135F03AC;3372.
  ) 
 Here is how much of TeX's memory you used:
- 35943 strings out of 475560
- 847870 string characters out of 5776021
+ 35983 strings out of 475560
+ 849066 string characters out of 5776021
  1953905 words of memory out of 5000000
- 57841 multiletter control sequences out of 15000+600000
+ 57873 multiletter control sequences out of 15000+600000
  579782 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  101i,18n,107p,978b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on template.pdf (48 pages, 529593 bytes).
+Output written on template.pdf (52 pages, 546433 bytes).
 PDF statistics:
- 1898 PDF objects out of 2073 (max. 8388607)
- 1562 compressed objects within 16 object streams
- 113 named destinations out of 1000 (max. 500000)
- 1245 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2058 PDF objects out of 2073 (max. 8388607)
+ 1689 compressed objects within 17 object streams
+ 121 named destinations out of 1000 (max. 500000)
+ 1389 words of extra memory for PDF output out of 10000 (max. 10000000)
 
