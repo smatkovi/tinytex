@@ -1036,6 +1036,33 @@ $$
 	%\begin{wrapfigure}
 	\end{center}
 \end{frame}
+\section{Anhang}
+\begin{frame}
+	\frametitle{Inkompressible Str\"omungen}
+		Zum Zeitpunkt 0 befindet sich ein Fluidpartikel in der Str\"omung am Ort \textbf{X}(x,y,z), zu einem Zeitpunkt $t>0$ am Ort \textbf{x}(x,y,z). Wir unterscheiden dann bei einer physikalischen Gr\"o{\ss}e b zwischen der massenfesten Zeitabeitung
+		\begin{equation}
+			\frac{Db}{Dt}=\frac{\partial b(\textbf{X}, t)}{\partial t}
+		\end{equation}
+		und der ortsfesten Zeitableitung
+		\begin{equation}
+			\frac{\partial b}{\partial t}=\frac{\partial b(\textbf{x}, t)}{\partial t}
+		\end{equation}
+		Die Teilchengeschwindigkeit v ist dann $\frac{D\textbf{x}}{Dt}$ und die Teilchenbeschleunigung ist dann $\frac{D\textbf{v}}{Dt}$. In Indexschreibweise und unter Verwendung der Einstein'schen Summenkonvention, dass in einem Term \"uber doppelt vorkommende Indizes summiert wird:
+		\begin{equation}
+			\frac{Dv_i}{Dt}=\frac{\partial v_i}{\partial t} + \frac{\partial v_i}{\partial x_j}\cdot \frac{Dx_j}{Dt} 
+		\end{equation}
+
+\end{frame}
+\begin{frame}
+		\begin{equation}
+			\Rightarrow \textbf{a}=\frac{D\textbf{v}}{Dt}=\frac{\partial \textbf{v}}{\partial t}+\left(\textbf{v}\cdot\nabla\right)\textbf{v}
+		\end{equation}
+		Also gilt allgemein f\"ur eine Gr\"o{\ss}e b
+		\begin{equation}
+			\frac{D\textbf{b}}{Dt}=\frac{\partial \textbf{b}}{\partial t}+\left(\textbf{v}\cdot\nabla\right)\textbf{b}
+		\end{equation}
+		Die Dehnung eines infinitesimalen Volumens dV während der Bewegung wird durch die Funktionaldeterminante
+\end{frame}
 %\begin{frame}
 %	\frametitle{Lists}
 %	\framesubtitle{Bullet Points and Numbered Lists} % Optional subtitle

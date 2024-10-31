@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  31 OCT 2024 15:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  31 OCT 2024 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1103,7 +1103,7 @@ Overfull \vbox (5.36932pt too high) detected at line 1024
 [51
 
 ]
-<ct.jpg, id=1941, 1174.3875pt x 1208.515pt>
+<ct.jpg, id=1948, 1174.3875pt x 1208.515pt>
 File: ct.jpg Graphic file (type jpg)
 <use ct.jpg>
 Package pdftex.def Info: ct.jpg  used on input line 1030.
@@ -1117,7 +1117,7 @@ Overfull \vbox (2.50334pt too high) detected at line 1030
 [52
 
  <./ct.jpg>]
-<ms.jpg, id=1968, 612.2875pt x 612.2875pt>
+<ms.jpg, id=1975, 612.2875pt x 612.2875pt>
 File: ms.jpg Graphic file (type jpg)
 <use ms.jpg>
 Package pdftex.def Info: ms.jpg  used on input line 1038.
@@ -1127,40 +1127,43 @@ Package pdftex.def Info: ms.jpg  used on input line 1038.
 [53
 
  <./ms.jpg>]
-\tf@nav=\write6
-\openout6 = `template.nav'.
 
-\tf@toc=\write7
-\openout7 = `template.toc'.
-
-\tf@snm=\write8
-\openout8 = `template.snm'.
-
- (./template.aux)
- ***********
-LaTeX2e <2024-06-01> patch level 1
-L3 programming layer <2024-05-27>
- ***********
+LaTeX Font Warning: Font shape `OT1/opensans-TLF/b/n' undefined
+(Font)              using `OT1/opensans-TLF/m/n' instead on input line 1055.
 
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 5D50CDF09E1D3EB9CC395295135F03AC;3372.
- ) 
+[54
+
+]
+
+! LaTeX Error: Unicode character ̈ (U+0308)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1071 \end{frame}
+                  
+? x
+ 
 Here is how much of TeX's memory you used:
- 35993 strings out of 475560
- 849395 string characters out of 5776021
- 1952905 words of memory out of 5000000
- 57881 multiletter control sequences out of 15000+600000
+ 36006 strings out of 475560
+ 849699 string characters out of 5776021
+ 1953905 words of memory out of 5000000
+ 57892 multiletter control sequences out of 15000+600000
  579782 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  101i,18n,107p,978b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Navigation55} has been referenced but does not exist, replaced by a fixed one
+
 </home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on template.pdf (53 pages, 553235 bytes).
+Output written on template.pdf (54 pages, 556030 bytes).
 PDF statistics:
- 2098 PDF objects out of 2487 (max. 8388607)
- 1720 compressed objects within 18 object streams
- 123 named destinations out of 1000 (max. 500000)
- 1425 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2133 PDF objects out of 2487 (max. 8388607)
+ 1749 compressed objects within 18 object streams
+ 127 named destinations out of 1000 (max. 500000)
+ 1421 words of extra memory for PDF output out of 10000 (max. 10000000)
 

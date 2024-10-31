@@ -135,8 +135,15 @@
 \headcommand {\beamer@framepages {52}{52}}
 \headcommand {\slideentry {3}{0}{11}{53/53}{}{0}}
 \headcommand {\beamer@framepages {53}{53}}
-\headcommand {\beamer@partpages {1}{53}}
-\headcommand {\beamer@subsectionpages {43}{53}}
 \headcommand {\beamer@sectionpages {43}{53}}
-\headcommand {\beamer@documentpages {53}}
-\headcommand {\gdef \inserttotalframenumber {53}}
+\headcommand {\beamer@subsectionpages {43}{53}}
+\headcommand {\sectionentry {4}{Anhang}{54}{Anhang}{0}}
+\headcommand {\slideentry {4}{0}{1}{54/54}{}{0}}
+\headcommand {\beamer@framepages {54}{54}}
+\headcommand {\slideentry {4}{0}{2}{55/55}{}{0}}
+\headcommand {\beamer@framepages {55}{55}}
+\headcommand {\beamer@partpages {1}{55}}
+\headcommand {\beamer@subsectionpages {54}{55}}
+\headcommand {\beamer@sectionpages {54}{55}}
+\headcommand {\beamer@documentpages {55}}
+\headcommand {\gdef \inserttotalframenumber {55}}
