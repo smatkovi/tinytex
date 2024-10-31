@@ -1061,7 +1061,12 @@ $$
 		\begin{equation}
 			\frac{D\textbf{b}}{Dt}=\frac{\partial \textbf{b}}{\partial t}+\left(\textbf{v}\cdot\nabla\right)\textbf{b}
 		\end{equation}
-		Die Dehnung eines infinitesimalen Volumens dV während der Bewegung wird durch die Funktionaldeterminante
+		Die Dehnung eines infinitesimalen Volumens dV w\"ahrend der Bewegung wird durch die Funktionaldeterminante
+		\begin{equation}
+		\operatorname{det} J(\mathbf{X}, t)=\frac{\partial(x, y, z)}{\partial(X, Y, Z)}=\left\lvert\, \begin{aligned} & \frac{\partial x}{\partial X} \frac{\partial x}{\partial Y} \frac{\partial x}{\partial Z} \\ & \frac{\partial y}{\partial X} \ldots \\ & \ldots\end{aligned}\right\rvert
+		\end{equation}
+
+			charakterisiert. $J=\left(\frac{\partial x_i}{\partial X_j}\right)=\left(c_{i j}\right)$ ist dabei die Jacobimatrix
 \end{frame}
 %\begin{frame}
 %	\frametitle{Lists}
