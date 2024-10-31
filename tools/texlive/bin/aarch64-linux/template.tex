@@ -838,7 +838,37 @@ Sind $\alpha$, $\pm i\cdot\beta$ oder $\alpha\pm i\cdot\beta$ Nullstelleen des c
 \end{frame}
 \begin{frame}
 	\begin{exampleblock}{}
-
+Wir machen wieder den Produktansatz:
+		\begin{equation}
+			u(x,y,z,t)=X(x)\cdot Y(y)\cdot Z(z)\cdot T(t)
+		\end{equation}
+		Nach Einsetzen und Division durch XYZT erhalten wir:
+		\begin{equation}
+			\frac{\dot{T}}{T} \equiv a\cdot\left(\frac{X"}{X}+\frac{Y"}{Y}+\frac{Z"}{Z}\right)=K_1
+		\end{equation}
+		Wir bekommen f\"ur T:
+		\begin{equation}
+			T(t)=A_1\cdot e^{K_1\cdot t}
+		\end{equation}
+		\begin{equation}
+			\frac{X"}{X}\equiv \frac{K_1}{a}-\left(\frac{Y"}{Y}+\frac{Z"}{Z}\right)=K_2
+		\end{equation}
+		\begin{equation}
+			X(x)=A_2\sinh\left(\sqrt{K_2}\cdot x\right)+A_3\cosh\left(\sqrt{K_2}\cdot x\right)
+		\end{equation}
+	\end{exampleblock}
+\end{frame}
+\begin{frame}
+	\begin{exampleblock}{}
+		\begin{equation}
+			\frac{Y"}{Y}\equiv \frac{K_1}{a}-K_2-\frac{Z"}{Z}=K_3
+		\end{equation}
+		\begin{equation}
+			Y(y)=A_4\sinh\left(\sqrt{K_3}\cdot y\right)+A_5\cosh\left(\sqrt{K_3}\cdot x\right)
+		\end{equation}
+		\begin{equation}
+			Z(z)=A_6\sinh\left(\sqrt{\frac{K_1}{a}-K_2-K_3}\cdot z\right)+A_7\cosh\left(\sqrt{\frac{K_1}{a}-K_2-K_3}\cdot z\right)
+		\end{equation}
 	\end{exampleblock}
 \end{frame}
 \section{Fourierreihenentwicklung}
