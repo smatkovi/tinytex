@@ -13,3 +13,6 @@
 \beamer@subsectionintoc {2}{7}{Partielle Differenzialgleichungen}{32}{0}{2}
 \beamer@sectionintoc {3}{Fourierreihenentwicklung}{43}{0}{3}
 \beamer@sectionintoc {4}{Anhang}{54}{0}{4}
+\beamer@subsectionintoc {4}{1}{inkompressible Str\"omungen}{54}{0}{4}
+\beamer@subsectionintoc {4}{2}{Navier-Stokes - Gleichungen}{58}{0}{4}
+\beamer@subsectionintoc {4}{3}{Reynold'sches Transporttheorem}{63}{0}{4}

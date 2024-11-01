@@ -174,7 +174,7 @@
 % The table of contents outputs the sections and subsections that appear in your presentation, specified with the standard \section and \subsection commands. You may either display all sections and subsections on one slide with \tableofcontents, or display each section at a time on subsequent slides with \tableofcontents[pausesections]. The latter is useful if you want to step through each section and mention what you will discuss.
 
 \begin{frame}
-	\frametitle{Presentation Overview} % Slide title, remove this command for no title
+%	\frametitle{Presentation Overview} % Slide title, remove this command for no title
 	
 	\tableofcontents % Output the table of contents (all sections on one slide)
 %	\tableofcontents[pausesections] % Output the table of contents (break sections up across separate slides)
@@ -1037,6 +1037,7 @@ $$
 	\end{center}
 \end{frame}
 \section{Anhang}
+		\subsection{inkompressible Str\"omungen}
 \begin{frame}
 	\frametitle{Inkompressible Str\"omungen}
 		Zum Zeitpunkt 0 befindet sich ein Fluidpartikel in der Str\"omung am Ort \textbf{X}(x,y,z), zu einem Zeitpunkt $t>0$ am Ort \textbf{x}(x,y,z). Wir unterscheiden dann bei einer physikalischen Gr\"o{\ss}e b zwischen der massenfesten Zeitabeitung
@@ -1066,7 +1067,113 @@ $$
 		\operatorname{det} J(\mathbf{X}, t)=\frac{\partial(x, y, z)}{\partial(X, Y, Z)}=\left\lvert\, \begin{aligned} & \frac{\partial x}{\partial X} \frac{\partial x}{\partial Y} \frac{\partial x}{\partial Z} \\ & \frac{\partial y}{\partial X} \ldots \\ & \ldots\end{aligned}\right\rvert
 		\end{equation}
 
-			charakterisiert. $J=\left(\frac{\partial x_i}{\partial X_j}\right)=\left(c_{i j}\right)$ ist dabei die Jacobimatrix
+			charakterisiert. $J=\left(\frac{\partial x_i}{\partial X_j}\right)=\left(c_{i j}\right)$ ist dabei die Jacobimatrix der Transformation.
+\end{frame}
+\begin{frame}
+	Der laplace'sche Entwicklungssatz f\"ur Determinanten l\"asst sich auf folgende Weise schreiben:
+	\begin{equation}
+		\operatorname{det}J = \sum_{k=1}^3 c_{ik}\cdot \alpha_{ik}, \alpha_{ik}=(-1)^{i+k} \operatorname{det}J_{ik}
+	\end{equation}
+	hier f\"ur die Entwicklung nach der i-ten Zeile, f\"ur beliebiges aber festes i zwischen 1 und 3. Dabei sind $c_{ik}$ die Elemente der Jacobimatrix und $\alpha_{ik}$ die algebraischen Komplemente der i-en Zeile und k-ten Spalte und det $J_{ik}$ jene Unterdeterminanten (Minoren), die sich jeweils duech Streichen der i-ten Zeile und k-ten Spalte ergeben.
+	\begin{equation}
+		\sum_{k=1}^3 c_{ik}\cdot \alpha_{jk}=\delta_{ij}\operatorname{det}J
+	\end{equation}
+		$$
+		\delta_{ij}=\left\{\begin{array}{cl}
+			1 & \text { wenn }i = j \\
+			0 & \text { sonst. }
+		\end{array}\right.
+		$$
+
+	Das k\"onnen wir f\"ur die Ableitung der Funktionaldeterminante verwenden
+\end{frame}
+\begin{frame}
+	\begin{equation}
+		\frac{d\operatorname{det}J}{dx}=\sum_{i=1}^3\sum_{j=1}^3\underbrace{\frac{\partial\operatorname{det}J}{\partial c_{ij}}}_{\alpha_{ij}}\frac{dc_{ij}}{dx}
+	\end{equation}
+	\begin{equation}
+		\Rightarrow \frac{D\operatorname{det}J}{Dt}=\sum_{i=1}^3\sum_{j=1}^3\alpha_{ij}\frac{Dc_{ij}}{dt}=\sum_{i=1}^3\sum_{k=1}^3\underbrace{\sum_{j=1}^3c_{kj}\alpha_{ij}}_{\delta_{ki}\operatorname{det} J}\frac{\partial v_i}{\partial x_k}=\operatorname{det} J\underbrace{\sum_{i=1}^3\frac{\partial v_i}{\partial x_i}}_{\nabla\cdot v}
+	\end{equation}
+	Mit
+	\begin{equation}
+		\frac{Dc_{ij}}{Dt}=\frac{D}{Dt}\left(\frac{\partial x_i}{\partial X_j}\right)=\frac{\partial v_i}{\partial X_j}=\sum_{k=1}^3\frac{\partial v_i}{\partial x_k}\underbrace{\frac{\partial x_k}{\partial X_j}}_{c_{kj}}
+	\end{equation}
+	Da bei inkompressiblen Str\"omungen die Str\"omung keine Volumendehnung erf\"ahrt, muss die Zeitableitung der Funktionaldeterminante verschwinden. Damit das f\"ur alle beliebigen Funktionaldeterminanten der Fall ist muss im Produkt $\nabla\cdot v=0$ sein. 
+\end{frame}
+		\subsection{Navier-Stokes - Gleichungen}
+\begin{frame}
+	\frametitle{Herleitung der Navier-Stokes - Gleichungen}
+	Diese sind im Prinzip Bewegungsgleichungen f\"ur ein viskoses, Newton'sches Fluid. Diese k\"onnen wir aus der Impulserhaltung in integraler Form herleiten:
+	\begin{equation}
+		\frac{D}{Dt}\int_V \rho v_i dV=\int_{\partial V}\sigma_{ji}n_j dO+\int \rho g_i dV + K_i
+	\end{equation}
+		Die resultierende Kraft ergipt sich dabei aus dem an der Oberfl\"ache wirkenden Spannungsvektor $\sigma_{ji}\cdot n_j$, wobei $\sigma_{ji}$ der Spannunstensor ist, der Erdanziehungskraft und einer Kraft K, die ein umstr\"omter K\"orper im Volumen V auf die Str\"omung aus\"ubt. Mithilfe des Gau{\ss}'schen Satzes k\"onnen wir den Spannungvektor umschreiben.
+		\begin{equation}
+			\int_V \rho \frac{Dv_i}{Dt} dV=\int_{V}\frac{\partial \sigma_{ji}}{\partial x_j} +\rho g_i dV
+		\end{equation}
+		Dabei wurde noch unterschlagen, dass die Ableitung au{\ss}erhalb des Integrals im linken Term nicht von Vorne herin einfach nur die Ableitung der Dichte ist. Wir ben\"otigen dazu das Reynolds'sche Transporttheorem, das im Sinne der \"Ubersicht am Ende an die Herleitung noch hergeleitet wird.
+\end{frame}
+\begin{frame}
+	Auch haben wir den Bereich fester K\"orper ausgeschlossen, da wir in differenzieller Form nur einen lokalen Bereich betrachten und K=0 gesetzt. Da der Zusammenhang f\"ur ein beliebigesVolumen gelten soll:
+	\begin{equation}
+			\rho \frac{Dv_i}{Dt} =\frac{\partial \sigma_{ji}}{\partial x_j} +\rho g_i 
+	\end{equation}
+	\"Ublicherweise wird der Spannungstensor in einen Tensor der inneren Reibspannungen $\left(\sigma_{ji}'\right)$ und einen Anteil $p\delta_{ij}$, der vom Druck herr\"uhrt, aufgespalten:
+	\begin{equation}
+		\sigma_{ji}=\sigma_{ji}'-p\delta_{ij}
+	\end{equation}
+	\begin{equation}
+		\rho \frac{Dv_i}{Dt} =-\frac{\partial p}{\partial x_i}+\frac{\partial \sigma_{ji}'}{\partial x_j} +\rho g_i 
+	\end{equation}
+	Um die Navier-Stokes - Gleichungn zu erhalten ben\"otigen wir einen Ausdruck f\"ur den Reibspannungstensor.
+\end{frame}
+\begin{frame}
+	Die Stokes'schen Postulate f\"ur ein viskoses, Stokes'sches Fluid lauten:
+	\begin{enumerate}
+		\item $\sigma_{ij}$ ist eine stetige Funktion von $D_{ij}$, unabh\"angig von anderen kinematischen Gr\"o{\ss}en,
+		\item $\sigma_{ij}$ h\"angt nicht explizit von der r\"aumlichen Position \textbf{x} ab.
+		\item es existiert keine ausgezeichnete Richtung im Raum (Isotropie)
+		\item falls $D_{ij}=0$, dann gelte $\sigma_{ij}=-p\delta_{ij}$.
+	\end{enumerate}
+	Die mathematische \"Ubersetzung von 1 und 2 ist $\sigma=f\left(D\right)$.\\
+	3 dr\"uckt sich durch $O\sigma O^{-1}=f\left(ODO^{-1}\right)$ f\"ur alle orthogonalen Transformationsmatrizen O aus.
+\end{frame}
+\begin{frame}
+	1-4 f\"uhren auf die nichtlineare quadratische Relation
+	\begin{equation}
+		\sigma_{ij}=\alpha\delta_{ij}+\beta D_{ij}+\gamma D_{ik}D_{kj}
+	\end{equation}
+	Die griechischen Variablen sind skalare Funktionen von $I_1, I_2$ und $I_3$, den Hauptinvarianten von D. Diese sind die Koeffizienten im charakteristischen Polynom
+	\begin{equation}
+		p_D(\lambda)=\operatorname{det}(\lambda-D)=\lambda^3-I_1 \lambda^2+I_2 \lambda-I_3=0
+	\end{equation}
+	Wenn wir fordern, dass $\sigma$ linear von D abh\"angt dann nennen wir ein solches Fluid ein Newton'sches Fluid.Wir erhalten dann f\"ur $\sigma$
+	\begin{equation}
+		\sigma_{ij}=\sigma_{ji}=\left(-p+\bar{\mu}\nabla\cdot\textbf{v}\right)\delta_{ij}+2\mu D_{ij}
+	\end{equation}
+\end{frame}
+\begin{frame}
+	und $\sigma'$
+	\begin{equation}
+		\sigma_{ij}'=\sigma_{ji'}=\bar{\mu}\nabla\cdot\textbf{v}\delta_{ij}+2\mu D_{ij}
+	\end{equation}
+	Eingesetzt in die Bewegungsgleichung erhalten wir die lang ersehnten Navier-Stokes - Gleichungen
+	\begin{equation}
+		\rho \frac{Dv_i}{Dt} =-\frac{\partial p}{\partial x_i}+\frac{\partial}{\partial x_i} \left(\bar{\mu}\nabla\cdot\textbf{v}\right)+\frac{\partial}{\partial x_j}\left(2\mu D_{ij}\right) +\rho g_i 
+	\end{equation}
+	F\"ur ein  perfektes (reibungsfreies) Fluid erhalten wir die Eulergleichungen
+	\begin{equation}
+		\rho \frac{Dv_i}{Dt} =-\frac{\partial p}{\partial x_i} +\rho g_i 
+	\end{equation}
+	F\"ur ein nicht newton'sches Fluid mit konstanten Stoffwerten $\rho,\mu=$const. bekommen wir
+	\begin{equation}
+		\frac{Dv_i}{Dt} =-\frac{1}{\rho}\frac{\partial p}{\partial x_i}+\nu \frac{\partial^2 v_i}{\partial x_j^2} +\rho g_i 
+	\end{equation}
+	deren station\"are Variante wir mit dem Separationsansatz l\"osen k\"onnen, wobei $\nu=\frac{\mu}{\rho}$ ist.
+\end{frame}
+		\subsection{Reynold'sches Transporttheorem}
+\begin{frame}
+	\frametitle{Einschub Reynolds'sches Transporttheorem}
 \end{frame}
 %\begin{frame}
 %	\frametitle{Lists}

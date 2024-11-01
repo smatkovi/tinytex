@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  31 OCT 2024 21:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  1 NOV 2024 11:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1103,7 +1103,7 @@ Overfull \vbox (5.36932pt too high) detected at line 1024
 [51
 
 ]
-<ct.jpg, id=1948, 1174.3875pt x 1208.515pt>
+<ct.jpg, id=1964, 1174.3875pt x 1208.515pt>
 File: ct.jpg Graphic file (type jpg)
 <use ct.jpg>
 Package pdftex.def Info: ct.jpg  used on input line 1030.
@@ -1117,7 +1117,7 @@ Overfull \vbox (2.50334pt too high) detected at line 1030
 [52
 
  <./ct.jpg>]
-<ms.jpg, id=1975, 612.2875pt x 612.2875pt>
+<ms.jpg, id=1991, 612.2875pt x 612.2875pt>
 File: ms.jpg Graphic file (type jpg)
 <use ms.jpg>
 Package pdftex.def Info: ms.jpg  used on input line 1038.
@@ -1129,7 +1129,7 @@ Package pdftex.def Info: ms.jpg  used on input line 1038.
  <./ms.jpg>]
 
 LaTeX Font Warning: Font shape `OT1/opensans-TLF/b/n' undefined
-(Font)              using `OT1/opensans-TLF/m/n' instead on input line 1055.
+(Font)              using `OT1/opensans-TLF/m/n' instead on input line 1056.
 
 
 
@@ -1138,6 +1138,42 @@ LaTeX Font Warning: Font shape `OT1/opensans-TLF/b/n' undefined
 ]
 
 [55
+
+]
+
+[56
+
+]
+
+[57
+
+]
+Overfull \vbox (17.24095pt too high) detected at line 1115
+ []
+
+
+
+[58
+
+]
+
+[59
+
+]
+
+[60
+
+]
+
+[61
+
+]
+
+[62
+
+]
+
+[63
 
 ]
 \tf@nav=\write6
@@ -1159,21 +1195,21 @@ L3 programming layer <2024-05-27>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 8E4F394DFC9857527B37D3694A9F6541;3446.
+(rerunfilecheck)             Checksum: 79BAB5C0526088A8192D9FD0816060ED;4048.
  ) 
 Here is how much of TeX's memory you used:
- 36015 strings out of 475560
- 849663 string characters out of 5776021
- 1953905 words of memory out of 5000000
- 57896 multiletter control sequences out of 15000+600000
+ 36059 strings out of 475560
+ 850112 string characters out of 5776021
+ 1952905 words of memory out of 5000000
+ 57921 multiletter control sequences out of 15000+600000
  582487 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  101i,18n,107p,978b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on template.pdf (55 pages, 562707 bytes).
+Output written on template.pdf (63 pages, 586392 bytes).
 PDF statistics:
- 2164 PDF objects out of 2487 (max. 8388607)
- 1780 compressed objects within 18 object streams
- 128 named destinations out of 1000 (max. 500000)
- 1433 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2402 PDF objects out of 2487 (max. 8388607)
+ 2000 compressed objects within 20 object streams
+ 147 named destinations out of 1000 (max. 500000)
+ 1457 words of extra memory for PDF output out of 10000 (max. 10000000)
 
