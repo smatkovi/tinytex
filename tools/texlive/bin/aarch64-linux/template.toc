@@ -15,4 +15,4 @@
 \beamer@sectionintoc {4}{Anhang}{54}{0}{4}
 \beamer@subsectionintoc {4}{1}{inkompressible Str\"omungen}{54}{0}{4}
 \beamer@subsectionintoc {4}{2}{Navier-Stokes - Gleichungen}{58}{0}{4}
-\beamer@subsectionintoc {4}{3}{Reynold'sches Transporttheorem}{63}{0}{4}
+\beamer@subsectionintoc {4}{3}{Transporttheorem}{63}{0}{4}
