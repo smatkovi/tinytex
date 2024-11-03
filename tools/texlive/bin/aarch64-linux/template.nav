@@ -164,8 +164,10 @@
 \headcommand {\beamer@subsectionentry {0}{4}{3}{63}{Transporttheorem}}
 \headcommand {\slideentry {4}{3}{1}{63/63}{Transporttheorem}{0}}
 \headcommand {\beamer@framepages {63}{63}}
-\headcommand {\beamer@partpages {1}{63}}
-\headcommand {\beamer@subsectionpages {63}{63}}
-\headcommand {\beamer@sectionpages {54}{63}}
-\headcommand {\beamer@documentpages {63}}
-\headcommand {\gdef \inserttotalframenumber {63}}
+\headcommand {\slideentry {4}{3}{2}{64/64}{Transporttheorem}{0}}
+\headcommand {\beamer@framepages {64}{64}}
+\headcommand {\beamer@partpages {1}{64}}
+\headcommand {\beamer@subsectionpages {63}{64}}
+\headcommand {\beamer@sectionpages {54}{64}}
+\headcommand {\beamer@documentpages {64}}
+\headcommand {\gdef \inserttotalframenumber {64}}

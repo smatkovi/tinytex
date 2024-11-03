@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.3)  3 NOV 2024 10:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.3)  3 NOV 2024 10:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -775,7 +775,6 @@ Package: wrapfig 2003/01/31  v 3.6
 ) (beamerthemeMadrid.sty
 (beamercolorthemewhale.sty) (beamercolorthemeorchid.sty)
 (beamerinnerthemerounded.sty) (beamerouterthemeinfolines.sty))
-(beamercolorthemealbatross.sty)
 (/home/sebastian/.miktex/texmfs/install/tex/latex/psnfss/palatino.sty
 Package: palatino 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
@@ -1308,7 +1307,7 @@ Overfull \vbox (22.26741pt too high) detected at line 1024
 [51
 
 ]
-<ct.jpg, id=1948, 1174.3875pt x 1208.515pt>
+<ct.jpg, id=1953, 1174.3875pt x 1208.515pt>
 File: ct.jpg Graphic file (type jpg)
 <use ct.jpg>
 Package pdftex.def Info: ct.jpg  used on input line 1030.
@@ -1322,7 +1321,7 @@ Overfull \vbox (1.53021pt too high) detected at line 1030
 [52
 
  <./ct.jpg>]
-<ms.jpg, id=1975, 612.2875pt x 612.2875pt>
+<ms.jpg, id=1980, 612.2875pt x 612.2875pt>
 File: ms.jpg Graphic file (type jpg)
 <use ms.jpg>
 Package pdftex.def Info: ms.jpg  used on input line 1038.
@@ -1359,7 +1358,7 @@ Overfull \vbox (4.70927pt too high) detected at line 1102
 [57
 
 ]
-Overfull \vbox (19.26021pt too high) detected at line 1115
+Overfull \vbox (5.6602pt too high) detected at line 1115
  []
 
 
@@ -1392,6 +1391,10 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 [63
 
 ]
+
+[64
+
+]
 \tf@nav=\write6
 \openout6 = `template.nav'.
 
@@ -1406,21 +1409,14 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
-
-
-Package rerunfilecheck Warning: File `template.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `template.out':
-(rerunfilecheck)             Before: 79BAB5C0526088A8192D9FD0816060ED;4048
-(rerunfilecheck)             After:  7A56370F9A758C97ECFB8A38BCC9F69C;3975.
+Package rerunfilecheck Info: File `template.out' has not changed.
+(rerunfilecheck)             Checksum: 7A56370F9A758C97ECFB8A38BCC9F69C;3975.
  ) 
 Here is how much of TeX's memory you used:
- 36925 strings out of 475834
- 875447 string characters out of 5777930
- 1419400 words of memory out of 5000000
- 58728 multiletter control sequences out of 15000+600000
+ 36912 strings out of 475834
+ 874771 string characters out of 5777930
+ 1417161 words of memory out of 5000000
+ 58715 multiletter control sequences out of 15000+600000
  591142 words of font info for 108 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  128i,18n,123p,980b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1442,9 +1438,9 @@ an/.miktex/texmfs/install/fonts/type1/urw/helvetic/uhvb8a.pfb></home/sebastian/
 .miktex/texmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb></home/sebastian/.mi
 ktex/texmfs/install/fonts/type1/urw/helvetic/uhvro8a.pfb></home/sebastian/.mikt
 ex/texmfs/install/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on template.pdf (63 pages, 871673 bytes).
+Output written on template.pdf (64 pages, 878828 bytes).
 PDF statistics:
- 2387 PDF objects out of 2487 (max. 8388607)
- 150 named destinations out of 1000 (max. 500000)
- 1481 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2421 PDF objects out of 2487 (max. 8388607)
+ 153 named destinations out of 1000 (max. 500000)
+ 1493 words of extra memory for PDF output out of 10000 (max. 10000000)
 

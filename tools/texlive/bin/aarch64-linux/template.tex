@@ -71,7 +71,7 @@
 
 % Beamer comes with a number of color themes that can be applied to any layout theme to change its colors. Uncomment each of these in turn to see how they change the colors of your selected layout theme.
 
-\usecolortheme{albatross}
+%\usecolortheme{albatross}
 %\usecolortheme{beaver}
 %\usecolortheme{beetle}
 %\usecolortheme{crane}
@@ -1111,7 +1111,7 @@ $$
 		\begin{equation}
 			\int_V \rho \frac{Dv_i}{Dt} dV=\int_{V}\frac{\partial \sigma_{ji}}{\partial x_j} +\rho g_i dV
 		\end{equation}
-		Dabei wurde noch unterschlagen, dass die Ableitung au{\ss}erhalb des Integrals im linken Term nicht von Vorne herin einfach nur die Ableitung der Dichte ist. Wir ben\"otigen dazu das Transporttheorem, das im Sinne der \"Ubersicht am Ende an die Herleitung noch hergeleitet wird.
+    Die Ableitung au{\ss}erhalb des Integrals im linken Term ist nicht von Vorne herein einfach nur die Ableitung der Geschwindigkeit. Wir ben\"otigen dazu das Transporttheorem \eqref{tt}, das im Sinne der \"Ubersicht am Ende an die Herleitung noch hergeleitet wird.
 \end{frame}
 \begin{frame}
 	Auch haben wir den Bereich fester K\"orper ausgeschlossen, da wir in differenzieller Form nur einen lokalen Bereich betrachten und K=0 gesetzt. Da der Zusammenhang f\"ur ein beliebigesVolumen gelten soll:
@@ -1188,6 +1188,13 @@ $$
 \end{aligned}
 $$
 
+\end{frame}
+\begin{frame}
+  Bemerkenswert ist folgende Relation, die mit Hilfe des Transporttheorems für eine beliebige Feldgröße $b$ angegeben werden kann:
+$$
+  \frac{\mathrm{D}}{\mathrm{D} t} \int_V \rho b \mathrm{~d} V=\int_V(\rho \frac{\mathrm{D} b}{\mathrm{D} t}+b \underbrace{\frac{\mathrm{D} \rho}{\mathrm{D} t}}_{-\rho \nabla \cdot \mathbf{v}}+\rho b \nabla \cdot \mathbf{v}) \mathrm{d} V=\int_V \rho \frac{\mathrm{D} b}{\mathrm{D} t} \mathrm{~d} V . \label{tt}
+$$
+ die wir f\"ur die Herleitung der Bewegungsgleichung ben\"otigen.
 \end{frame}
 %\begin{frame}
 %	\frametitle{Lists}
