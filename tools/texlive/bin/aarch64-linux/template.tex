@@ -1042,11 +1042,11 @@ $$
 	\frametitle{Inkompressible Str\"omungen}
 		Zum Zeitpunkt 0 befindet sich ein Fluidpartikel in der Str\"omung am Ort \textbf{X}(x,y,z), zu einem Zeitpunkt $t>0$ am Ort \textbf{x}(x,y,z). Wir unterscheiden dann bei einer physikalischen Gr\"o{\ss}e b zwischen der massenfesten Zeitabeitung
 		\begin{equation}
-			\frac{Db}{Dt}=\frac{\partial b(\textbf{X}, t)}{\partial t}
+      \frac{Db}{Dt}=\frac{\partial b(\textbf{X}, t)}{\partial t} \label{mfza}
 		\end{equation}
 		und der ortsfesten Zeitableitung
 		\begin{equation}
-			\frac{\partial b}{\partial t}=\frac{\partial b(\textbf{x}, t)}{\partial t}
+      \frac{\partial b}{\partial t}=\frac{\partial b(\textbf{x}, t)}{\partial t} \label{ofza}
 		\end{equation}
 		Die Teilchengeschwindigkeit v ist dann $\frac{D\textbf{x}}{Dt}$ und die Teilchenbeschleunigung ist dann $\frac{D\textbf{v}}{Dt}$. In Indexschreibweise und unter Verwendung der Einstein'schen Summenkonvention, dass in einem Term \"uber doppelt vorkommende Indizes summiert wird:
 		\begin{equation}
@@ -1056,7 +1056,7 @@ $$
 \end{frame}
 \begin{frame}
 		\begin{equation}
-			\Rightarrow \textbf{a}=\frac{D\textbf{v}}{Dt}=\frac{\partial \textbf{v}}{\partial t}+\left(\textbf{v}\cdot\nabla\right)\textbf{v}
+      \Rightarrow \textbf{a}=\frac{D\textbf{v}}{Dt}=\frac{\partial \textbf{v}}{\partial t}+\left(\textbf{v}\cdot\nabla\right)\textbf{v} \label{mfzat}
 		\end{equation}
 		Also gilt allgemein f\"ur eine Gr\"o{\ss}e b
 		\begin{equation}
@@ -1174,6 +1174,20 @@ $$
 		\subsection{Reynold'sches Transporttheorem}
 \begin{frame}
 	\frametitle{Einschub Reynolds'sches Transporttheorem}
+  Sei $V(t)$ ein mit der Strömung massenfest mitbewegtes Kontrollvolumen und $b(\mathbf{x}, t)$ eine beliebige Feldgröße. Dann gilt für die Transformation von Bereichsintegralen, s. Abb. 1:
+$$
+\int_V b(\mathbf{x}, t) \mathrm{d} V=\int_{V_0} b(\mathbf{X}, t) \underbrace{|\operatorname{det} J(\mathbf{X}, t)| \mathrm{d} V_0}_{\mathrm{d} V}, \quad V_0=V(0)=\text { const. }
+$$
+
+  Die massenfeste Zeitableitung dieses Ausdrucks ist unter Verwendung von ~\eqref{mfza},  ~\eqref{ofza} und \{mfzat} gegeben durch
+$$
+\begin{aligned}
+\frac{\mathrm{D}}{\mathrm{D} t} \int_V b \mathrm{~d} V & =\int_{V_0}(b \underbrace{\frac{\mathrm{D}|\operatorname{det} J|}{\mathrm{D} t}}_{|\operatorname{det} J| \nabla \cdot \mathbf{v}}+|\operatorname{det} J| \frac{\mathrm{D} b}{\mathrm{D} t}) \mathrm{d} V_0=\int_{V_0}\left(\frac{\mathrm{D} b}{\mathrm{D} t}+b \nabla \cdot \mathbf{v}\right)|\operatorname{det} J| \mathrm{d} V_0 \\
+& =\int_V\left(\frac{\mathrm{D} b}{\mathrm{D} t}+b \nabla \cdot \mathbf{v}\right) \mathrm{d} V=\int_V\left(\frac{\partial b}{\partial t}+\nabla \cdot(b \mathbf{v})\right) \mathrm{d} V
+\end{aligned}
+$$
+
+Mit Hilfe des Gaußschen Integralsatzes erhält man daraus das Reynoldssche Transporttheorem
 \end{frame}
 %\begin{frame}
 %	\frametitle{Lists}

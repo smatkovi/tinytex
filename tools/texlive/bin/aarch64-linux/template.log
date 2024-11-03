@@ -1,28 +1,31 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.17)  1 NOV 2024 11:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.3)  3 NOV 2024 10:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**template.tex
-(./template.tex
-LaTeX2e <2024-06-01> patch level 1
-L3 programming layer <2024-05-27>
-(./beamer.cls
+**./template.tex
+(template.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-08-30>
+(beamer.cls
 Document Class: beamer 2024/01/06 v3.71 A class for typesetting presentations
-(./beamerbasemodes.sty (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(beamerbasemodes.sty
+(/home/sebastian/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count194
 )
 \beamer@tempbox=\box52
 \beamer@tempcount=\count195
 \c@beamerpauses=\count196
- (./beamerbasedecode.sty
+
+(beamerbasedecode.sty
 \beamer@slideinframe=\count197
 \beamer@minimum=\count198
 \beamer@decode@box=\box53
 )
 \beamer@commentbox=\box54
 \beamer@modecount=\count199
-) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 \headdp=\dimen141
@@ -68,15 +71,19 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \beamer@sectionadjust=\count283
 \beamer@toclastsection=\count284
 \beamer@tocsectionnumber=\count285
- (./beamerbaseoptions.sty (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+
+(beamerbaseoptions.sty
+(/home/sebastian/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 ))
 \beamer@paperwidth=\skip50
 \beamer@paperheight=\skip51
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count286
@@ -91,20 +98,26 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen163
 \Gm@layoutvoffset=\dimen164
 \Gm@dimlist=\toks18
-) (./pgfmath.sty (./pgfrcs.sty (./pgfutil-common.tex
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(pgfmath.sty (pgfrcs.sty (pgfutil-common.tex
 \pgfutil@everybye=\toks19
 \pgfutil@tempdima=\dimen165
 \pgfutil@tempdimb=\dimen166
-) (./pgfutil-latex.def
+) (pgfutil-latex.def
 \pgfutil@abb=\box61
-) (./pgfrcs.code.tex
-Package: pgfrcs 2014-07-01 v0.0 (0.0)
-)) (./pgfkeys.sty (./pgfkeys.code.tex
+)
+(pgfrcs.code.tex
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+(pgfkeys.sty (pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks20
 \pgfkeys@temptoks=\toks21
- (./pgfkeyslibraryfiltered.code.tex
+ (pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks22
-))) (./pgfmath.code.tex (./pgfmathutil.code.tex
+)))
+(pgfmath.code.tex (pgfmathutil.code.tex
 \pgf@x=\dimen167
 \pgf@xa=\dimen168
 \pgf@xb=\dimen169
@@ -117,34 +130,47 @@ Package: pgfrcs 2014-07-01 v0.0 (0.0)
 \c@pgf@countb=\count290
 \c@pgf@countc=\count291
 \c@pgf@countd=\count292
-) (./pgfmathparser.code.tex
+) (pgfmathparser.code.tex
 \pgfmath@dimen=\dimen175
 \pgfmath@count=\count293
 \pgfmath@box=\box62
 \pgfmath@toks=\toks23
 \pgfmath@stack@operand=\toks24
 \pgfmath@stack@operation=\toks25
-) (./pgfmathfunctions.code.tex) (./pgfmathfunctions.basic.code.tex) (./pgfmathfunctions.trigonometric.code.tex) (./pgfmathfunctions.random.code.tex) (./pgfmathfunctions.comparison.code.tex) (./pgfmathfunctions.base.code.tex) (./pgfmathfunctions.round.code.tex) (./pgfmathfunctions.misc.code.tex) (./pgfmathfunctions.integerarithmetics.code.tex) (./pgfmathcalc.code.tex) (./pgfmathfloat.code.tex
+)
+(pgfmathfunctions.code.tex) (pgfmathfunctions.basic.code.tex)
+(pgfmathfunctions.trigonometric.code.tex) (pgfmathfunctions.random.code.tex)
+(pgfmathfunctions.comparison.code.tex) (pgfmathfunctions.base.code.tex)
+(pgfmathfunctions.round.code.tex) (pgfmathfunctions.misc.code.tex)
+(pgfmathfunctions.integerarithmetics.code.tex) (pgfmathcalc.code.tex)
+(pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count294
-))) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/base/size11.clo
+)))
+(/home/sebastian/.miktex/texmfs/install/tex/latex/base/size11.clo
 File: size11.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
-) (./pgfcore.sty (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+) (pgfcore.sty (/home/sebastian/.miktex/texmfs/install/tex/latex/graphics/graph
+icx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
 Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/graphics/trig.sty
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen176
 \Gin@req@width=\dimen177
-) (./pgfsys.sty (./pgfsys.code.tex
-Package: pgfsys 2014-07-01 v0.0 (0.0)
+)
+(pgfsys.sty (pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@x=\dimen178
 \pgf@y=\dimen179
 \pgf@xa=\dimen180
@@ -165,27 +191,31 @@ Package: pgfsys 2014-07-01 v0.0 (0.0)
 \t@pgf@tokb=\toks27
 \t@pgf@tokc=\toks28
 \pgf@sys@id@count=\count299
- (./pgf.cfg
-File: pgf.cfg 2014-07-01 v0.0 (0.0)
+ (pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (./pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2014-07-01 v0.0 (0.0)
- (./pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2014-07-01 v0.0 (0.0)
-))) (./pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2014-07-01 v0.0 (0.0)
+ (pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count300
 \pgfsyssoftpath@bigbuffer@items=\count301
-) (./pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2014-07-01 v0.0 (0.0)
-)) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/home/sebastian/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
@@ -195,10 +225,11 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-) (./pgfcore.code.tex
-Package: pgfcore 2014-07-01 v0.0 (0.0)
- (./pgfint.code.tex) (./pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2014-07-01 v0.0 (0.0)
+)
+(pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (pgfint.code.tex) (pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen188
 \pgf@picmaxx=\dimen189
 \pgf@picminy=\dimen190
@@ -213,108 +244,134 @@ File: pgfcorepoints.code.tex 2014-07-01 v0.0 (0.0)
 \pgf@yy=\dimen199
 \pgf@zx=\dimen256
 \pgf@zy=\dimen257
-) (./pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2014-07-01 v0.0 (0.0)
+)
+(pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen258
 \pgf@path@lasty=\dimen259
-) (./pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2014-07-01 v0.0 (0.0)
+) (pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen260
 \pgf@shorten@start@additional=\dimen261
-) (./pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2014-07-01 v0.0 (0.0)
+)
+(pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box63
 \pgf@hbox=\box64
 \pgf@layerbox@main=\box65
 \pgf@picture@serial@count=\count302
-) (./pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2014-07-01 v0.0 (0.0)
+) (pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen262
-) (./pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2014-07-01 v0.0 (0.0)
+)
+(pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen263
 \pgf@pt@y=\dimen264
 \pgf@pt@temp=\dimen265
-) (./pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2014-07-01 v0.0 (0.0)
-) (./pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2014-07-01 v0.0 (0.0)
-) (./pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2014-07-01 v0.0 (0.0)
-) (./pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2014-07-01 v0.0 (0.0)
+) (pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen266
-) (./pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2014-07-01 v0.0 (0.0)
+) (pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen267
 \pgf@sys@shading@range@num=\count303
 \pgf@shadingcount=\count304
-) (./pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2014-07-01 v0.0 (0.0)
-) (./pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2014-07-01 v0.0 (0.0)
+) (pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box66
-) (./pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2014-07-01 v0.0 (0.0)
-) (./pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2014-07-01 v0.0 (0.0)
-) (./pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2014-07-01 v0.0 (0.0)
-) (./pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2014-07-01 v0.0 (0.0)
-))) (./xxcolor.sty
+) (pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
 \XC@nummixins=\count305
 \XC@countmixins=\count306
-) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
-) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-05-23 v7.01i Hypertext links for LaTeX
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.s
+ty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (/home/sebastian/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(/home/sebastian/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+))
+(/home/sebastian/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestri
+ng.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count307
-) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
 )
 \@linkdim=\dimen268
 \Hy@linkcounter=\count308
 \Hy@pagecounter=\count309
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2024-05-23 v7.01i Hyperref: PDFDocEncoding definition (HO)
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count310
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2024-05-23 v7.01i Hyperref: PDF Unicode definition (HO)
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -329,16 +386,20 @@ Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4424.
 \c@Hy@tempcnt=\count311
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/url/url.sty
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen269
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
 ))
 \Fld@menulength=\count312
 \Field@Width=\dimen270
@@ -352,28 +413,37 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
 \Hy@abspage=\count313
 
-
 Package hyperref Message: Stopped early.
 
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2024-05-23 v7.01i Hyperref driver for pdfTeX
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+ (/home/sebastian/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-07-10 v7.01j Hyperref driver for pdfTeX
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
 with kernel methods
 )
 \Fld@listcount=\count314
 \c@bookmark@seq@number=\count315
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck
+.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter
+.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
-)) (./beamerbaserequires.sty (./beamerbasecompatibility.sty) (./beamerbasefont.sty (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)) (beamerbaserequires.sty (beamerbasecompatibility.sty)
+(beamerbasefont.sty
+(/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks29
 \symAMSa=\mathgroup4
@@ -381,19 +451,34 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))) (./beamerbasetranslator.sty (./translator.sty
+))
+(/home/sebastian/.miktex/texmfs/install/tex/latex/sansmathaccent/sansmathaccent
+.sty
+Package: sansmathaccent 2020/01/31
+ (/home/sebastian/.miktex/texmfs/install/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))))
+(beamerbasetranslator.sty (translator.sty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
-)) (./beamerbasemisc.sty) (./beamerbasetwoscreens.sty) (./beamerbaseoverlay.sty
+)) (beamerbasemisc.sty)
+(beamerbasetwoscreens.sty) (beamerbaseoverlay.sty
 \beamer@argscount=\count316
 \beamer@lastskipcover=\skip52
 \beamer@trivlistdepth=\count317
-) (./beamerbasetitle.sty) (./beamerbasesection.sty
+) (beamerbasetitle.sty)
+(beamerbasesection.sty
 \c@lecture=\count318
 \c@part=\count319
 \c@section=\count320
 \c@subsection=\count321
 \c@subsubsection=\count322
-) (./beamerbaseframe.sty
+) (beamerbaseframe.sty
 \beamer@framebox=\box67
 \beamer@frametitlebox=\box68
 \beamer@zoombox=\box69
@@ -408,21 +493,23 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 \beamer@envbody=\toks30
 \framewidth=\dimen273
 \c@framenumber=\count326
-) (./beamerbaseverbatim.sty
+) (beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
-) (./beamerbaseframesize.sty
+)
+(beamerbaseframesize.sty
 \beamer@splitbox=\box70
 \beamer@autobreakcount=\count327
 \beamer@autobreaklastheight=\dimen274
 \beamer@frametitletoks=\toks31
 \beamer@framesubtitletoks=\toks32
-) (./beamerbaseframecomponents.sty
+) (beamerbaseframecomponents.sty
 \beamer@footins=\box71
-) (./beamerbasecolor.sty) (./beamerbasenotes.sty
+) (beamerbasecolor.sty) (beamerbasenotes.sty
 \beamer@frameboxcopy=\box72
-) (./beamerbasetoc.sty) (./beamerbasetemplates.sty
+) (beamerbasetoc.sty) (beamerbasetemplates.sty
 \beamer@sbttoks=\toks33
- (./beamerbaseauxtemplates.sty (./beamerbaseboxes.sty
+
+(beamerbaseauxtemplates.sty (beamerbaseboxes.sty
 \bmb@box=\box73
 \bmb@colorbox=\box74
 \bmb@boxwidth=\dimen275
@@ -434,7 +521,9 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 \bmb@prevheight=\dimen281
 )
 \beamer@blockheadheight=\dimen282
-)) (./beamerbaselocalstructure.sty (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+))
+(beamerbaselocalstructure.sty
+(/home/sebastian/.miktex/texmfs/install/tex/latex/tools/enumerate.sty
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \@enLab=\toks34
 )
@@ -443,23 +532,29 @@ Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \c@table=\count329
 \abovecaptionskip=\skip58
 \belowcaptionskip=\skip59
-) (./beamerbasenavigation.sty (./beamerbasenavigationsymbols.tex)
+)
+(beamerbasenavigation.sty (beamerbasenavigationsymbols.tex)
 \beamer@section@min@dim=\dimen283
-) (./beamerbasetheorems.sty (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+)
+(beamerbasetheorems.sty
+(/home/sebastian/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/05/23 v2.17q AMS math features
 \@mathmargin=\skip60
 
 For additional information on amsmath, use the `?' option.
-(/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/home/sebastian/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks35
 \ex@=\dimen284
-)) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(/home/sebastian/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen285
-) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count330
@@ -509,7 +604,8 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks39
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks40
 \thm@bodyfont=\toks41
@@ -522,28 +618,14 @@ Package: amsthm 2020/05/29 v2.20.6
 \dth@everypar=\toks45
 )
 \c@theorem=\count342
-) (./beamerbasethemes.sty)) (./beamerthemedefault.sty (./beamerfontthemedefault.sty) (./beamercolorthemedefault.sty) (./beamerinnerthemedefault.sty
-
-Package pgf Warning: File "beamericonbook" not found when defining image "beamericonbook". Tried all extensions in ".pdf:.jpg:.jpeg:.png:" on input line 17.
-
-
-Package pgf Warning: File "beamericonbook.20" not found when defining image "beamericonbookshaded". Tried all extensions in ".pdf:.jpg:.jpeg:.png:" on input line 18.
-
-
-Package pgf Warning: File "beamericonarticle" not found when defining image "beamericonarticle". Tried all extensions in ".pdf:.jpg:.jpeg:.png:" on input line 24.
-
-
-Package pgf Warning: File "beamericonarticle.20" not found when defining image "beamericonarticleshaded". Tried all extensions in ".pdf:.jpg:.jpeg:.png:" on input line 25.
-
-
-Package pgf Warning: File "beamericononline" not found when defining image "beamericononline". Tried all extensions in ".pdf:.jpg:.jpeg:.png:" on input line 31.
-
-
-Package pgf Warning: File "beamericononline.20" not found when defining image "beamericononlineshaded". Tried all extensions in ".pdf:.jpg:.jpeg:.png:" on input line 32.
-
+)
+(beamerbasethemes.sty)) (beamerthemedefault.sty (beamerfontthemedefault.sty)
+(beamercolorthemedefault.sty) (beamerinnerthemedefault.sty
 \beamer@dima=\dimen293
 \beamer@dimb=\dimen294
-) (./beamerouterthemedefault.sty))) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+)
+(beamerouterthemedefault.sty)))
+(/home/sebastian/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen295
 \lightrulewidth=\dimen296
@@ -562,29 +644,32 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count345
 \@lastruleclass=\count346
 \@thisrulewidth=\dimen307
-) (./tikz.sty (./pgf.sty
-Package: pgf 2014-07-01 v0.0 (0.0)
- (./pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2014-07-01 v0.0 (0.0)
+)
+(tikz.sty (pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box77
-) (./pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2014-07-01 v0.0 (0.0)
-) (./pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2014-07-01 v0.0 (0.0)
+) (pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen308
 \pgf@nodesepend=\dimen309
-) (./pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2014-07-01 v0.0 (0.0)
-)) (./pgffor.sty (./pgffor.code.tex
-Package: pgffor 2014-07-01 v0.0 (0.0)
+) (pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (pgffor.sty
+(pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen310
 \pgffor@skip=\dimen311
 \pgffor@stack=\toks46
 \pgffor@toks=\toks47
-)) (./tikz.code.tex
-Package: tikz 2014-07-01 v0.0 (0.0)
- (./pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2014-07-01 v0.0 (0.0)
+)) (tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count347
 \pgfplotmarksize=\dimen312
 )
@@ -604,37 +689,54 @@ File: pgflibraryplothandlers.code.tex 2014-07-01 v0.0 (0.0)
 \tikznumberofchildren=\count349
 \tikznumberofcurrentchild=\count350
 \tikz@fig@count=\count351
- (./pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2014-07-01 v0.0 (0.0)
+
+(pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfmatrixcurrentrow=\count352
 \pgfmatrixcurrentcolumn=\count353
 \pgf@matrix@numberofcolumns=\count354
 )
 \tikz@expandcount=\count355
- (./tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2014-07-01 v0.0 (0.0)
-))) (./pgfplots.sty (./pgfplots.revision.tex)
+ (tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (pgfplots.sty
+(pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
- (./pgfplots.code.tex (./pgfplotscore.code.tex
+ (pgfplots.code.tex (pgfplotscore.code.tex
 \t@pgfplots@toka=\toks48
 \t@pgfplots@tokb=\toks49
 \t@pgfplots@tokc=\toks50
 \pgfplots@tmpa=\dimen321
 \c@pgfplots@coordindex=\count356
 \c@pgfplots@scanlineindex=\count357
- (./pgfplotssysgeneric.code.tex)) (./pgfplotslibrary.code.tex) (./pgfplotsoldpgfsupp_loader.code.tex (./pgflibraryfpu.code.tex)
+
+(pgfplotssysgeneric.code.tex)) (pgfplotslibrary.code.tex)
+(pgfplotsoldpgfsupp_loader.code.tex (pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks51
 \t@pgf@tokb=\toks52
 \t@pgf@tokc=\toks53
-(./pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (./pgfplotsutil.code.tex (./pgfplotsliststructure.code.tex) (./pgfplotsliststructureext.code.tex) (./pgfplotsarray.code.tex
+(pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (pgfplotsutil.code.tex
+(pgfplotsliststructure.code.tex) (pgfplotsliststructureext.code.tex)
+(pgfplotsarray.code.tex
 \c@pgfplotsarray@tmp=\count358
-) (./pgfplotsmatrix.code.tex) (./pgfplotstableshared.code.tex
+) (pgfplotsmatrix.code.tex)
+(pgfplotstableshared.code.tex
 \c@pgfplotstable@counta=\count359
 \t@pgfplotstable@a=\toks54
-) (./pgfplotsdeque.code.tex) (./pgfplotsbinary.code.tex (./pgfplotsbinary.data.code.tex)) (./pgfplotsutil.verb.code.tex) (./pgflibrarypgfplots.surfshading.code.tex
+) (pgfplotsdeque.code.tex)
+(pgfplotsbinary.code.tex (pgfplotsbinary.data.code.tex))
+(pgfplotsutil.verb.code.tex) (pgflibrarypgfplots.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count360
-)) (./pgfplotscolormap.code.tex (./pgfplotscolor.code.tex)) (./pgfplotsstackedplots.code.tex) (./pgfplotsplothandlers.code.tex (./pgfplotsmeshplothandler.code.tex (./pgfplotsmeshplotimage.code.tex))) (./pgfplots.scaling.code.tex) (./pgfplotscoordprocessing.code.tex) (./pgfplots.errorbars.code.tex) (./pgfplots.markers.code.tex) (./pgfplotsticks.code.tex) (./pgfplots.paths.code.tex) (./tikzlibrarydecorations.code.tex (./pgfmoduledecorations.code.tex
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/pgfplots/sys/pgflibrarypgfp
+lots.surfshading.pgfsys-pdftex.def))) (pgfplotscolormap.code.tex
+(pgfplotscolor.code.tex)) (pgfplotsstackedplots.code.tex)
+(pgfplotsplothandlers.code.tex (pgfplotsmeshplothandler.code.tex
+(pgfplotsmeshplotimage.code.tex))) (pgfplots.scaling.code.tex)
+(pgfplotscoordprocessing.code.tex) (pgfplots.errorbars.code.tex)
+(pgfplots.markers.code.tex) (pgfplotsticks.code.tex) (pgfplots.paths.code.tex)
+(tikzlibrarydecorations.code.tex (pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen322
 \pgfdecoratedremainingdistance=\dimen323
 \pgfdecoratedinputsegmentcompleteddistance=\dimen324
@@ -645,7 +747,12 @@ Package pgfplots: loading complementary utilities for your pgf version...
 \pgfdecorationsegmentlength=\dimen328
 )
 \tikz@lib@dec@box=\box82
-) (./tikzlibrarydecorations.pathmorphing.code.tex (./pgflibrarydecorations.pathmorphing.code.tex)) (./tikzlibrarydecorations.pathreplacing.code.tex (./pgflibrarydecorations.pathreplacing.code.tex)) (./tikzlibrarypgfplots.contourlua.code.tex)
+)
+(tikzlibrarydecorations.pathmorphing.code.tex
+(pgflibrarydecorations.pathmorphing.code.tex))
+(tikzlibrarydecorations.pathreplacing.code.tex
+(pgflibrarydecorations.pathreplacing.code.tex))
+(tikzlibrarypgfplots.contourlua.code.tex)
 \pgfplots@numplots=\count362
 \pgfplots@xmin@reg=\dimen329
 \pgfplots@xmax@reg=\dimen330
@@ -653,22 +760,28 @@ Package pgfplots: loading complementary utilities for your pgf version...
 \pgfplots@ymax@reg=\dimen332
 \pgfplots@zmin@reg=\dimen333
 \pgfplots@zmax@reg=\dimen334
-) (./tikzlibraryplotmarks.code.tex
-File: tikzlibraryplotmarks.code.tex 2014-07-01 v0.0 (0.0)
- (./pgflibraryplotmarks.code.tex
-File: pgflibraryplotmarks.code.tex 2014-07-01 v0.0 (0.0)
-))) (./wrapfig.sty
+) (tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (wrapfig.sty
 \wrapoverhang=\dimen335
 \WF@size=\dimen336
 \c@WF@wrappedlines=\count363
 \WF@box=\box83
 \WF@everypar=\toks55
 Package: wrapfig 2003/01/31  v 3.6
-) (./beamerthemeMadrid.sty (./beamercolorthemewhale.sty) (./beamercolorthemeorchid.sty) (./beamerinnerthemerounded.sty) (./beamerouterthemeinfolines.sty)) (./beamercolorthemealbatross.sty) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/psnfss/palatino.sty
+) (beamerthemeMadrid.sty
+(beamercolorthemewhale.sty) (beamercolorthemeorchid.sty)
+(beamerinnerthemerounded.sty) (beamerouterthemeinfolines.sty))
+(beamercolorthemealbatross.sty)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/psnfss/palatino.sty
 Package: palatino 2020/03/25 PSNFSS-v9.3 (SPQR) 
-) (./opensans.sty
+)
+(opensans.sty
 Package: opensans 2019/06/20 Style file for Open Sans.
- (./fontaxes.sty
+ (fontaxes.sty
 Package: fontaxes 2011/12/16 v1.0c Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
@@ -680,31 +793,40 @@ LaTeX Info: Redefining \ulcshape on input line 41.
 LaTeX Info: Redefining \textsw on input line 47.
 LaTeX Info: Redefining \textssc on input line 48.
 LaTeX Info: Redefining \textulc on input line 49.
-) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+)
+(/home/sebastian/.miktex/texmfs/install/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+
+(/home/sebastian/.miktex/texmfs/install/tex/generic/xkeyval/xkeyval.tex
+(/home/sebastian/.miktex/texmfs/install/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks56
 \XKV@tempa@toks=\toks57
 )
 \XKV@depth=\count364
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))) (./beamerinnerthemecircles.sty)
-LaTeX Font Info:    Trying to load font information for OT1+opensans-TLF on input line 160.
-LaTeX Font Info:    No file OT1opensans-TLF.fd. on input line 160.
+)))
+(beamerinnerthemecircles.sty)
+LaTeX Font Info:    Trying to load font information for OT1+opensans-TLF on inp
+ut line 160.
 
+(/home/sebastian/.miktex/texmfs/install/tex/latex/opensans/OT1opensans-TLF.fd
+File: OT1opensans-TLF.fd 2019/06/24 Font definitions for OT1/opensans-TLF.
+)
+LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 160.
 
-LaTeX Font Warning: Font shape `OT1/opensans-TLF/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 160.
-
-(/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+(/home/sebastian/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.de
+f
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count365
 \l__pdf_internal_box=\box84
-) (./template.aux)
+) (template.aux)
 \openout1 = `template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 160.
@@ -760,14 +882,30 @@ LaTeX Font Info:    ... okay on input line 160.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/home/sebastian/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count366
+\scratchdimen=\dimen337
+\scratchbox=\box85
+\nofMPsegments=\count367
+\nofMParguments=\count368
+\everyMPshowfont=\toks58
+\MPscratchCnt=\count369
+\MPscratchDim=\dimen338
+\MPnumerator=\count370
+\makeMPintoPDFobject=\count371
+\everyMPtoPDFconversion=\toks59
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.st
+y
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+ (/home/sebastian/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 160.
- (./template.out) (./template.out)
+(template.out) (template.out)
 \@outlinefile=\write5
 \openout5 = `template.out'.
 
@@ -814,34 +952,73 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/pcr/m/n --> OT1/pcr/b/n on input line 160.
 
-Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+(/home/sebastian/.miktex/texmfs/install/tex/latex/translator/translator-basic-d
+ictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/translator/translator-bibliog
+raphy-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/translator/translator-environ
+ment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/translator/translator-months-
+dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/translator/translator-numbers
+-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/home/sebastian/.miktex/texmfs/install/tex/latex/translator/translator-theorem
+-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-\c@mv@tabular=\count366
-\c@mv@boldtabular=\count367
-(./template.nav)
+\c@mv@tabular=\count372
+\c@mv@boldtabular=\count373
+(template.nav)
+LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 160.
+LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 168.
+LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 168.
+LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 168.
 
-LaTeX Font Warning: Font shape `OT1/opensans-TLF/m/it' undefined
-(Font)              using `OT1/opensans-TLF/m/n' instead on input line 168.
 
-
-
+LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
+(Font)              scaled to size 4.0pt on input line 168.
 [1
 
-{/home/nemo/ps/latex/tinytex/tools/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./template.toc)
+{/home/sebastian/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/sebasti
+an/.miktex/texmfs/install/fonts/enc/dvips/opensans/a_n3lhbv.enc}{/home/sebastia
+n/.miktex/texmfs/install/fonts/enc/dvips/opensans/a_iz27ck.enc}]
+(template.toc)
 
 [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 218.
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 218
+.
+ (/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 218.
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 218
+.
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 218.
- (/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 2
+18.
+
+(/home/sebastian/.miktex/texmfs/install/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
@@ -854,11 +1031,13 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <6> not available
 
 [3
 
-{/home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+{/home/sebastian/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}]
+LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 236.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 236.
 
-Overfull \vbox (4.13757pt too high) detected at line 236
+Overfull \vbox (5.2976pt too high) detected at line 236
  []
 
 
@@ -871,7 +1050,7 @@ Overfull \hbox (4.55269pt too wide) detected at line 252
  []
 
 
-Overfull \vbox (2.35382pt too high) detected at line 252
+Overfull \vbox (1.38069pt too high) detected at line 252
  []
 
 
@@ -888,7 +1067,12 @@ Overfull \vbox (2.35382pt too high) detected at line 252
 
 ]
 Overfull \hbox (13.65298pt too wide) detected at line 301
-[][] [] \OMS/cmsy/m/n/10.95 ^^A [] \OT1/phv/m/sl/10.95 dx \OT1/cmss/m/n/10.95 = [[](\OT1/phv/m/sl/10.95 x\OT1/cmss/m/n/10.95 )][] + \OT1/phv/m/sl/10.95 c \OMS/cmsy/m/n/10.95 ^^@ [] [] ^^A [] \OT1/phv/m/sl/10.95 dx[] \OT1/cmss/m/n/10.95 + [] [](\OT1/phv/m/sl/10.95 x\OT1/cmss/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^A []\OT1/cmss/m/n/10.95 (\OT1/phv/m/sl/10.95 x\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 dx
+[][] [] \OMS/cmsy/m/n/10.95 ^^A [] \OT1/phv/m/sl/10.95 dx \OT1/cmss/m/n/10.95 =
+ [[](\OT1/phv/m/sl/10.95 x\OT1/cmss/m/n/10.95 )][] + \OT1/phv/m/sl/10.95 c \OMS
+/cmsy/m/n/10.95 ^^@ [] [] ^^A [] \OT1/phv/m/sl/10.95 dx[] \OT1/cmss/m/n/10.95 +
+ [] [](\OT1/phv/m/sl/10.95 x\OT1/cmss/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^A []\OT
+1/cmss/m/n/10.95 (\OT1/phv/m/sl/10.95 x\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95
+ dx
  []
 
 
@@ -916,6 +1100,9 @@ Overfull \hbox (13.65298pt too wide) detected at line 301
 [13
 
 ]
+LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 379.
+
 
 [14
 
@@ -928,10 +1115,17 @@ Overfull \hbox (13.65298pt too wide) detected at line 301
 [16
 
 ]
+LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/it' will be
+(Font)              scaled to size 10.95pt on input line 407.
+
 
 [17
 
 ]
+Overfull \vbox (1.05367pt too high) detected at line 435
+ []
+
+
 
 [18
 
@@ -948,7 +1142,7 @@ Overfull \hbox (13.65298pt too wide) detected at line 301
 [21
 
 ]
-Overfull \vbox (15.43694pt too high) detected at line 507
+Overfull \vbox (14.81436pt too high) detected at line 507
  []
 
 
@@ -972,7 +1166,7 @@ Overfull \vbox (15.43694pt too high) detected at line 507
 [26
 
 ]
-Overfull \vbox (1.75282pt too high) detected at line 615
+Overfull \vbox (0.62473pt too high) detected at line 615
  []
 
 
@@ -980,7 +1174,7 @@ Overfull \vbox (1.75282pt too high) detected at line 615
 [27
 
 ]
-Overfull \hbox (13.11552pt too wide) in paragraph at lines 632--632
+Overfull \hbox (14.84279pt too wide) in paragraph at lines 632--632
 [][]  
  []
 
@@ -1001,7 +1195,7 @@ Overfull \hbox (13.11552pt too wide) in paragraph at lines 632--632
 [31
 
 ]
-Overfull \vbox (7.49611pt too high) detected at line 700
+Overfull \vbox (26.51569pt too high) detected at line 700
  []
 
 
@@ -1021,6 +1215,10 @@ Overfull \vbox (7.49611pt too high) detected at line 700
 [35
 
 ]
+Overfull \vbox (8.66312pt too high) detected at line 774
+ []
+
+
 
 [36
 
@@ -1029,7 +1227,7 @@ Overfull \vbox (7.49611pt too high) detected at line 700
 [37
 
 ]
-Overfull \vbox (2.1072pt too high) detected at line 809
+Overfull \vbox (6.889pt too high) detected at line 809
  []
 
 
@@ -1074,7 +1272,8 @@ Overfull \vbox (2.1072pt too high) detected at line 809
 
 ]
 Overfull \hbox (9.8121pt too wide) detected at line 985
-\OT1/cmss/m/n/10.95 + [] \OT1/phv/m/sl/10.95 a[] [] \OT1/cmss/m/n/10.95 + [] \OT1/phv/m/sl/10.95 b[] []
+\OT1/cmss/m/n/10.95 + [] \OT1/phv/m/sl/10.95 a[] [] \OT1/cmss/m/n/10.95 + [] \O
+T1/phv/m/sl/10.95 b[] []
  []
 
 
@@ -1091,11 +1290,17 @@ Overfull \hbox (9.8121pt too wide) detected at line 985
 
 ]
 Overfull \hbox (5.24414pt too wide) detected at line 1024
-\OT1/phv/m/sl/10.95 b[] \OT1/cmss/m/n/10.95 = [] [][] [](\OT1/phv/m/sl/10.95 nx\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 g\OT1/cmss/m/n/10.95 (\OT1/phv/m/sl/10.95 x\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 dx \OT1/cmss/m/n/10.95 = [] [][] [](\OT1/phv/m/sl/10.95 nx\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 xdx \OT1/cmss/m/n/10.95 = \OMS/cmsy/m/n/10.95 ^^@[]\OT1/cmss/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OT1/phv/m/n/10.95 1\OT1/cmss/m/n/10.95 )[] = [](\OMS/cmsy/m/n/10.95 ^^@\OT1/phv/m/n/10.95 1\OT1/cmss/m/n/10.95 )[]\OML/cmm/m/it/10.95 :
+\OT1/phv/m/sl/10.95 b[] \OT1/cmss/m/n/10.95 = [] [][] [](\OT1/phv/m/sl/10.95 nx
+\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 g\OT1/cmss/m/n/10.95 (\OT1/phv/m/sl/10
+.95 x\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 dx \OT1/cmss/m/n/10.95 = [] [][] 
+[](\OT1/phv/m/sl/10.95 nx\OT1/cmss/m/n/10.95 )\OT1/phv/m/sl/10.95 xdx \OT1/cmss
+/m/n/10.95 = \OMS/cmsy/m/n/10.95 ^^@[]\OT1/cmss/m/n/10.95 (\OMS/cmsy/m/n/10.95 
+^^@\OT1/phv/m/n/10.95 1\OT1/cmss/m/n/10.95 )[] = [](\OMS/cmsy/m/n/10.95 ^^@\OT1
+/phv/m/n/10.95 1\OT1/cmss/m/n/10.95 )[]\OML/cmm/m/it/10.95 :
  []
 
 
-Overfull \vbox (5.36932pt too high) detected at line 1024
+Overfull \vbox (22.26741pt too high) detected at line 1024
  []
 
 
@@ -1103,113 +1308,10 @@ Overfull \vbox (5.36932pt too high) detected at line 1024
 [51
 
 ]
-<ct.jpg, id=1964, 1174.3875pt x 1208.515pt>
+<ct.jpg, id=1948, 1174.3875pt x 1208.515pt>
 File: ct.jpg Graphic file (type jpg)
 <use ct.jpg>
 Package pdftex.def Info: ct.jpg  used on input line 1030.
 (pdftex.def)             Requested size: 199.64323pt x 205.44482pt.
 
-Overfull \vbox (2.50334pt too high) detected at line 1030
- []
-
-
-
-[52
-
- <./ct.jpg>]
-<ms.jpg, id=1991, 612.2875pt x 612.2875pt>
-File: ms.jpg Graphic file (type jpg)
-<use ms.jpg>
-Package pdftex.def Info: ms.jpg  used on input line 1038.
-(pdftex.def)             Requested size: 214.30383pt x 214.30383pt.
-
-
-[53
-
- <./ms.jpg>]
-
-LaTeX Font Warning: Font shape `OT1/opensans-TLF/b/n' undefined
-(Font)              using `OT1/opensans-TLF/m/n' instead on input line 1056.
-
-
-
-[54
-
-]
-
-[55
-
-]
-
-[56
-
-]
-
-[57
-
-]
-Overfull \vbox (17.24095pt too high) detected at line 1115
- []
-
-
-
-[58
-
-]
-
-[59
-
-]
-
-[60
-
-]
-
-[61
-
-]
-
-[62
-
-]
-
-[63
-
-]
-\tf@nav=\write6
-\openout6 = `template.nav'.
-
-\tf@toc=\write7
-\openout7 = `template.toc'.
-
-\tf@snm=\write8
-\openout8 = `template.snm'.
-
- (./template.aux)
- ***********
-LaTeX2e <2024-06-01> patch level 1
-L3 programming layer <2024-05-27>
- ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 79BAB5C0526088A8192D9FD0816060ED;4048.
- ) 
-Here is how much of TeX's memory you used:
- 36059 strings out of 475560
- 850112 string characters out of 5776021
- 1952905 words of memory out of 5000000
- 57921 multiletter control sequences out of 15000+600000
- 582487 words of font info for 86 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 101i,18n,107p,978b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></home/nemo/ps/latex/tinytex/tools/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on template.pdf (63 pages, 586392 bytes).
-PDF statistics:
- 2402 PDF objects out of 2487 (max. 8388607)
- 2000 compressed objects within 20 object streams
- 147 named destinations out of 1000 (max. 500000)
- 1457 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Overfull \vb
