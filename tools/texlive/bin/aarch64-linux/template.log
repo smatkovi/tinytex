@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.3)  3 NOV 2024 10:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.3)  3 NOV 2024 10:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1308,10 +1308,148 @@ Overfull \vbox (22.26741pt too high) detected at line 1024
 [51
 
 ]
-<ct.jpg, id=1948, 1174.3875pt x 1208.515pt>
+<ct.jpg, id=1944, 1174.3875pt x 1208.515pt>
 File: ct.jpg Graphic file (type jpg)
 <use ct.jpg>
 Package pdftex.def Info: ct.jpg  used on input line 1030.
 (pdftex.def)             Requested size: 199.64323pt x 205.44482pt.
 
-Overfull \vb
+Overfull \vbox (1.53021pt too high) detected at line 1030
+ []
+
+
+
+[52
+
+ <./ct.jpg>]
+<ms.jpg, id=1971, 612.2875pt x 612.2875pt>
+File: ms.jpg Graphic file (type jpg)
+<use ms.jpg>
+Package pdftex.def Info: ms.jpg  used on input line 1038.
+(pdftex.def)             Requested size: 214.30383pt x 214.30383pt.
+
+
+[53
+
+ <./ms.jpg>]
+LaTeX Font Info:    Font shape `OT1/opensans-TLF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 1056.
+
+Overfull \vbox (0.40062pt too high) detected at line 1056
+ []
+
+
+
+[54
+
+]
+
+[55
+
+]
+
+[56
+
+]
+Overfull \vbox (4.70927pt too high) detected at line 1102
+ []
+
+
+
+[57
+
+]
+Overfull \vbox (19.26021pt too high) detected at line 1115
+ []
+
+
+
+[58
+
+]
+
+[59
+
+]
+
+[60
+
+]
+
+[61
+
+]
+
+[62
+
+]
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 1
+191.
+ (/home/sebastian/.miktex/texmfs/install/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+Overfull \hbox (39.4099pt too wide) detected at line 1191
+[][]
+ []
+
+
+
+[63
+
+]
+\tf@nav=\write6
+\openout6 = `template.nav'.
+
+\tf@toc=\write7
+\openout7 = `template.toc'.
+
+\tf@snm=\write8
+\openout8 = `template.snm'.
+
+ (template.aux)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-08-30>
+ ***********
+
+
+Package rerunfilecheck Warning: File `template.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `template.out':
+(rerunfilecheck)             Before: 862B7F1980954B0E61DD31EC1ED5C427;3836
+(rerunfilecheck)             After:  79BAB5C0526088A8192D9FD0816060ED;4048.
+ ) 
+Here is how much of TeX's memory you used:
+ 36924 strings out of 475834
+ 875430 string characters out of 5777930
+ 1419407 words of memory out of 5000000
+ 58727 multiletter control sequences out of 15000+600000
+ 591142 words of font info for 108 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 128i,18n,123p,980b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</home/sebastian/.miktex/texmfs/install/fonts/type1/ascender/opensans/OpenSan
+s-Bold.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/ascender/opensan
+s/OpenSans-Italic.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/ascen
+der/opensans/OpenSans-Regular.pfb></home/sebastian/.miktex/texmfs/install/fonts
+/type1/public/amsfonts/cm/cmex10.pfb></home/sebastian/.miktex/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb></home/sebastian/.miktex/texmfs/install
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/sebastian/.miktex/texmfs/insta
+ll/fonts/type1/public/amsfonts/cm/cmss10.pfb></home/sebastian/.miktex/texmfs/in
+stall/fonts/type1/public/amsfonts/cm/cmss12.pfb></home/sebastian/.miktex/texmfs
+/install/fonts/type1/public/amsfonts/cm/cmss8.pfb></home/sebastian/.miktex/texm
+fs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/sebastian/.miktex/t
+exmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/sebastian/.miktex
+/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/sebastian/.mikt
+ex/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb></home/sebasti
+an/.miktex/texmfs/install/fonts/type1/urw/helvetic/uhvb8a.pfb></home/sebastian/
+.miktex/texmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb></home/sebastian/.mi
+ktex/texmfs/install/fonts/type1/urw/helvetic/uhvro8a.pfb></home/sebastian/.mikt
+ex/texmfs/install/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on template.pdf (63 pages, 871397 bytes).
+PDF statistics:
+ 2384 PDF objects out of 2487 (max. 8388607)
+ 150 named destinations out of 1000 (max. 500000)
+ 1473 words of extra memory for PDF output out of 10000 (max. 10000000)
+
