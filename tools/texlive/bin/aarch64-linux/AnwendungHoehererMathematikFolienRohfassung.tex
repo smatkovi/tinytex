@@ -650,7 +650,7 @@ Sind $\alpha$, $\pm i\cdot\beta$ oder $\alpha\pm i\cdot\beta$ Nullstelleen des c
 \begin{frame}
 	\begin{exampleblock}{Noch ein etwas schwereres Beispiel}
 		\begin{equation}
-			y''-4\cdot y'+3y=3\cdot x^2-x+4
+			y''-4\cdot y'+3y=3\cdot x^2-5\cdot x+4
 		\end{equation}
 		Die Nullstellen des charakteristischen Polynoms sind 1 und 3. Damit lautet die homogene L\"osung: $y_h(x)=c_1\cdot e^x+c_2\cdot e^{3\cdot x}$. Die Inhomogenit\"at ist ein Polynom 2. Grades, deshalb w\"ahlen wir den Ansatz: $y_p(x)=a\cdot x^2+b\cdot x+c$.
 		\begin{equation}
@@ -668,7 +668,7 @@ Sind $\alpha$, $\pm i\cdot\beta$ oder $\alpha\pm i\cdot\beta$ Nullstelleen des c
 \begin{frame}
 	\begin{exampleblock}{}
 		\begin{equation}
-			3a\cdot x^2+(3b-8)x+(2-4b)=x^2-5\cdot x+4
+			3a\cdot x^2+(3b-8)x+(2-4b)=3\cdot x^2-5\cdot x+4
 		\end{equation}
 		Koeffizientenvergleich ergibt f\"ur $x^2$:
 		\begin{equation}
@@ -692,11 +692,15 @@ Sind $\alpha$, $\pm i\cdot\beta$ oder $\alpha\pm i\cdot\beta$ Nullstelleen des c
 \subsection{Partielle Differenzialgleichungen}
 \begin{frame}
 	\frametitle{Separationsansatz f\"ur partielle Dgln.}
+  Liegt eine partielle Differenzialgleichung vor, die keine gemischten Ableitungen beinhaltet kann der Separationsansatz gemacht werden.
 	F\"ur eine gesuchte Funktion u(x,y,z) wird ein Produktansatz folgender Art gemacht:
 		\begin{equation}
 			u(x,y,z) = f(x)\cdot g(y)\cdot h(z)
 		\end{equation}
-		Eingesetzt in die Dgl., kann dann durch u dividiert werden und es entstehen lauter Br\"uche, die jeweils nur von einer Variable abh\"angen. Dann Geben wir den x-abh\"angigen Term nach links und alle anderen nach rechts. Wenn jetzt beide Seiten f\"ur alle x, y und z gleich sein sollen, dann muss die so entstandene Gleichung konstant sein, also k\"onnen wir beide Seiten gleich einer Konstanten K setzen. So entsteht eine gew\"ohnliche Dgl. in x, die wir mit bekannten Methoden l\"osen k\"onnen. Mit der anderen Seite, die von y und Z abh\"angt k\"onnen wir gleich verfahren, indem wir den y-abh\"angigen Term auf die Seite von K geben und wieder beide Seiten gleich einer Konstanten L setzen und die zwei \"ubriggebliebenen gew\"ohnlichen Dgln. mit bereits bekannten Methoden l\"osen. Dieses Verfahren l\"asst sich auf eine beliebige Anzahl Variablen anwenden, solange keine gemischten Ableitungen nach diesen Variablen in der partiellen Dgl. (PDGL) auftreten.
+		Eingesetzt in die Dgl., kann dann durch u dividiert werden und es entstehen lauter Br\"uche, die jeweils nur von einer Variable abh\"angen. Dann Geben wir den x-abh\"angigen Term nach links und alle anderen nach rechts. Wenn jetzt beide Seiten f\"ur alle x, y und z gleich sein sollen, dann muss die so entstandene Gleichung konstant sein, also k\"onnen wir beide Seiten gleich einer Konstanten K setzen. So entsteht eine gew\"ohnliche Dgl. in x, die wir mit bekannten Methoden l\"osen k\"onnen.
+\end{frame}
+\begin{frame}
+    Mit der anderen Seite, die von y und Z abh\"angt k\"onnen wir gleich verfahren, indem wir den y-abh\"angigen Term auf die Seite von K geben und wieder beide Seiten gleich einer Konstanten L setzen und die zwei \"ubriggebliebenen gew\"ohnlichen Dgln. mit bereits bekannten Methoden l\"osen. Dieses Verfahren l\"asst sich auf eine beliebige Anzahl Variablen anwenden, solange keine gemischten Ableitungen nach diesen Variablen in der partiellen Dgl. (PDGL) auftreten.
 \end{frame}
 \begin{frame}
 	\frametitle{Typen von PDGLn in der Physik}
@@ -794,7 +798,7 @@ Sind $\alpha$, $\pm i\cdot\beta$ oder $\alpha\pm i\cdot\beta$ Nullstelleen des c
 		\begin{equation}
 			Q =  c\cdot m\cdot \Delta T
 		\end{equation}
-		c ist die spezifische W\"armekapazit\"at, m die Masse und $\delta$ ist hier ein Delta und nicht der Laplaceoperator. In einem d\"unnen Stab mit Querschnittsfl\"ache A k\"onnen wir die Masse m so asdr\"ucken
+		c ist die spezifische W\"armekapazit\"at, m die Masse und $\Delta$ ist hier ein Delta und nicht der Laplaceoperator. In einem d\"unnen Stab mit Querschnittsfl\"ache A k\"onnen wir die Masse m so asdr\"ucken
 		\begin{equation}
 			m = \int \rho\cdot A  dx
 		\end{equation}
@@ -830,6 +834,7 @@ Sind $\alpha$, $\pm i\cdot\beta$ oder $\alpha\pm i\cdot\beta$ Nullstelleen des c
 		\begin{equation}
 			\dot{T}=\frac{\lambda}{c\cdot \rho}\Delta T
 		\end{equation}
+    $\Delta$ ist jetzt der Laplaceoperator.
 		Wenn wir den Vorfaktor als Konstante a schreiben und statt der Temperatur die Stoffkonzentration u einsetzen erhalten wir die Diffusionsgleichung.
 		\begin{equation}
 			\dot{u}=a\cdot\Delta u
@@ -1013,7 +1018,7 @@ $$
 		\end{array}\right.
 		$$
 
-		Abbildung 1 zeigt oben links den Graphen der auf dem Intervall $(-\pi, \pi]$ definierten Funktion $x \mapsto x$ (entspricht der ersten Zeile von (3.1)) und oben rechts die periodische Fortsetzung. $g$ ist stückweise stetig differenzierbar, aber unstetig und (abgesehen von den Unstetigkeitsstellen) eine ungerade Funktion, daher ist $a_n=0$ für alle $n \geq 0$. Wir müssen also nur die Fourierkoeffizienten $b_n$ ermitteln:
+		Abbildung 1 zeigt oben links den Graphen der auf dem Intervall $(-\pi, \pi]$ definierten Funktion $x \mapsto x$ (entspricht der ersten Zeile von (3.1)) und oben rechts die periodische Fortsetzung. $g$ ist stückweise stetig differenzierbar, aber unstetig und (abgesehen von den Unstetigkeitsstellen) eine ungerade Funktion, daher ist $a_n=0$. Wir müssen also nur die Fourierkoeffizienten $b_n$ ermitteln:
 		$$
 		b_n=\frac{1}{\pi} \int_{-\pi}^\pi \sin (n x) g(x) d x=\frac{1}{\pi} \int_{-\pi}^\pi \sin (n x) x d x = -\frac{2}{n}(-1)^n= \frac{2}{n}(-1)^{n+1} .
 		$$
