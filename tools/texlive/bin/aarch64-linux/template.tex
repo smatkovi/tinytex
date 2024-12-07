@@ -71,7 +71,7 @@
 
 % Beamer comes with a number of color themes that can be applied to any layout theme to change its colors. Uncomment each of these in turn to see how they change the colors of your selected layout theme.
 
-\usecolortheme{albatross}
+%\usecolortheme{albatross}
 %\usecolortheme{beaver}
 %\usecolortheme{beetle}
 %\usecolortheme{crane}
@@ -295,7 +295,7 @@
 			\int \sin(x)\cdot \cos(x)dx = \frac{[\sin(x)]^2}{2}+c'
 		\end{equation}
 	\end{exampleblock}
-	\"Ahnlich funktionieren auch die Integrale \"uber $[\sin(x)]^2$ oder $(\cos(x))^2$, nur, dass nach der ersten partiellen Integration ein Additionstheorem anzuwenden ist.
+	\"Ahnlich funktionieren auch die Integrale \"uber $[\sin(x)]^2$ oder $(\cos(x))^2$, nur, dass nach der ersten partiellen Integration ein Additionstheorem anzuwenden ist. Es sei hier angemerkt, dass es wesentlich Zielf\"uhrender ist mit der Eulerdarstellung einen einfacheren Ausdruck zu bekommen, der weder ein Produkt, noch eine Potenz von Winkelfunktionen ist.
 	
 	
 \end{frame}
@@ -989,7 +989,7 @@ $$
 	
 \end{frame}
 \begin{frame}
-	Zuguterletzt h\"atten wir noch gerne eine Formel f\"ur $b_n$. Dazu multiplizieren wir beide Seiten mit $\sin(mx)$:
+	 Die Begr\"undung, warum m=n wird ist, dass bei Betrachtung als Skalarprodukt, das Skalaprodukt nur f\"ur gleiche Basisvektoren ungleich 0 wird. Zuguterletzt h\"atten wir noch gerne eine Formel f\"ur $b_n$. Dazu multiplizieren wir beide Seiten mit $\sin(mx)$:
 	$$\int_T^{T+2 \pi} f(x) \sin (m x) d x=$$\\ 
 	$$=\frac{a_0}{2} \int_T^{T+2 \pi} \sin (m x) d x+\sum_{n=1}^{\infty} a_n\left[\int_T^{T+2 \pi} \cos (n x) \sin (m x) d x\right]+$$\\
 	$$+\sum_{n=1}^{\infty} b_n\left[\int_T^{T+2 \pi} \sin (n x) \sin (mx) d x\right]$$
@@ -1018,7 +1018,7 @@ $$
 		\end{array}\right.
 		$$
 
-		Abbildung 1 zeigt oben links den Graphen der auf dem Intervall $(-\pi, \pi]$ definierten Funktion $x \mapsto x$ (entspricht der ersten Zeile von (3.1)) und oben rechts die periodische Fortsetzung. $g$ ist stückweise stetig differenzierbar, aber unstetig und (abgesehen von den Unstetigkeitsstellen) eine ungerade Funktion, daher ist $a_n=0$. Wir müssen also nur die Fourierkoeffizienten $b_n$ ermitteln:
+		 $g$ ist stückweise stetig differenzierbar, aber unstetig und (abgesehen von den Unstetigkeitsstellen) eine ungerade Funktion, daher ist $a_n=0$. Wir müssen also nur die Fourierkoeffizienten $b_n$ ermitteln, wobei hier die Partielle Integration zum Ziel f\"uhrt:
 		$$
 		b_n=\frac{1}{\pi} \int_{-\pi}^\pi \sin (n x) g(x) d x=\frac{1}{\pi} \int_{-\pi}^\pi \sin (n x) x d x = -\frac{2}{n}(-1)^n= \frac{2}{n}(-1)^{n+1} .
 		$$
