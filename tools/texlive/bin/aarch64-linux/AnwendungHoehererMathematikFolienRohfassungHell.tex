@@ -445,12 +445,12 @@ Ziel ist es Ausdr\"ucke mit derselben Variable auf einer Seite zu sammeln.
 			\frac{c'(x)\cdot x - c(x)}{x^2}+\frac{c(x)}{x^2}= \frac{c'(x)}{x}\equiv e^{-2x}
 		\end{equation}
 		\begin{equation}
-			c'(x)=x\cdot e^{2x}
+			c'(x)=x\cdot e^{-2x}
 		\end{equation}
-			$c(x)=\int \underbrace{x}_{u}\cdot \underbrace{e^{2x}}_{v'}dx=\underbrace{x}_{u}\cdot\underbrace{\frac{e^{2x}}{2}+k}_{v}-\int\underbrace{1}_{u'}\cdot\underbrace{\frac{e^{2x}}{2}}_{v}=
-			 \frac{x\cdot e^{2x}}{2}+k-\frac{e^{2x}}{4}=\frac{e^{2x}}{2}(x-\frac{1}{2})+k$
+			$c(x)=\int \underbrace{x}_{u}\cdot \underbrace{-e^{-2x}}_{v'}dx=\underbrace{x}_{u}\cdot\underbrace{\frac{e^{-2x}}{2}+k}_{v}+\int\underbrace{1}_{u'}\cdot\underbrace{\frac{e^{-2x}}{2}}_{v}=
+			 \frac{-x\cdot e^{-2x}}{2}+k-\frac{e^{-2x}}{4}=\frac{-e^{-2x}}{2}(x+\frac{1}{2})+k$
 		\begin{equation}
-			\Rightarrow y=\frac{e^{2x}}{2}(1-\frac{1}{2x})+\frac{k}{x}
+			\Rightarrow y=\frac{-e^{-2x}}{2}(1+\frac{1}{2x})+\frac{k}{x}
 		\end{equation}
 	\end{exampleblock}
 
