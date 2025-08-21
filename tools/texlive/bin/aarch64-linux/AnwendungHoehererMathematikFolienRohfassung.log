@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.3)  14 DEC 2024 12:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.4.7)  21 AUG 2025 09:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./template.tex
-(template.tex
+**./AnwendungHoehererMathematikFolienRohfassung.tex
+(AnwendungHoehererMathematikFolienRohfassung.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (beamer.cls
@@ -826,8 +826,8 @@ f
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count365
 \l__pdf_internal_box=\box84
-) (template.aux)
-\openout1 = `template.aux'.
+) (AnwendungHoehererMathematikFolienRohfassung.aux)
+\openout1 = `AnwendungHoehererMathematikFolienRohfassung.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 160.
 LaTeX Font Info:    ... okay on input line 160.
@@ -905,9 +905,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 160.
-(template.out) (template.out)
+(AnwendungHoehererMathematikFolienRohfassung.out)
+(AnwendungHoehererMathematikFolienRohfassung.out)
 \@outlinefile=\write5
-\openout5 = `template.out'.
+\openout5 = `AnwendungHoehererMathematikFolienRohfassung.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 160.
@@ -981,7 +982,7 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 \c@mv@tabular=\count372
 \c@mv@boldtabular=\count373
-(template.nav)
+(AnwendungHoehererMathematikFolienRohfassung.nav)
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 160.
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
@@ -999,7 +1000,7 @@ LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
 {/home/sebastian/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}{/home/sebasti
 an/.miktex/texmfs/install/fonts/enc/dvips/opensans/a_n3lhbv.enc}{/home/sebastia
 n/.miktex/texmfs/install/fonts/enc/dvips/opensans/a_iz27ck.enc}]
-(template.toc)
+(AnwendungHoehererMathematikFolienRohfassung.toc)
 
 [2
 
@@ -1393,30 +1394,31 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 
 ]
 \tf@nav=\write6
-\openout6 = `template.nav'.
+\openout6 = `AnwendungHoehererMathematikFolienRohfassung.nav'.
 
 \tf@toc=\write7
-\openout7 = `template.toc'.
+\openout7 = `AnwendungHoehererMathematikFolienRohfassung.toc'.
 
 \tf@snm=\write8
-\openout8 = `template.snm'.
+\openout8 = `AnwendungHoehererMathematikFolienRohfassung.snm'.
 
- (template.aux)
+ (AnwendungHoehererMathematikFolienRohfassung.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
-Package rerunfilecheck Info: File `template.out' has not changed.
+Package rerunfilecheck Info: File `AnwendungHoehererMathematikFolienRohfassung.
+out' has not changed.
 (rerunfilecheck)             Checksum: A2FDE67C29D73A411BA9AE7E1ECCF53F;3975.
  ) 
 Here is how much of TeX's memory you used:
- 36935 strings out of 475834
- 875527 string characters out of 5777930
- 1419547 words of memory out of 5000000
- 58733 multiletter control sequences out of 15000+600000
+ 36935 strings out of 475827
+ 876573 string characters out of 5777767
+ 1419617 words of memory out of 5000000
+ 58735 multiletter control sequences out of 15000+600000
  591142 words of font info for 108 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 128i,18n,123p,731b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,18n,123p,766b,2243s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/sebastian/.miktex/texmfs/install/fonts/type1/ascender/opensans/OpenSan
 s-Bold.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/ascender/opensan
 s/OpenSans-Italic.pfb></home/sebastian/.miktex/texmfs/install/fonts/type1/ascen
@@ -1435,7 +1437,8 @@ an/.miktex/texmfs/install/fonts/type1/urw/helvetic/uhvb8a.pfb></home/sebastian/
 .miktex/texmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb></home/sebastian/.mi
 ktex/texmfs/install/fonts/type1/urw/helvetic/uhvro8a.pfb></home/sebastian/.mikt
 ex/texmfs/install/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on template.pdf (65 pages, 883469 bytes).
+Output written on AnwendungHoehererMathematikFolienRohfassung.pdf (65 pages, 88
+4328 bytes).
 PDF statistics:
  2444 PDF objects out of 2487 (max. 8388607)
  155 named destinations out of 1000 (max. 500000)
